@@ -142,3 +142,22 @@
   backdrop-filter: blur(5px);
   border: var(--glassBorder);
 }
+@media only screen and (max-width: 968px) {
+  .tierlist-container {
+    flex-direction: column-reverse;
+  }
+  .tl-sidebar {
+    flex-direction: row;
+    width: 100%;
+  }
+  .tl-sidebar button {
+    width: auto;
+    height: auto;
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .tl-sidebar div {
+    display: none;
+  }
+}

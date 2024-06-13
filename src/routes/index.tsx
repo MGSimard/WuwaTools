@@ -10,7 +10,7 @@ export const Home = () => {
       <h2>To Do:</h2>
       <ul>
         <li>- More stuff potentially</li>
-        <li>- Mobile responsive</li>
+        <li>- Mobile responsiveness might be done, could consider burger unfold if more tool icons come in</li>
       </ul>
     </>
   );

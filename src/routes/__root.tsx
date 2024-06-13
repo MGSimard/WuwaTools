@@ -21,19 +21,19 @@ export const Route = createRootRoute({
             <li>
               <Link to="/" activeProps={activeProps}>
                 <FontAwesomeIcon icon={faHouse} />
-                Home
+                <span>Home</span>
               </Link>
             </li>
             <li>
               <Link to="/roster" activeProps={activeProps}>
                 <FontAwesomeIcon icon={faAddressBook} />
-                Roster
+                <span>Roster</span>
               </Link>
             </li>
             <li>
               <Link to="/tierlist" activeProps={activeProps}>
                 <FontAwesomeIcon icon={faTableList} />
-                Tier List
+                <span>Tier List</span>
               </Link>
             </li>
           </ul>
