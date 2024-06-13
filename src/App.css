@@ -1,0 +1,144 @@
+/* CHARACTER CARD */
+.characters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+.character-card {
+  background-color: var(--clr-cardBg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.cc-portrait-container {
+  overflow: hidden;
+  border-radius: 5rem 0;
+}
+.cc-portrait {
+  transition: scale 0.2s ease-in-out;
+}
+.character-card:hover > .cc-portrait-container > .cc-portrait {
+  scale: 1.1;
+}
+.cc-name {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 700;
+  text-wrap: wrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cc-r1 {
+  background-image: linear-gradient(to top, var(--clr-rarity-1), rgba(0, 0, 0, 0));
+}
+.cc-r2 {
+  background-image: linear-gradient(to top, var(--clr-rarity-2), rgba(0, 0, 0, 0));
+}
+.cc-r3 {
+  background-image: linear-gradient(to top, var(--clr-rarity-3), rgba(0, 0, 0, 0));
+}
+.cc-r4 {
+  background-image: linear-gradient(to top, var(--clr-rarity-4), rgba(0, 0, 0, 0));
+}
+.cc-r5 {
+  background-image: linear-gradient(to top, var(--clr-rarity-5), rgba(0, 0, 0, 0));
+}
+/**/
+/* TIER LIST PAGE */
+.tierlist-container {
+  display: flex;
+  gap: 2rem;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.tl-table {
+  flex-grow: 1;
+}
+.tlt-row {
+  display: flex;
+  min-height: 11rem;
+  background: #111;
+}
+.tlt-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  flex-shrink: 0;
+  padding: 1rem;
+  font-size: 5rem;
+  font-weight: 900;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.4);
+}
+.tlt-Z {
+  background: #73dfe7;
+}
+.tlt-S {
+  background: #d93939;
+}
+.tlt-A {
+  background: #d97939;
+}
+.tlt-B {
+  background: #d9d639;
+}
+.tlt-C {
+  background: #39d93c;
+}
+.tlt-D {
+  background: #757575;
+}
+.tlt-data {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+}
+.tl-char {
+  background-color: var(--clr-cardBg);
+  border-radius: 1rem;
+  overflow: hidden;
+  height: fit-content;
+  cursor: grab;
+}
+.tl-char img {
+  pointer-events: none;
+}
+.tl-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+  padding: 2rem;
+}
+.tl-sidebar button {
+  width: 100%;
+  height: 5rem;
+  border-radius: 999rem;
+  background: none;
+  border: 2px solid var(--clr-text);
+  color: inherit;
+  opacity: 0.6;
+  transition: all 0.1s ease-in;
+}
+.btn-danger:hover {
+  opacity: 1;
+  border-color: red;
+  color: red;
+}
+.tlt-bank {
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+/**/
+/* GLASS */
+.glass {
+  background-color: rgba(28, 29, 33, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: var(--glassBorder);
+}

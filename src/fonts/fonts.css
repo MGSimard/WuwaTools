@@ -1,0 +1,156 @@
+/* LAGU SANS */
+/*
+Black: 900
+ExtraBold: 800
+Bold: 700
+SemiBold: 600
+Medium: 500
+Regular: 400
+Light: 300
+ExtraLight: 200
+Thin: 100
+*/
+
+/* LAGU SANS REGULAR */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Regular.otf);
+  src: url(./lagusans/Lagu-Sans-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Regular-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-Regular-Italic.otf) format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* LAGU SANS THIN */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Thin.otf);
+  src: url(./lagusans/Lagu-Sans-Thin.otf) format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Thin-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-Thin-Italic.otf) format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* LAGU SANS EXTRALIGHT */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-ExtraLight.otf);
+  src: url(./lagusans/Lagu-Sans-ExtraLight.otf) format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-ExtraLight-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-ExtraLight-Italic.otf) format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* LAGU SANS LIGHT */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Light.otf);
+  src: url(./lagusans/Lagu-Sans-Light.otf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Light-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-Light-Italic.otf) format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* LAGU SANS MEDIUM */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Medium.otf);
+  src: url(./lagusans/Lagu-Sans-Medium.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Medium-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-Medium-Italic.otf) format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* LAGU SANS SEMIBOLD */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-SemiBold.otf);
+  src: url(./lagusans/Lagu-Sans-SemiBold.otf) format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-SemiBold-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-SemiBold-Italic.otf) format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* LAGU SANS BOLD */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Bold.otf);
+  src: url(./lagusans/Lagu-Sans-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Bold-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-Bold-Italic.otf) format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* LAGU SANS EXTRABOLD */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-ExtraBold.otf);
+  src: url(./lagusans/Lagu-Sans-ExtraBold.otf) format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-ExtraBold-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-ExtraBold-Italic.otf) format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* LAGU SANS BLACK */
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Black.otf);
+  src: url(./lagusans/Lagu-Sans-Black.otf) format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LaguSans";
+  src: url(./lagusans/Lagu-Sans-Black-Italic.otf);
+  src: url(./lagusans/Lagu-Sans-Black-Italic.otf) format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}

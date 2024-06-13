@@ -1,0 +1,195 @@
+{
+  "name": "characters",
+  "description": "Wuthering Waves Characters Dataset",
+  "version": "1.0.24",
+  "latestAdd": { "name": "Yinlin", "id": 17 },
+  "data": [
+    {
+      "id": 2,
+      "name": "Aalto",
+      "rarity": 4,
+      "attribute": "Aero",
+      "weapon": "Pistols",
+      "image": {
+        "icon": "aalto_icon.png",
+        "portrait": "aalto_portrait.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Baizhi",
+      "rarity": 4,
+      "attribute": "Glacio",
+      "weapon": "Rectifier",
+      "image": {
+        "icon": "baizhi_icon.png",
+        "portrait": "baizhi_portrait.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Calcharo",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weapon": "Broadblade",
+      "image": {
+        "icon": "calcharo_icon.png",
+        "portrait": "calcharo_portrait.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chixia",
+      "rarity": 4,
+      "attribute": "Fusion",
+      "weapon": "Pistols",
+      "image": {
+        "icon": "chixia_icon.png",
+        "portrait": "chixia_portrait.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Danjin",
+      "rarity": 4,
+      "attribute": "Havoc",
+      "weapon": "Sword",
+      "image": {
+        "icon": "danjin_icon.png",
+        "portrait": "danjin_portrait.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Encore",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weapon": "Rectifier",
+      "image": {
+        "icon": "encore_icon.png",
+        "portrait": "encore_portrait.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Jianxin",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weapon": "Gauntlet",
+      "image": {
+        "icon": "jianxin_icon.png",
+        "portrait": "jianxin_portrait.png"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Jiyan",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weapon": "Broadblade",
+      "image": {
+        "icon": "jiyan_icon.png",
+        "portrait": "jiyan_portrait.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lingyang",
+      "rarity": 5,
+      "attribute": "Glacio",
+      "weapon": "Gauntlet",
+      "image": {
+        "icon": "lingyang_icon.png",
+        "portrait": "lingyang_portrait.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Mortefi",
+      "rarity": 4,
+      "attribute": "Fusion",
+      "weapon": "Pistols",
+      "image": {
+        "icon": "mortefi_icon.png",
+        "portrait": "mortefi_portrait.png"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Rover",
+      "rarity": 5,
+      "attribute": "Omni",
+      "weapon": "Sword",
+      "image": {
+        "icon": "roverM_icon.png",
+        "portrait": "roverM_portrait.png"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Sanhua",
+      "rarity": 4,
+      "attribute": "Glacio",
+      "weapon": "Sword",
+      "image": {
+        "icon": "sanhua_icon.png",
+        "portrait": "sanhua_portrait.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Taoqi",
+      "rarity": 4,
+      "attribute": "Havoc",
+      "weapon": "Broadblade",
+      "image": {
+        "icon": "taoqi_icon.png",
+        "portrait": "taoqi_portrait.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Verina",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weapon": "Rectifier",
+      "image": {
+        "icon": "verina_icon.png",
+        "portrait": "verina_portrait.png"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Yangyang",
+      "rarity": 4,
+      "attribute": "Aero",
+      "weapon": "Sword",
+      "image": {
+        "icon": "yangyang_icon.png",
+        "portrait": "yangyang_portrait.png"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Yinlin",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weapon": "Rectifier",
+      "image": {
+        "icon": "yinlin_icon.png",
+        "portrait": "yinlin_portrait.png"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Yuanwu",
+      "rarity": 4,
+      "attribute": "Electro",
+      "weapon": "Gauntlet",
+      "image": {
+        "icon": "yuanwu_icon.png",
+        "portrait": "yuanwu_portrait.png"
+      }
+    }
+  ]
+}

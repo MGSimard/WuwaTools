@@ -1,0 +1,142 @@
+:root {
+  --clr-text: rgba(233, 233, 234, 1);
+
+  --clr-cardBg: rgba(34, 34, 34, 1);
+  --clr-cardLabelBg: rgba(37, 33, 34, 1);
+
+  --clr-rarity-1: rgba(239, 236, 225, 1);
+  --clr-rarity-1-hl: rgba(199, 199, 199, 1);
+
+  --clr-rarity-2: rgba(92, 195, 94, 1);
+  --clr-rarity-2-hl: rgba(156, 243, 177, 1);
+
+  --clr-rarity-3: rgba(89, 180, 211, 1);
+  --clr-rarity-3-hl: rgba(169, 238, 255, 1);
+
+  --clr-rarity-4: rgba(202, 109, 255, 1);
+  --clr-rarity-4-hl: rgba(239, 182, 247, 1);
+
+  --clr-rarity-5: rgba(255, 230, 90, 1);
+  --clr-rarity-5-hl: rgba(255, 255, 255, 1);
+
+  --glassBorder: 1px solid #33343a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CORE */
+html {
+  font-size: 62.5%;
+}
+body {
+  color: var(--clr-text);
+  font-size: 1.6rem;
+  font-family: "LaguSans";
+  background-image: url("./assets/newsbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+nav {
+  position: fixed;
+  min-height: 100vh;
+  width: 24rem;
+  padding: 2rem;
+  background: rgba(28, 29, 33, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-right: var(--glassBorder);
+}
+.nav-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  margin-bottom: 6rem;
+  padding: 2rem;
+}
+.nav-content {
+  position: sticky;
+  width: auto;
+  top: 0;
+}
+.nav-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+}
+.nav-content li {
+  transition: all 0.1s ease-out;
+}
+.nav-content li:hover {
+  scale: 1.08;
+  color: #ece1b5;
+}
+.nav-content li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-wrap: nowrap;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.nav-content li svg {
+  width: 5rem;
+  height: 5rem;
+}
+main {
+  padding-top: 5rem;
+  padding-right: 10rem;
+  padding-left: 29rem;
+  width: 100%;
+}
+/**/
+/* META */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+h1 {
+  margin-bottom: 4rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a,
+button,
+a {
+  cursor: pointer;
+}
+button {
+  font-weight: 700;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+/**/
+/* CUSTOM CLASSES */
+.activeLink {
+  font-weight: 700;
+}
+/**/
