@@ -7,7 +7,7 @@ React/Vite TypeScript Project
 
 <br/>
 <br/>
-<a href="#">(Don't view demo it's not up yet)</a>
+<a href="https://wuwatools.web.app/">View Live Project</a>
 
 </p>
 </div>
@@ -35,7 +35,8 @@ So anyways with that out of the way I'm not too certain if or what tool I want t
 
 ## Usage
 
-Haven't set up the app anywhere yet, probably firebase slave again.
+- Go to https://wuwatools.web.app/
+- Do stuff
 
 ## Contact
 
