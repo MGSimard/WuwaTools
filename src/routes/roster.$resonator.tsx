@@ -17,7 +17,21 @@ function Resonator() {
       </>
     );
   }
-  console.log(charData);
 
-  return <div>Character Page: {resonator}</div>;
+  const { id, name, rarity, attribute, weapon, image } = charData;
+
+  return (
+    <div>
+      <h1>Resonator Page: {name}</h1>
+      <ul>
+        <li>ID: {id}</li>
+        <li>Name: {name}</li>
+        <li>Rarity: {rarity}</li>
+        <li>Attribute: {attribute}</li>
+        <li>Weapon: {weapon}</li>
+        <li>Icon: {image.icon}</li>
+        <li>Portrait: {image.portrait}</li>
+      </ul>
+    </div>
+  );
 }
