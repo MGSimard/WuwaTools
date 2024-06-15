@@ -22,7 +22,7 @@ function Resonator() {
 
   return (
     <div>
-      <h1>Resonator Page: {name}</h1>
+      <h1>Resonator // {name}</h1>
       <ul>
         <li>ID: {id}</li>
         <li>Name: {name}</li>

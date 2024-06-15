@@ -28,8 +28,8 @@ function Roster() {
         <div className="characters-container">
           {charListData &&
             charListData.map((char: CharDataInterface) => (
-              <Link to="/roster/$resonator" params={{ resonator: char.name.toLowerCase() }}>
-                <CharacterCard key={char.id} character={char} />
+              <Link key={char.id} to="/roster/$resonator" params={{ resonator: char.name.toLowerCase() }}>
+                <CharacterCard character={char} />
               </Link>
             ))}
         </div>
