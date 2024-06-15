@@ -40,7 +40,7 @@ So anyways with that out of the way I'm not too certain if or what tool I want t
 
 MGSimard - g.marcgs@gmail.com
 
-Project Link: [https://github.com/MGSimard/WuwaTools-ReactTS](https://github.com/MGSimard/WuwaTools-ReactTS)
+Project Link: [https://github.com/MGSimard/WuwaTools](https://github.com/MGSimard/WuwaTools)
 
 ## Acknowledgments
 
