@@ -10,53 +10,66 @@
 
 // Import Routes
 
-import { Route as rootRoute } from "./routes/__root";
-import { Route as TierlistImport } from "./routes/tierlist";
-import { Route as RosterImport } from "./routes/roster";
-import { Route as IndexImport } from "./routes/index";
+import { Route as rootRoute } from './routes/__root'
+import { Route as TierlistImport } from './routes/tierlist'
+import { Route as IndexImport } from './routes/index'
+import { Route as RosterIndexImport } from './routes/roster.index'
+import { Route as RosterResonatorImport } from './routes/roster.$resonator'
 
 // Create/Update Routes
 
 const TierlistRoute = TierlistImport.update({
-  path: "/tierlist",
+  path: '/tierlist',
   getParentRoute: () => rootRoute,
-} as any);
-
-const RosterRoute = RosterImport.update({
-  path: "/roster",
-  getParentRoute: () => rootRoute,
-} as any);
+} as any)
 
 const IndexRoute = IndexImport.update({
-  path: "/",
+  path: '/',
   getParentRoute: () => rootRoute,
-} as any);
+} as any)
+
+const RosterIndexRoute = RosterIndexImport.update({
+  path: '/roster/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const RosterResonatorRoute = RosterResonatorImport.update({
+  path: '/roster/$resonator',
+  getParentRoute: () => rootRoute,
+} as any)
 
 // Populate the FileRoutesByPath interface
 
-declare module "@tanstack/react-router" {
+declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    "/": {
-      id: "/";
-      path: "/";
-      fullPath: "/";
-      preLoaderRoute: typeof IndexImport;
-      parentRoute: typeof rootRoute;
-    };
-    "/roster": {
-      id: "/roster";
-      path: "/roster";
-      fullPath: "/roster";
-      preLoaderRoute: typeof RosterImport;
-      parentRoute: typeof rootRoute;
-    };
-    "/tierlist": {
-      id: "/tierlist";
-      path: "/tierlist";
-      fullPath: "/tierlist";
-      preLoaderRoute: typeof TierlistImport;
-      parentRoute: typeof rootRoute;
-    };
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexImport
+      parentRoute: typeof rootRoute
+    }
+    '/tierlist': {
+      id: '/tierlist'
+      path: '/tierlist'
+      fullPath: '/tierlist'
+      preLoaderRoute: typeof TierlistImport
+      parentRoute: typeof rootRoute
+    }
+    '/roster/$resonator': {
+      id: '/roster/$resonator'
+      path: '/roster/$resonator'
+      fullPath: '/roster/$resonator'
+      preLoaderRoute: typeof RosterResonatorImport
+      parentRoute: typeof rootRoute
+    }
+    '/roster/': {
+      id: '/roster/'
+      path: '/roster'
+      fullPath: '/roster'
+      preLoaderRoute: typeof RosterIndexImport
+      parentRoute: typeof rootRoute
+    }
   }
 }
 
@@ -64,9 +77,10 @@ declare module "@tanstack/react-router" {
 
 export const routeTree = rootRoute.addChildren({
   IndexRoute,
-  RosterRoute,
   TierlistRoute,
-});
+  RosterResonatorRoute,
+  RosterIndexRoute,
+})
 
 /* prettier-ignore-end */
 
@@ -74,21 +88,25 @@ export const routeTree = rootRoute.addChildren({
 {
   "routes": {
     "__root__": {
-      "filePath": "__root.jsx",
+      "filePath": "__root.tsx",
       "children": [
         "/",
-        "/roster",
-        "/tierlist"
+        "/tierlist",
+        "/roster/$resonator",
+        "/roster/"
       ]
     },
     "/": {
-      "filePath": "index.jsx"
-    },
-    "/roster": {
-      "filePath": "roster.jsx"
+      "filePath": "index.tsx"
     },
     "/tierlist": {
-      "filePath": "tierlist.jsx"
+      "filePath": "tierlist.tsx"
+    },
+    "/roster/$resonator": {
+      "filePath": "roster.$resonator.tsx"
+    },
+    "/roster/": {
+      "filePath": "roster.index.tsx"
     }
   }
 }

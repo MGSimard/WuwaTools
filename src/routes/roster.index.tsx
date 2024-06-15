@@ -1,6 +1,10 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { CharacterCard } from "../Components/CharacterCard";
 import charactersData from "../assets/characters.json";
+
+export const Route = createFileRoute("/roster/")({
+  component: Roster,
+});
 
 interface CharDataInterface {
   id: number;
@@ -14,7 +18,7 @@ interface CharDataInterface {
   };
 }
 
-const Roster = () => {
+function Roster() {
   const charListData = charactersData.data;
 
   return (
@@ -23,13 +27,13 @@ const Roster = () => {
       <section>
         <div className="characters-container">
           {charListData &&
-            charListData.map((char: CharDataInterface) => <CharacterCard key={char.id} character={char} />)}
+            charListData.map((char: CharDataInterface) => (
+              <Link to="/roster/$resonator" params={{ resonator: char.name.toLowerCase() }}>
+                <CharacterCard key={char.id} character={char} />
+              </Link>
+            ))}
         </div>
       </section>
     </>
   );
-};
-
-export const Route = createFileRoute("/roster")({
-  component: Roster,
-});
+}

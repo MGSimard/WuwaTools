@@ -1,9 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-/**
- * HOME PAGE
- */
-export const Home = () => {
+export const Route = createFileRoute("/")({
+  component: Home,
+});
+
+function Home() {
   return (
     <>
       <h1>WuwaTools - Work In Progress</h1>
@@ -14,7 +15,4 @@ export const Home = () => {
       </ul>
     </>
   );
-};
-export const Route = createFileRoute("/")({
-  component: Home,
-});
+}

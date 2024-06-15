@@ -7,7 +7,11 @@ import { TierListRow } from "../Components/TierListRow";
 import { TierListElem } from "../Components/TierListElem";
 import charactersData from "../assets/characters.json";
 
-const TierList = () => {
+export const Route = createFileRoute("/tierlist")({
+  component: TierList,
+});
+
+function TierList() {
   // GET CHARACTER LIST & TIERS
   const initialState = {
     Z: [],
@@ -81,8 +85,4 @@ const TierList = () => {
       </section>
     </>
   );
-};
-
-export const Route = createFileRoute("/tierlist")({
-  component: TierList,
-});
+}
