@@ -2,6 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState, useRef } from "react";
 import { DragDropProvider } from "@dnd-kit/react";
 import { move } from "@dnd-kit/helpers";
+import * as htmlToImage from "html-to-image";
+import downloadjs from "downloadjs";
 
 import { TierListRow } from "../Components/TierListRow";
 import { TierListElem } from "../Components/TierListElem";
@@ -12,7 +14,6 @@ export const Route = createFileRoute("/tierlist")({
 });
 
 function TierList() {
-  // GET CHARACTER LIST & TIERS
   const initialState = {
     Z: [],
     S: [],
@@ -25,6 +26,7 @@ function TierList() {
 
   const [items, setItems] = useState(initialState);
   const previousItems = useRef(items);
+  const canvasRef = useRef<HTMLDivElement>(null);
 
   const resetTierList = () => {
     const confirmed = window.confirm("Are you sure you want to reset?");
@@ -36,12 +38,20 @@ function TierList() {
   const handleDragStart = () => {
     previousItems.current = items;
   };
-  const handleDragOver = (e: any /*lol*/) => {
+  const handleDragOver = (e: any) => {
     const { source, target } = e.operation;
     setItems((items) => move(items, source, target));
+    console.log(e.operation);
   };
-  const handleDragEnd = (e: any /*lol*/) => {
+  const handleDragEnd = (e: any) => {
     if (e.canceled) setItems(previousItems.current);
+  };
+
+  const handleSaveImg = () => {
+    const canvas = canvasRef.current as HTMLElement;
+    htmlToImage.toPng(canvas).then((dataUrl) => {
+      downloadjs(dataUrl, "tierlist.png", "image/png");
+    });
   };
 
   return (
@@ -50,7 +60,7 @@ function TierList() {
       <section>
         <DragDropProvider onDragStart={handleDragStart} onDragOver={handleDragOver} onDragEnd={handleDragEnd}>
           <div className="tierlist-container">
-            <div className="tl-table">
+            <div className="tl-table" ref={canvasRef}>
               {Object.entries(items)
                 .slice(0, -1)
                 .map(([row, items]) => (
@@ -62,18 +72,18 @@ function TierList() {
                 ))}
             </div>
             <aside className="tl-sidebar glass">
-              <h3>More</h3>
-              <div>
-                <h4>Planned Features:</h4>
+              <div className="tls-info">
+                <h3>Planned Features:</h3>
                 <ul>
-                  <li>- Saving as image</li>
-                  <li>- Sharing to social media</li>
+                  <li>- ?</li>
                 </ul>
               </div>
-
-              <button className="btn-danger" onClick={resetTierList}>
-                Reset
-              </button>
+              <div className="tls-buttons">
+                <button onClick={handleSaveImg}>Save Image</button>
+                <button className="btn-danger" onClick={resetTierList}>
+                  Reset
+                </button>
+              </div>
             </aside>
           </div>
           <TierListRow key="BANK" id="BANK">
