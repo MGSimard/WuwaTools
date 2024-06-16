@@ -30,6 +30,8 @@ So anyways with that out of the way I'm not too certain if or what tool I want t
 - [TanStack Router](https://tanstack.com/router/latest)
 - [@dnd-kit/react](https://next.dndkit.com/overview)
 - [FontAwesome](https://fontawesome.com/)
+- [html-to-image](https://github.com/bubkoo/html-to-image)
+- [downloadjs](https://github.com/rndme/download)
 
 ## Usage
 
