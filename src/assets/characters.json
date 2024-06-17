@@ -103,7 +103,7 @@
         },
         "Outro Skill": {
           "skillName": "Rejuvinating Flow",
-          "skillDesc": "Baizhi restores HP equal to 1.54% of her max HP to The next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Resonators gaining this healing also gain 15% all-Type DMG Deepen for 6s.",
+          "skillDesc": "Baizhi restores HP equal to 1.54% of her max HP to the next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Resonators gaining this healing also gain 15% all-Type DMG Deepen for 6s.",
           "skillVars": {}
         }
       },
