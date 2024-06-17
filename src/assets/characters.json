@@ -11,52 +11,46 @@
       "attribute": "Aero",
       "weapon": "Pistols",
       "skills": {
-        "normalAttack": {
-          "attName": "Half Truths",
-          "attDesc": "",
-          "attTypes": {
+        "Normal Attack": {
+          "skillName": "Half Truths",
+          "skillDesc": "",
+          "skillVars": {
             "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
             "Heavy Attack": "Aalto enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Aero DMG.",
             "Mid-air Attack": "Aalto consumes Stamina to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
           }
         },
-        "resonanceSkill": {
-          "attName": "Shift Trick",
-          "attDesc": "",
-          "attTypes": {
-            "": ""
+        "Resonance Skill": {
+          "skillName": "Shift Trick",
+          "skillDesc": "",
+          "skillVars": {
+            "Mist Avatar": "Casts \"Mist\" and 1 \"Mist Avatar(s)\" to taunt the surrounding targets. The avatars inherit a portion of Aalto's HP and generate 6 Mist Bullets around them, dealing Aero DMG.",
+            "Mist Missiles": "Deals Aero DMG, considered as Resonance Skill damage."
           }
         },
-        "forteCircuit": {
-          "attName": "Misty Cover",
-          "attDesc": "",
-          "attTypes": [
-            {
-              "": ""
-            }
-          ]
-        },
-        "resonanceLiberation": {
-          "attName": "Flower in the Mist",
-          "attDesc": "",
-          "attTypes": {
-            "": ""
+        "Forte Circuit": {
+          "skillName": "Misty Cover",
+          "skillDesc": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".",
+          "skillVars": {
+            "Mistcloak Dash": "Movement speed increased; During this period, \"Mist Drops\" are continuously consumed, and for each 1 \"Mist Drop\" consumed, 1 Resonance Skill Mist Missile is generated.",
+            "Mist Drops": "Aalto can hold up to 6 Mist Drops. When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, 1 \"Mist Drop\" is recovered."
           }
         },
-        "introSkill": {
-          "attName": "Feint Shot",
-          "attDesc": "",
-          "attTypes": {
-            "": ""
-          }
+        "Resonance Liberation": {
+          "skillName": "Flower in the Mist",
+          "skillDesc": "Generate a \"Gate of Quandary\" in front of you dealing Aero DMG. When bullets pass through the \"Gate of Quandary\", ATK is increased. \"Gate of Quandary\" lasts for 10s.",
+          "skillVars": {}
         },
-        "outroSkill": {
-          "attName": "Dissolving Mist",
-          "attDesc": "",
-          "attTypes": {
-            "": ""
-          }
+        "Intro Skill": {
+          "skillName": "Feint Shot",
+          "skillDesc": "Aalto suddenly appears and performs rapid continuous shooting, dealing Aero DMG.",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Dissolving Mist",
+          "skillDesc": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 23% Aero DMG Deepen for 14 seconds or until the Character is switched.",
+          "skillVars": {}
         }
       },
       "image": {
@@ -70,6 +64,49 @@
       "rarity": 4,
       "attribute": "Glacio",
       "weapon": "Rectifier",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "Destined Promise",
+          "skillDesc": "",
+          "skillVars": {
+            "Basic Attack": "Baizhi instructs You'tan to perform up to 4 consecutive attacks, dealing Glacio DMG.",
+            "Heavy Attack": "Baizhi continuously consumes Stamina to command You'tan to attack enemies, dealing Glacio DMG. During Heavy Attack, Baizhi can command You'tan to move.",
+            "Mid-air Attack": "Baizhi consumes Stamina and summons You'tan in mid-air to perform a Plunging Attack, dealing Glacio DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+          }
+        },
+        "Resonance Skill": {
+          "skillName": "Emergency Plan",
+          "skillDesc": "Baizhi calls You'tan to attack the target, dealing Glacio DMG while restoring HP for the entire team.",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "Cycle of Life",
+          "skillDesc": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".",
+          "skillVars": {
+            "You'tan": "A Remnant Creature that answers to Baizhi's mind and desires while sharing all her attributes. You'tan goes back to Baizhi when Baizhi dodges.",
+            "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously restore HP for Characters nearby. Each 1 \"Concentration\" consumed restores HP for 1 time every 2s. When Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy; When Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
+            "Forte Gauge: Concentration": "Baizhi can hold up to 4 \"Concentrations\". Baizhi obtains 1 \"Concentration\" for every Basic Attack on hit."
+          }
+        },
+        "Resonance Liberation": {
+          "skillName": "Momentary Union",
+          "skillDesc": "Baizhi summons You'tan to restore HP for the entire team, generating 4 stacks of Remnant Entities.",
+          "skillVars": {
+            "Remnant Entities": "Remnant Entities follow the active team members and automatically consume 1 stacks of Remnant Entities to attack the targets every 2.5s, dealing Glacio DMG on hit while restoring HP to all team members nearby."
+          }
+        },
+        "Intro Skill": {
+          "skillName": "Overflowing Frost",
+          "skillDesc": "Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio DMG while restoring HP to all team members nearby.",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Rejuvinating Flow",
+          "skillDesc": "Baizhi restores HP equal to 1.54% of her max HP to The next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Resonators gaining this healing also gain 15% all-Type DMG Deepen for 6s.",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "baizhi_icon.png",
         "portrait": "baizhi_portrait.png"
@@ -81,6 +118,51 @@
       "rarity": 5,
       "attribute": "Electro",
       "weapon": "Broadblade",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "Gnawing Fangs",
+          "skillDesc": "",
+          "skillVars": {
+            "Basic Attack": "Perform up to 4 consecurtive attacks, dealing Electro DMG.",
+            "Heavy Attack": "Consume Stamina to attack the target, dealing Electro DMG.",
+            "Mid-air Attack": "Consume Stamina to perform a Mid-Air Plunging Attack, dealing Electro DMG.",
+            "Dodge Counter": "Using Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
+          }
+        },
+        "Resonance Skill": {
+          "skillName": "Extermination Order",
+          "skillDesc": "Calcharo performs up to 3 consecutive attacks, dealing Electro DMG. If Calcharo is switched off the field, or if Resonance Skill Extermination Order is not activated again in a while, this skill will enter Cooldown. Resonance Skill Extermination Order does not interrupt Calcharo's Basic Attack Cycle.",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "Hunting Mission",
+          "skillDesc": "",
+          "skillVars": {
+            "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
+            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
+            "Heavy Attack: \"Death Messenger\"": "When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.",
+            "\"Killing Intent\"": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
+          }
+        },
+        "Resonance Liberation": {
+          "skillName": "Phantom Etching",
+          "skillDesc": "Calcharo attacks the target, dealing Electro DMG and enters Deathblade Gear state. After Deathblade Gear state ends, Calcharo's next Intro Skill is replaced with Intro Skill \"Necessary Means\", which deals Electro DMG, considered as Intro Skill damage.",
+          "skillVars": {
+            "Deathblade Gear": "Basic Attack is replaced with Basic Attack Hounds Roar; Heavy Attack deals increased DMG, considered as Resonance Liberation DMG; Dodge Counter deals increased DMG, considered as Resonance Liberation DMG.",
+            "Basic Attack: Hounds Roar": "Calcharo performs up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack Damage."
+          }
+        },
+        "Intro Skill": {
+          "skillName": "Wanted Outlaw",
+          "skillDesc": "Attack the target, dealing Electro DMG.",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Shadowy Raid",
+          "skillDesc": "Calcharo summons Phantom to support the active Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to ?%+?% of Calcharo's ATK.",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "calcharo_icon.png",
         "portrait": "calcharo_portrait.png"
@@ -92,6 +174,38 @@
       "rarity": 4,
       "attribute": "Fusion",
       "weapon": "Pistols",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "chixia_icon.png",
         "portrait": "chixia_portrait.png"
@@ -103,6 +217,38 @@
       "rarity": 4,
       "attribute": "Havoc",
       "weapon": "Sword",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "danjin_icon.png",
         "portrait": "danjin_portrait.png"
@@ -114,6 +260,38 @@
       "rarity": 5,
       "attribute": "Fusion",
       "weapon": "Rectifier",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "encore_icon.png",
         "portrait": "encore_portrait.png"
@@ -125,6 +303,38 @@
       "rarity": 5,
       "attribute": "Aero",
       "weapon": "Gauntlet",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "jianxin_icon.png",
         "portrait": "jianxin_portrait.png"
@@ -136,6 +346,38 @@
       "rarity": 5,
       "attribute": "Aero",
       "weapon": "Broadblade",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "jiyan_icon.png",
         "portrait": "jiyan_portrait.png"
@@ -147,6 +389,38 @@
       "rarity": 5,
       "attribute": "Glacio",
       "weapon": "Gauntlet",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "lingyang_icon.png",
         "portrait": "lingyang_portrait.png"
@@ -158,6 +432,38 @@
       "rarity": 4,
       "attribute": "Fusion",
       "weapon": "Pistols",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "mortefi_icon.png",
         "portrait": "mortefi_portrait.png"
@@ -169,6 +475,38 @@
       "rarity": 5,
       "attribute": "Omni",
       "weapon": "Sword",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "roverM_icon.png",
         "portrait": "roverM_portrait.png"
@@ -180,6 +518,38 @@
       "rarity": 4,
       "attribute": "Glacio",
       "weapon": "Sword",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "sanhua_icon.png",
         "portrait": "sanhua_portrait.png"
@@ -191,6 +561,38 @@
       "rarity": 4,
       "attribute": "Havoc",
       "weapon": "Broadblade",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "taoqi_icon.png",
         "portrait": "taoqi_portrait.png"
@@ -202,6 +604,38 @@
       "rarity": 5,
       "attribute": "Spectro",
       "weapon": "Rectifier",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "verina_icon.png",
         "portrait": "verina_portrait.png"
@@ -213,6 +647,38 @@
       "rarity": 4,
       "attribute": "Aero",
       "weapon": "Sword",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "yangyang_icon.png",
         "portrait": "yangyang_portrait.png"
@@ -224,6 +690,38 @@
       "rarity": 5,
       "attribute": "Electro",
       "weapon": "Rectifier",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "yinlin_icon.png",
         "portrait": "yinlin_portrait.png"
@@ -235,6 +733,38 @@
       "rarity": 4,
       "attribute": "Electro",
       "weapon": "Gauntlet",
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
       "image": {
         "icon": "yuanwu_icon.png",
         "portrait": "yuanwu_portrait.png"
