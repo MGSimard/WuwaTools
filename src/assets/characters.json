@@ -10,6 +10,55 @@
       "rarity": 4,
       "attribute": "Aero",
       "weapon": "Pistols",
+      "skills": {
+        "normalAttack": {
+          "attName": "Half Truths",
+          "attDesc": "",
+          "attTypes": {
+            "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
+            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Aero DMG.",
+            "Mid-air Attack": "Aalto consumes Stamina to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
+          }
+        },
+        "resonanceSkill": {
+          "attName": "Shift Trick",
+          "attDesc": "",
+          "attTypes": {
+            "": ""
+          }
+        },
+        "forteCircuit": {
+          "attName": "Misty Cover",
+          "attDesc": "",
+          "attTypes": [
+            {
+              "": ""
+            }
+          ]
+        },
+        "resonanceLiberation": {
+          "attName": "Flower in the Mist",
+          "attDesc": "",
+          "attTypes": {
+            "": ""
+          }
+        },
+        "introSkill": {
+          "attName": "Feint Shot",
+          "attDesc": "",
+          "attTypes": {
+            "": ""
+          }
+        },
+        "outroSkill": {
+          "attName": "Dissolving Mist",
+          "attDesc": "",
+          "attTypes": {
+            "": ""
+          }
+        }
+      },
       "image": {
         "icon": "aalto_icon.png",
         "portrait": "aalto_portrait.png"

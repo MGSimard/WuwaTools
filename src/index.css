@@ -1,25 +1,29 @@
 :root {
   --clr-text: rgba(233, 233, 234, 1);
-
   --clr-cardBg: rgba(34, 34, 34, 1);
   --clr-cardLabelBg: rgba(37, 33, 34, 1);
-
+  --glassBorder: 1px solid #33343a;
+  /* RARITIES */
   --clr-rarity-1: rgba(239, 236, 225, 1);
   --clr-rarity-1-hl: rgba(199, 199, 199, 1);
-
   --clr-rarity-2: rgba(92, 195, 94, 1);
   --clr-rarity-2-hl: rgba(156, 243, 177, 1);
-
   --clr-rarity-3: rgba(89, 180, 211, 1);
   --clr-rarity-3-hl: rgba(169, 238, 255, 1);
-
   --clr-rarity-4: rgba(202, 109, 255, 1);
   --clr-rarity-4-hl: rgba(239, 182, 247, 1);
-
   --clr-rarity-5: rgba(255, 230, 90, 1);
   --clr-rarity-5-hl: rgba(255, 255, 255, 1);
-
-  --glassBorder: 1px solid #33343a;
+  /* ELEMENTS */
+  --clr-aero: rgba(85, 255, 181, 1);
+  --clr-electro: rgba(180, 91, 255, 1);
+  --clr-fusion: rgba(239, 115, 78, 1);
+  --clr-glacio: rgba(65, 174, 251, 1);
+  --clr-havoc: rgba(230, 73, 166, 1);
+  --clr-spectro: rgba(248, 229, 108, 1);
+  /* UI TEXT */
+  --clr-heading: rgba(170, 155, 106, 1);
+  --clr-generic-hl: rgba(255, 209, 47, 1);
 }
 * {
   margin: 0;

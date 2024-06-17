@@ -44,6 +44,24 @@
 .cc-r5 {
   background-image: linear-gradient(to top, var(--clr-rarity-5), rgba(0, 0, 0, 0));
 }
+.hl-aero {
+  color: var(--clr-aero);
+}
+.hl-electro {
+  color: var(--clr-electro);
+}
+.hl-fusion {
+  color: var(--clr-fusion);
+}
+.hl-glacio {
+  color: var(--clr-glacio);
+}
+.hl-havoc {
+  color: var(--clr-havoc);
+}
+.hl-spectro {
+  color: var(--clr-spectro);
+}
 /**/
 /* TIER LIST PAGE */
 .tierlist-container {
