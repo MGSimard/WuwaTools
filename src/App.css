@@ -112,6 +112,7 @@
 }
 .sc-body {
   white-space: pre-wrap;
+  line-height: 2.5rem;
 }
 .sc-body > div:not(:last-child) {
   margin-bottom: 1rem;
