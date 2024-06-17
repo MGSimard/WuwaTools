@@ -16,8 +16,8 @@
           "skillDesc": "",
           "skillVars": {
             "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
-            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Aero DMG.",
-            "Mid-air Attack": "Aalto consumes Stamina to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
+            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Aero DMG.",
+            "Mid-air Attack": "Aalto consumes STA to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
           }
         },
@@ -33,23 +33,23 @@
           "skillName": "Misty Cover",
           "skillDesc": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".",
           "skillVars": {
-            "Mistcloak Dash": "Movement speed increased; During this period, \"Mist Drops\" are continuously consumed, and for each 1 \"Mist Drop\" consumed, 1 Resonance Skill Mist Missile is generated.",
-            "Mist Drops": "Aalto can hold up to 6 Mist Drops. When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, 1 \"Mist Drop\" is recovered."
+            "Mistcloak Dash": "- Movement speed increased;\n- During this period, \"Mist Drops\" are continuously consumed, and for each 1 \"Mist Drop\" consumed, 1 Resonance Skill Mist Missile is generated.",
+            "Mist Drops": "Aalto can hold up to 6 \"Mist Drops\". When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, 1 \"Mist Drop\" is recovered."
           }
         },
         "Resonance Liberation": {
           "skillName": "Flower in the Mist",
-          "skillDesc": "Generate a \"Gate of Quandary\" in front of you dealing Aero DMG. When bullets pass through the \"Gate of Quandary\", ATK is increased. \"Gate of Quandary\" lasts for 10s.",
+          "skillDesc": "Generate a \"Gate of Quandary\" in front, dealing Aero DMG. When bullets pass through the \"Gate of Quandary\", they deal increased DMG. \"Gate of Quandary\" lasts for 10s.",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Feint Shot",
-          "skillDesc": "Aalto suddenly appears and performs rapid continuous shooting, dealing Aero DMG.",
+          "skillDesc": "Aaltos shows up out of thin air to perform rapid continuous shooting, dealing Aero DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Dissolving Mist",
-          "skillDesc": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 23% Aero DMG Deepen for 14 seconds or until the Character is switched.",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Aero DMG Amplified by 23% for 14s or until they are switched off field.",
           "skillVars": {}
         }
       },
@@ -70,40 +70,40 @@
           "skillDesc": "",
           "skillVars": {
             "Basic Attack": "Baizhi instructs You'tan to perform up to 4 consecutive attacks, dealing Glacio DMG.",
-            "Heavy Attack": "Baizhi continuously consumes Stamina to command You'tan to attack enemies, dealing Glacio DMG. During Heavy Attack, Baizhi can command You'tan to move.",
-            "Mid-air Attack": "Baizhi consumes Stamina and summons You'tan in mid-air to perform a Plunging Attack, dealing Glacio DMG.",
+            "Heavy Attack": "Baizhi continuously consumes STA to command You'tan to attack enemies, dealing Glacio DMG. During Heavy Attack, Baizhi can command You'tan to move.",
+            "Mid-air Attack": "Baizhi consumes STA and summons You'Tan in mid-air to perform a Plunging Attack, dealing Glacio DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
           }
         },
         "Resonance Skill": {
           "skillName": "Emergency Plan",
-          "skillDesc": "Baizhi calls You'tan to attack the target, dealing Glacio DMG while restoring HP for the entire team.",
+          "skillDesc": "Baizhi calls You'tan to attack the target, dealing Glacio DMG while immediately healing all characters on nearby teams.",
           "skillVars": {}
         },
         "Forte Circuit": {
           "skillName": "Cycle of Life",
-          "skillDesc": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".",
+          "skillDesc": "",
           "skillVars": {
-            "You'tan": "A Remnant Creature that answers to Baizhi's mind and desires while sharing all her attributes. You'tan goes back to Baizhi when Baizhi dodges.",
-            "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously restore HP for Characters nearby. Each 1 \"Concentration\" consumed restores HP for 1 time every 2s. When Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy; When Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
-            "Forte Gauge: Concentration": "Baizhi can hold up to 4 \"Concentrations\". Baizhi obtains 1 \"Concentration\" for every Basic Attack on hit."
+            "You'tan": "A Remnant Creature that answers to Baizhi's mind and desires while sharing all her stats. You'tan goes back to Baizhi when Baizhi dodges.",
+            "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously heal all characters on nearby teams. Each 1 \"Concentration\" consumed provides 1 healing. The healings happen ever 2s.\nWhen Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy;\nWhen Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
+            "Forte Gauge: Concentration": "Baizhi can hold up to 4 \"Concentrations\".\nBaizhi obtains \"Concentration\" for every Basic Attack on hit."
           }
         },
         "Resonance Liberation": {
           "skillName": "Momentary Union",
-          "skillDesc": "Baizhi summons You'tan to restore HP for the entire team, generating 4 stacks of Remnant Entities.",
+          "skillDesc": "Baizhi summons You'tan to heal all characters on nearby teams, generating 4 stacks of Remnant Entities.",
           "skillVars": {
-            "Remnant Entities": "Remnant Entities follow the active team members and automatically consume 1 stacks of Remnant Entities to attack the targets every 2.5s, dealing Glacio DMG on hit while restoring HP to all team members nearby."
+            "Remnant Entities": "Remnant Entities follow the active team members. 1 stack of Remnant Entities is automatically consumed to attack the targets every 2.5s, dealing Glacio DMG on hit while healing the active character on a nearby team."
           }
         },
         "Intro Skill": {
           "skillName": "Overflowing Frost",
-          "skillDesc": "Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio DMG while restoring HP to all team members nearby.",
+          "skillDesc": "Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio DMG while healing all characters on a nearby team.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "Rejuvinating Flow",
-          "skillDesc": "Baizhi restores HP equal to 1.54% of her max HP to the next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Resonators gaining this healing also gain 15% all-Type DMG Deepen for 6s.",
+          "skillName": "Rejuvenating Flow",
+          "skillDesc": "Baizhi heals the incoming character (or a character on a nearby team that activates an Outro Skill) by 1.54% of her Max HP every 3s for 30s. The healed character(s) also have their All-Type DMG Amplified by 15% for 6s.",
           "skillVars": {}
         }
       },
@@ -123,32 +123,32 @@
           "skillName": "Gnawing Fangs",
           "skillDesc": "",
           "skillVars": {
-            "Basic Attack": "Perform up to 4 consecurtive attacks, dealing Electro DMG.",
-            "Heavy Attack": "Consume Stamina to attack the target, dealing Electro DMG.",
-            "Mid-air Attack": "Consume Stamina to perform a Mid-Air Plunging Attack, dealing Electro DMG.",
+            "Basic Attack": "Perform up to 4 consecutive attacks, dealing Electro DMG.",
+            "Heavy Attack": "Consume STA to attack the target, dealing Electro DMG.",
+            "Mid-air Attack": "Consume STA to perform a Mid-Air Plunging Attack, dealing Electro DMG.",
             "Dodge Counter": "Using Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
           }
         },
         "Resonance Skill": {
           "skillName": "Extermination Order",
-          "skillDesc": "Calcharo performs up to 3 consecutive attacks, dealing Electro DMG. If Calcharo is switched off the field, or if Resonance Skill Extermination Order is not activated again in a while, this skill will enter Cooldown. Resonance Skill Extermination Order does not interrupt Calcharo's Basic Attack Cycle.",
+          "skillDesc": "Calcharo performs up to 3 consecutive attacks, dealing Electro DMG.\nIf Calcharo is switched off the field, or if Resonance Skill Extermination Order is not activated again in a while, this skill will enter Cooldown.\nResonance Skill Extermination Order does not interrupt Calcharo's Basic Attack Cycle.",
           "skillVars": {}
         },
         "Forte Circuit": {
           "skillName": "Hunting Mission",
           "skillDesc": "",
           "skillVars": {
-            "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
-            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
+            "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\".\nWhen casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
+            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired.\nWhen Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
             "Heavy Attack: \"Death Messenger\"": "When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.",
-            "\"Killing Intent\"": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
+            "\"Killing Intent\"": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5.\nWhen Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
           }
         },
         "Resonance Liberation": {
           "skillName": "Phantom Etching",
           "skillDesc": "Calcharo attacks the target, dealing Electro DMG and enters Deathblade Gear state. After Deathblade Gear state ends, Calcharo's next Intro Skill is replaced with Intro Skill \"Necessary Means\", which deals Electro DMG, considered as Intro Skill damage.",
           "skillVars": {
-            "Deathblade Gear": "Basic Attack is replaced with Basic Attack Hounds Roar; Heavy Attack deals increased DMG, considered as Resonance Liberation DMG; Dodge Counter deals increased DMG, considered as Resonance Liberation DMG.",
+            "Deathblade Gear": "- Basic Attack is replaced with Basic Attack Hounds Roar;\n- Heavy Attack deals increased DMG, considered as Resonance Liberation DMG;\n- Dodge Counter deals increased DMG, considered as Resonance Liberation DMG.",
             "Basic Attack: Hounds Roar": "Calcharo performs up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack Damage."
           }
         },
@@ -159,7 +159,7 @@
         },
         "Outro Skill": {
           "skillName": "Shadowy Raid",
-          "skillDesc": "Calcharo summons Phantom to support the active Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to ?%+?% of Calcharo's ATK.",
+          "skillDesc": "Calcharo summons Phantom to support the active Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK.",
           "skillVars": {}
         }
       },
@@ -176,19 +176,28 @@
       "weapon": "Pistols",
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "POW POW",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Chixia fires up to 4 consecutive shots, dealing Fusion DMG.",
+            "Heavy Attack": "Chixia enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Fusion DMG.",
+            "Mid-air Attack": "Chixia consumes STA to perform consecutive shots at the target in mid-air, dealing Fusion DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Whizzing Fight Spirit",
+          "skillDesc": "Chixia unleashes a flurry of shots, dealing Fusion DMG.\n\nWhizzing Fight Spirit has 2 initial charges.",
           "skillVars": {}
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Heroic Bullets",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Resonance Skill: DALA DAKA!": "Hold Resonance Skill Whizzing Fight Spirit to enter DAKA DAKA!. In this state:\n- Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing Fusion DMG, considered as Resonance Skill damage;\n- Tap Basic Attack to cast Basic Attack 4, dealing Fusion DMG, considered as Basic Attack damage. Then she exits the \"DAKA DAKA!\" state;\n- If 30 \"Thermobaric Bullets\" have been fired when Basic Attack is activated, Chixia will cast Resonance Skill Boom Boom and terminate \"DAKA DAKA!\".\n- Chixia exits the \"DAKA DAKA!\" state when all \"Thermobaric Bullets\" are consumed.",
+            "Resonance Skill: Boom Boom": "Deal Fusion DMG, considered as Resonance Skill damage.",
+            "Thermobaric Bullets": "Chixia can hold up to 60 \"Thermobaric Bullets\".\nInherent Skill Scorching Magazine increases Max \"Thermobaric Bullets\" by 10.\nChixia obtains \"Thermobaric Bullets\" for every Normal Attack POW POW on hit.\nChixia obtains \"Thermobaric Bullets\" upon casting Intro Skill Grand Entrance and Resonance Skill Whizzing Fight Spirit."
+          }
         },
         "Resonance Liberation": {
           "skillName": "",

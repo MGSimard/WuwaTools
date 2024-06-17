@@ -96,10 +96,7 @@ nav {
   height: 5rem;
 }
 main {
-  padding-top: 5rem;
-  padding-right: 10rem;
-  padding-left: 29rem;
-  width: 100%;
+  padding: 5rem 10rem 5rem 29rem;
 }
 /**/
 /* META */

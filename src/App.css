@@ -99,7 +99,6 @@
   padding: 1rem 2rem;
 }
 .sc-head {
-  margin-bottom: 1rem;
   border-bottom: var(--glassBorder);
   background: linear-gradient(to right, rgb(0, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0) 50%);
 }
@@ -110,6 +109,9 @@
 }
 .sc-head h4 {
   font-size: 2rem;
+}
+.sc-body {
+  white-space: pre-wrap;
 }
 .sc-body > div:not(:last-child) {
   margin-bottom: 1rem;
