@@ -80,7 +80,7 @@
   vertical-align: top;
   padding-right: 1rem;
 }
-­ .skills-container {
+.skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
