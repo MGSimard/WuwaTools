@@ -72,6 +72,7 @@
 }
 .profile-portrait {
   max-width: 20rem;
+  align-self: flex-start;
 }
 .pd-table {
   text-align: left;
