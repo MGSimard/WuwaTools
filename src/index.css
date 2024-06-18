@@ -115,6 +115,7 @@ h1 {
   margin-bottom: 4rem;
 }
 h2 {
+  font-size: 2.8rem;
   margin-bottom: 1rem;
 }
 img {
@@ -139,6 +140,9 @@ button {
 }
 ul {
   list-style: none;
+}
+table {
+  border-collapse: collapse;
 }
 /**/
 /* CUSTOM CLASSES */

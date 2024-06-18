@@ -37,43 +37,53 @@ function Resonator() {
   return (
     <div>
       <h1>Resonator // {name}</h1>
-      <section className="testSection">
-        <h2>Profile Data</h2>
-
+      <section>
+        <h2>▸ Profile Data</h2>
         <div className="profile-container">
           <img className="profile-portrait" src={`/public/characters/${image.portrait}`} />
           <div className="profile-data">
-            <ul>
-              <li>
-                <strong>Name:</strong> {name}
-              </li>
-              <li>
-                <strong>Rarity:</strong> {rarity}*
-              </li>
-              <li>
-                <strong>Attribute:</strong> {attribute}
-              </li>
-              <li>
-                <strong>Weapon:</strong> {weapon}
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <strong>Birthplace:</strong> {profile.birthplace}
-              </li>
-              <li>
-                <strong>Affiliation:</strong> {profile.affiliation}
-              </li>
-              <li>
-                <strong>Info:</strong> {profile.info}
-              </li>
-            </ul>
+            <table className="pd-table">
+              <tbody>
+                <tr>
+                  <th>Name:</th>
+                  <td>{name}</td>
+                </tr>
+                <tr>
+                  <th>Rarity:</th>
+                  <td>{rarity}</td>
+                </tr>
+                <tr>
+                  <th>Attribute:</th>
+                  <td>{attribute}</td>
+                </tr>
+                <tr>
+                  <th>Weapon:</th>
+                  <td>{weapon}</td>
+                </tr>
+                <tr>
+                  <th>&nbsp;</th>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th>Birthplace:</th>
+                  <td>{profile.birthplace}</td>
+                </tr>
+                <tr>
+                  <th>Affiliation:</th>
+                  <td>{profile.affiliation}</td>
+                </tr>
+                <tr>
+                  <th>Bio:</th>
+                  <td>{profile.info}</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>Skills</h2>
+        <h2>▸ Skills</h2>
         <div className="skills-container">
           {Object.entries(skills).map(([skill, skillContents]) => (
             <div key={skill} className="skill-container">

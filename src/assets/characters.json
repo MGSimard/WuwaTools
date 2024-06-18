@@ -20,41 +20,52 @@
         "Normal Attack": {
           "skillName": "Half Truths",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
+            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Aero DMG.",
+            "Mid-air Attack": "Aalto consumes STA to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
+          }
         },
         "Forte Circuit": {
           "skillName": "Misty Cover",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillDesc": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters the Mistcloak Dash.",
+          "skillVars": {
+            "Mistcloak Dash": "- Movement speed increased;\n- During this period, \"Mist Drops\" are continuously consumed, and for each 1 \"Mist Drop\" consumed, 1 Mist Bullet(s) is generated.",
+            "Mist Drops": "Aalto can hold to 6 \"Mist Drops\". When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, 1 \"Mist Drop\" is recovered."
+          }
         },
         "Resonance Skill": {
           "skillName": "Shift Trick",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Mist Avatar": "Casts \"Mist\" and 1 \"Mist Avatar(s)\" to taunt the surrounding targets. The avatars inherit a portion of Aalto's HP and generate 6 Mist Bullets around them, dealing Aero DMG.",
+            "Mist Bullets": "Deals Aero DMG, considered as Resonance Skill damage."
+          }
         },
         "Resonance Liberation": {
           "skillName": "Flower in the Mist",
-          "skillDesc": "",
+          "skillDesc": "Generate a \"Gate of Quandary\" in front, dealing Aero DMG. When bullets pass through the \"Gate of Quandary\", they deal increased DMG. \"Gate of Quandary\" lasts for 10s.",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Feint Shot",
-          "skillDesc": "",
+          "skillDesc": "Aalto shows up out of thin air to perform rapid continuous shooting, dealing Aero DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Dissolving Mist",
-          "skillDesc": "",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Aero DMG Amplified by 23% for 14s or until they are switched off field.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Perfect Performance",
+          "skillDesc": "Aalto's Heavy Attack will always critically hit, triggered once every 30s.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Mid-game Break",
+          "skillDesc": "Aalto will continuously recover STA when he is in the Forte Circuit Mistcloak Dash state.",
           "skillVars": {}
         }
       },

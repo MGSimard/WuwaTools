@@ -10,8 +10,9 @@ function Home() {
       <h1>WuwaTools - Work In Progress</h1>
       <h2>To Do:</h2>
       <ul>
-        <li>- More stuff potentially</li>
-        <li>- Mobile responsiveness might be done, could consider burger unfold if more tool icons come in</li>
+        <li>- More features potentially</li>
+        <li>- Updating info in character profiles</li>
+        <li>- Figure out layout for character profile header</li>
       </ul>
     </>
   );

@@ -62,9 +62,6 @@
 .hl-spectro {
   color: var(--clr-spectro);
 }
-.testSection {
-  overflow: hidden;
-}
 .profile-container {
   position: relative;
   display: flex;
@@ -72,15 +69,18 @@
   padding: 2rem;
   background-color: rgba(28, 29, 33, 0.6);
   border: var(--glassBorder);
-  width: 60%;
 }
 .profile-portrait {
   max-width: 20rem;
 }
-.profile-data ul:not(:last-child) {
-  margin-bottom: 2rem;
+.pd-table {
+  text-align: left;
 }
-.skills-container {
+.pd-table th {
+  vertical-align: top;
+  padding-right: 1rem;
+}
+­ .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -109,7 +109,7 @@
   white-space: pre-wrap;
   line-height: 2.5rem;
 }
-.sc-body > div:not(:last-child) {
+.sc-body > div {
   margin-bottom: 1rem;
 }
 .scb-desc {
