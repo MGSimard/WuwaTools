@@ -40,7 +40,7 @@ function Resonator() {
       <section>
         <h2>▸ Profile Data</h2>
         <div className="profile-container">
-          <img className="profile-portrait" src={`/public/characters/${image.portrait}`} />
+          <img className="profile-portrait" src={`/characters/${image.portrait}`} />
           <div className="profile-data">
             <table className="pd-table">
               <tbody>
