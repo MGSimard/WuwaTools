@@ -13,6 +13,7 @@ function Home() {
         <li>- More features potentially</li>
         <li>- Updating info in character profiles</li>
         <li>- Figure out layout for character profile header</li>
+        <li>- Separate omni rover character into multiple ele rovers?</li>
       </ul>
     </>
   );
