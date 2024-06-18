@@ -22,7 +22,7 @@
           "skillDesc": "",
           "skillVars": {
             "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
-            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Aero DMG.",
+            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot.\n\nThe aimed shot fired after charging finishes deals Aero DMG.",
             "Mid-air Attack": "Aalto consumes STA to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
           }
@@ -81,50 +81,63 @@
       "attribute": "Glacio",
       "weapon": "Rectifier",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace:": "",
-        "affiliation": ""
+        "info": "Baizhi is a researcher in Remnant Ecoacoustics.\n\nBaizhi's once unfulfilled wish has now manifested as her loyal companion. The remnant Creature You'tan is her source of healing powers, and a lifelong research focus.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
           "skillName": "Destined Promise",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Baizhi instructs You'tan to perform up to 4 consecutive attacks, dealing Glacio DMG.",
+            "Heavy Attack": "Baizhi continuously consumes STA to command You'tan to attack enemies, dealing Glacio DMG. During Heavy Attack, Baizhi can command You'tan to move.",
+            "Mid-air Attack": "Baizhi consumes STA and summons You'tan in mid-air to perform a Plunging Attack, dealing Glacio DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+          }
         },
         "Forte Circuit": {
           "skillName": "Cycle of Life",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "You'tan": "A Remnant Creature that answers to Baizhi's mind and desires while sharing all her stats. You'tan goes back to Baizhi when Baizhi dodges.",
+            "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously heal all characters on nearby teams. Each 1 \"Concentration\" consumed provides 1 healing. The healings happens every 2s.\n\nWhen Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy;\n\nWhen Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
+            "Forte Gauge: Concentration": "Baizhi can hold up to 4 \"Concentrations\". Baizhi obtains 1 \"Concentration\" for every Basic Attack on hit."
+          }
         },
         "Resonance Skill": {
           "skillName": "Emergency Plan",
-          "skillDesc": "",
+          "skillDesc": "Baizhi calls You'tan to attack the target, dealing Glacio DMG while immediately healing all characters on nearby teams.",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Momentary Union",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillDesc": "Baizhi summons You'tan to heal all characters on nearby teams, generating 4 stacks of Remnant Entities.",
+          "skillVars": {
+            "Remnant Entities": "Remnant Entities follow the active team members. 1 stack of Remnant Entities is automatically consumed to attack the targets every 2.5s, dealing Glacio DMG on hit while healing the active character on a nearby team."
+          }
         },
         "Intro Skill": {
           "skillName": "Overflowing Frost",
-          "skillDesc": "",
+          "skillDesc": "Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio DMG while healing all characters on a nearby team.",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Rejuvenating Flow",
-          "skillDesc": "",
+          "skillDesc": "Baizhi heals the incoming character (or a character on a nearby team that activates an Outro Skill) by 1.54% of her Max HP every 3s for 30s. The healed character(s) also have their All-Type DMG Amplified by 15% for 6s.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Harmonic Range",
+          "skillDesc": "When Baizhi casts Resonance Skill Emergency Plan, You'tan generates a field of Euphonia that lasts 15s.",
+          "skillVars": {
+            "Euphonia": "ATK of the Resonators who pick up Euphonia is increased by 15% for 20s."
+          }
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Stimulus Feedback",
+          "skillDesc": "Baizhi's Heavy Attack on hit heals the character with the lowest HP on a nearby team by 0.25% of her Max HP.",
           "skillVars": {}
         }
       },
@@ -142,7 +155,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -201,7 +214,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -260,7 +273,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -319,7 +332,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -378,7 +391,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -437,7 +450,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -496,7 +509,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -555,7 +568,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -614,7 +627,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -673,7 +686,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -732,7 +745,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -791,7 +804,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -850,7 +863,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -909,7 +922,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
@@ -968,7 +981,7 @@
       "profile": {
         "info": "",
         "gender": "",
-        "birthplace:": "",
+        "birthplace": "",
         "affiliation": ""
       },
       "skills": {
