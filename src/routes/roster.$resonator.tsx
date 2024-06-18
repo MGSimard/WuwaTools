@@ -34,8 +34,6 @@ function Resonator() {
     );
   };
 
-  console.log(profile);
-
   return (
     <div>
       <h1>Resonator // {name}</h1>

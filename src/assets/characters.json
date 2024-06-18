@@ -225,50 +225,59 @@
       "attribute": "Fusion",
       "weapon": "Pistols",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Chixia is a spirited young Patroller who lights up the streets of Jinzhou. She's always ready to be the hero someone needs.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
           "skillName": "POW POW",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Chixia fires up to 4 consecutive shots, dealing Fusion DMG.",
+            "Heavy Attack": "Chixia enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Fusion DMG.",
+            "Mid-air Attack": "Chixia consumes STA to perform consecutive shots at the target in mid-air, dealing Fusion DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG."
+          }
         },
         "Forte Circuit": {
           "skillName": "Heroic Bullets",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Resonance Skill: DAKA DAKA!": "Hold Resonance Skill Whizzing Fight Spirit to enter \"DAKA DAKA!\". In this state:\n- Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing Fusion DMG, considered as Resonance Skill damage;\n- Tap Basic Attack to cast Basic Attack 4, dealing Fusion DMG, considered as Basic Attack damage. Then she exits the \"DAKA DAKA!\" state;\n- If 30 \"Thermobaric Bullets\" have been fired when Basic Attack is activated, Chixia will cast Resonance Skill Boom Boom and terminate \"DAKA DAKA!\".\n- Chixia exits the \"DAKA DAKA!\" state when all \"Thermobaric Bullets\" are consumed.",
+            "Resonance Skill: Boom Boom": "Deal Fusion DMG, considered as Resonance Skill damage.",
+            "Thermobaric Bullets": "Chixia can hold up to 60 \"Thermobaric Bullets\".\n- Inherent Skill Scorching Magazine increases max \"Thermobaric Bullets\" by 10.\n- Chixia obtains \"Thermobaric Bullets\" for every Normal Attack POW POW on hit.\n- Chixia obtains \"Thermobaric Bullets\" upon casting Intro Skill Grand Entrance and Resonance Skill Whizzing Fight Spirit."
+          }
         },
         "Resonance Skill": {
           "skillName": "Whizzing Fight Spirit",
-          "skillDesc": "",
+          "skillDesc": "Chixia unleashes a flurry of shots, dealing Fusion DMG. Whizzing Fight Spirit has 2 initial charges.",
           "skillVars": {}
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Blazing Flames",
+          "skillDesc": "Chixia fires up fast shots at nearby enemies, dealing Fusion DMG.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Grand Entrance",
+          "skillDesc": "Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing Fusion DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Leaping Flames",
+          "skillDesc": "Chixia releases a shockwave surrounding the target, dealing Fusion DMG equal to 530% of Chixia's ATK to enemies within the range.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Scorching Magazine",
+          "skillDesc": "Max \"Thermobaric Bullets\" is increased by 10 rounds. The damage of Resonance Skill Boom Boom is increased by 50%.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Numbingly Spicy!",
+          "skillDesc": "Each \"Thermobaric Bullets\" that hits a target during Resonance Skill DAKA DAKA! increases ATK by 1% for 10s, stacking up to 30 times.",
           "skillVars": {}
         }
       },
