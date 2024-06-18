@@ -98,6 +98,9 @@ nav {
 main {
   padding: 5rem 10rem 5rem 29rem;
 }
+section {
+  margin-bottom: 2rem;
+}
 /**/
 /* META */
 h1,
@@ -110,6 +113,9 @@ h6 {
 }
 h1 {
   margin-bottom: 4rem;
+}
+h2 {
+  margin-bottom: 1rem;
 }
 img {
   display: block;

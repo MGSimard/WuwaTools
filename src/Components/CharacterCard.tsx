@@ -1,18 +1,17 @@
-interface Props {
-  character: {
-    id: number;
-    name: string;
-    rarity: number;
-    attribute: string;
-    weapon: string;
-    image: {
-      icon: string;
-      portrait: string;
-    };
+interface Character {
+  name: string;
+  rarity: number;
+  image: {
+    icon: string;
+    portrait: string;
   };
 }
 
-export const CharacterCard = ({ character }: Props) => {
+interface CharacterProps {
+  character: Character;
+}
+
+export const CharacterCard = ({ character }: CharacterProps) => {
   return (
     <div className={"character-card glass"}>
       <div className={`cc-portrait-container ${character.rarity ? "cc-r" + character.rarity : null}`}>

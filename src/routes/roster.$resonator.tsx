@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import charactersData from "../assets/characters.json";
+import { CharacterCard } from "../Components/CharacterCard";
 
 export const Route = createFileRoute("/roster/$resonator")({
   component: Resonator,
@@ -18,7 +19,7 @@ function Resonator() {
     );
   }
 
-  const { id, name, rarity, attribute, weapon, skills, image } = charData;
+  const { name, rarity, attribute, weapon, profile, skills } = charData;
 
   const highlight = (eleType: string, text: string) => {
     const toHL = `${eleType} DMG`;
@@ -37,39 +38,66 @@ function Resonator() {
   return (
     <div>
       <h1>Resonator // {name}</h1>
-      <ul>
-        <li>ID: {id}</li>
-        <li>Name: {name}</li>
-        <li>Rarity: {rarity}</li>
-        <li>Attribute: {attribute}</li>
-        <li>Weapon: {weapon}</li>
-        <li>Icon: {image.icon}</li>
-        <li>Portrait: {image.portrait}</li>
-      </ul>
-
-      <div className="skills-container">
-        {Object.entries(skills).map(([skill, skillContents]) => (
-          <div key={skill} className="skill-container">
-            <div className="sc-head">
-              <h3>{skill}</h3>
-              <h4>{skillContents.skillName}</h4>
-            </div>
-            <div className="sc-body">
-              {skillContents.skillDesc && (
-                <p className="scb-desc">
-                  <strong>{highlight(attribute, skillContents.skillDesc)}</strong>
-                </p>
-              )}
-              {Object.entries(skillContents.skillVars).map(([key, value]) => (
-                <div key={key}>
-                  <h5>{key}</h5>
-                  <p>{highlight(attribute, value)}</p>
-                </div>
-              ))}
-            </div>
+      <section>
+        <h2>Profile Data</h2>
+        <div className="profile-container">
+          <CharacterCard character={charData} />
+          <div className="profile-data">
+            <ul>
+              <li>
+                <strong>Name:</strong> {name}
+              </li>
+              <li>
+                <strong>Rarity:</strong> {rarity}*
+              </li>
+              <li>
+                <strong>Attribute:</strong> {attribute}
+              </li>
+              <li>
+                <strong>Weapon:</strong> {weapon}
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <strong>Birthplace:</strong> {profile.birthplace}
+              </li>
+              <li>
+                <strong>Affiliation:</strong> {profile.affiliation}
+              </li>
+              <li>
+                <strong>Info:</strong> {profile.info}
+              </li>
+            </ul>
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div className="skills-container">
+          {Object.entries(skills).map(([skill, skillContents]) => (
+            <div key={skill} className="skill-container">
+              <div className="sc-head">
+                <h3>{skill}</h3>
+                <h4>{skillContents.skillName}</h4>
+              </div>
+              <div className="sc-body">
+                {skillContents.skillDesc && (
+                  <p className="scb-desc">
+                    <strong>{highlight(attribute, skillContents.skillDesc)}</strong>
+                  </p>
+                )}
+                {Object.entries(skillContents.skillVars).map(([key, value]) => (
+                  <div key={key}>
+                    <h5>{key}</h5>
+                    <p>{highlight(attribute, value as string)}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

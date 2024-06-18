@@ -10,46 +10,41 @@
       "rarity": 4,
       "attribute": "Aero",
       "weapon": "Pistols",
+      "profile": {
+        "info": "Aalto is an enigmatic Information Broker, known for his elusive nature and welcoming smile. Rumor has it he'll provide any information at the right price.",
+        "gender": "Male",
+        "birthplace": "New Federation",
+        "affiliation": "The Black Shores"
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "Half Truths",
           "skillDesc": "",
-          "skillVars": {
-            "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
-            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Aero DMG.",
-            "Mid-air Attack": "Aalto consumes STA to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
-            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
-          }
+          "skillVars": {}
         },
         "Resonance Skill": {
           "skillName": "Shift Trick",
           "skillDesc": "",
-          "skillVars": {
-            "Mist Avatar": "Casts \"Mist\" and 1 \"Mist Avatar(s)\" to taunt the surrounding targets. The avatars inherit a portion of Aalto's HP and generate 6 Mist Bullets around them, dealing Aero DMG.",
-            "Mist Missiles": "Deals Aero DMG, considered as Resonance Skill damage."
-          }
+          "skillVars": {}
         },
         "Forte Circuit": {
           "skillName": "Misty Cover",
-          "skillDesc": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".",
-          "skillVars": {
-            "Mistcloak Dash": "- Movement speed increased;\n- During this period, \"Mist Drops\" are continuously consumed, and for each 1 \"Mist Drop\" consumed, 1 Resonance Skill Mist Missile is generated.",
-            "Mist Drops": "Aalto can hold up to 6 \"Mist Drops\". When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, 1 \"Mist Drop\" is recovered."
-          }
+          "skillDesc": "",
+          "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Flower in the Mist",
-          "skillDesc": "Generate a \"Gate of Quandary\" in front, dealing Aero DMG. When bullets pass through the \"Gate of Quandary\", they deal increased DMG. \"Gate of Quandary\" lasts for 10s.",
+          "skillDesc": "",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Feint Shot",
-          "skillDesc": "Aaltos shows up out of thin air to perform rapid continuous shooting, dealing Aero DMG.",
+          "skillDesc": "",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Dissolving Mist",
-          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Aero DMG Amplified by 23% for 14s or until they are switched off field.",
+          "skillDesc": "",
           "skillVars": {}
         }
       },
@@ -64,6 +59,12 @@
       "rarity": 4,
       "attribute": "Glacio",
       "weapon": "Rectifier",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "Destined Promise",
@@ -107,6 +108,12 @@
       "rarity": 5,
       "attribute": "Electro",
       "weapon": "Broadblade",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "Gnawing Fangs",
@@ -150,6 +157,12 @@
       "rarity": 4,
       "attribute": "Fusion",
       "weapon": "Pistols",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "POW POW",
@@ -193,6 +206,12 @@
       "rarity": 4,
       "attribute": "Havoc",
       "weapon": "Sword",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -236,6 +255,12 @@
       "rarity": 5,
       "attribute": "Fusion",
       "weapon": "Rectifier",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -279,6 +304,12 @@
       "rarity": 5,
       "attribute": "Aero",
       "weapon": "Gauntlet",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -322,6 +353,12 @@
       "rarity": 5,
       "attribute": "Aero",
       "weapon": "Broadblade",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -365,6 +402,12 @@
       "rarity": 5,
       "attribute": "Glacio",
       "weapon": "Gauntlet",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -408,6 +451,12 @@
       "rarity": 4,
       "attribute": "Fusion",
       "weapon": "Pistols",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -451,6 +500,12 @@
       "rarity": 5,
       "attribute": "Omni",
       "weapon": "Sword",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -494,6 +549,12 @@
       "rarity": 4,
       "attribute": "Glacio",
       "weapon": "Sword",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -537,6 +598,12 @@
       "rarity": 4,
       "attribute": "Havoc",
       "weapon": "Broadblade",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -580,6 +647,12 @@
       "rarity": 5,
       "attribute": "Spectro",
       "weapon": "Rectifier",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -623,6 +696,12 @@
       "rarity": 4,
       "attribute": "Aero",
       "weapon": "Sword",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -666,6 +745,12 @@
       "rarity": 5,
       "attribute": "Electro",
       "weapon": "Rectifier",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
@@ -709,6 +794,12 @@
       "rarity": 4,
       "attribute": "Electro",
       "weapon": "Gauntlet",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace:": "",
+        "affiliation": ""
+      },
       "skills": {
         "Normal Attack": {
           "skillName": "",
