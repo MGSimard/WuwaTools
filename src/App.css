@@ -62,54 +62,28 @@
 .hl-spectro {
   color: var(--clr-spectro);
 }
+.testSection {
+  overflow: hidden;
+}
 .profile-container {
+  position: relative;
   display: flex;
   gap: 2rem;
-  width: 60%;
   padding: 2rem;
   background-color: rgba(28, 29, 33, 0.6);
   border: var(--glassBorder);
-  overflow-wrap: break-word;
-  overflow: hidden;
+  width: 60%;
 }
-.profile-container .character-card {
+.profile-portrait {
   max-width: 20rem;
-  align-self: flex-start;
-  flex-shrink: 0;
 }
 .profile-data ul:not(:last-child) {
   margin-bottom: 2rem;
-}
-.profile-data ul li:not(:last-child) {
-  margin-bottom: 0.5rem;
 }
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  grid-template-areas:
-    "Intro-Skill Outro-Skill"
-    "Basic-Attack Resonance-Skill"
-    "Basic-Attack Resonance-Liberation"
-    "Forte-Circuit Forte-Circuit";
-}
-.skill-container:nth-child(1) {
-  grid-area: Basic-Attack;
-}
-.skill-container:nth-child(2) {
-  grid-area: Resonance-Skill;
-}
-.skill-container:nth-child(3) {
-  grid-area: Forte-Circuit;
-}
-.skill-container:nth-child(4) {
-  grid-area: Resonance-Liberation;
-}
-.skill-container:nth-child(5) {
-  grid-area: Intro-Skill;
-}
-.skill-container:nth-child(6) {
-  grid-area: Outro-Skill;
 }
 .skill-container {
   background-color: rgba(28, 29, 33, 0.6);

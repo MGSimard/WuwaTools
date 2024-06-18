@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import charactersData from "../assets/characters.json";
-import { CharacterCard } from "../Components/CharacterCard";
 
 export const Route = createFileRoute("/roster/$resonator")({
   component: Resonator,
@@ -19,7 +18,7 @@ function Resonator() {
     );
   }
 
-  const { name, rarity, attribute, weapon, profile, skills } = charData;
+  const { name, rarity, attribute, weapon, profile, skills, image } = charData;
 
   const highlight = (eleType: string, text: string) => {
     const toHL = `${eleType} DMG`;
@@ -38,10 +37,11 @@ function Resonator() {
   return (
     <div>
       <h1>Resonator // {name}</h1>
-      <section>
+      <section className="testSection">
         <h2>Profile Data</h2>
+
         <div className="profile-container">
-          <CharacterCard character={charData} />
+          <img className="profile-portrait" src={`/public/characters/${image.portrait}`} />
           <div className="profile-data">
             <ul>
               <li>
