@@ -516,7 +516,7 @@
         "info": "Jiyan, leader of the Midnight Rangers, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.",
         "gender": "Male",
         "birthplace": "Huanglong",
-        "affiliation": "Jinzhou, Midnight Rangers"
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
@@ -586,50 +586,66 @@
       "attribute": "Glacio",
       "weapon": "Gauntlet",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Lingyang is talented and friendly member of the Liondance Troupe in Jinzhou. His passion and courage are evident as he engages with humans, showcasing his impressive physical abilities. With his unique style, he embodies the spirit of Liondancing.",
+        "gender": "Male",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Majestic Fists",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Lingyang performs up to 5 consecutive attacks, dealing Glacio DMG.",
+            "Basic Attack: Feral Roars": "After Resonance Skill Furious Punches is cast, Basic Attack 5 is replaced with Feral Roars, dealing Glacio DMG.",
+            "Heavy Attack": "Lingyang consumes Stamina to attack the target, dealing Glacio DMG.",
+            "Mid-air Attack": "Lingyang consumes Stamina to perform a Mid-air Plunging Attack, dealing Glacio DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Unification of Spirits",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Heavy Attack: Glorious Plunge": "When Lion's Spirit is full, use Heavy Attack to perform Glorious Plunge, dealing Glacio DMG.",
+            "Mid-air Attack: Tail Strike": "When Lion's Spirit is not full, use Basic Attack after Heavy Attack to perform Tail Strike, dealing Glacio DMG.",
+            "Striding Lion": "After casting Heavy Attack Glorious Plunge, enter Striding Lion state; After casting Intro Skill Lion Awakens or Resonance Liberation Strive: Lion's Vigor, if \"Lion's Spirit\" is full, use Basic Attack to enter Striding Lion state.\n\nIn the Striding Lion state:\n- Attacks can be launched in mid-air. If Lingyang is on the ground, use Heavy Attack Glorious Plunge to get back in the air.\n- \"Lion's Spirit\" is continuously consumed before running out in 5s, and when it runs out, Striding Lion ends;\n- If Lingyang is in the Resonance Liberation Lion's Vigor state, the consumption speed of \"Lion's Spirit\" is reduced by 50%, extending Striding Lion state by up to 10s.\n- Lingyang's Basic Attack is replaced with Basic Attack Feral Gyrate, which performs up to 2 consecutive attacks, dealing Glacio DMG;\n- Lingyang's Resonance Skill is replaced with Mountain Roamer, dealing Glacio DMG;\n- When \"Lion's Spirit\" is less than 10, use Basic Attack to perform Stormy Kicks, dealing Glacio DMG; after beforming Basic Attack Stormy Kicks, the Mid-air Attack Tail Strike becomes available.\n\nConcerto Energy is restored when \"Lion's Spirit\" is consumed.",
+            "Lion's Spirit": "Lingyang can hold up to 100 \"Lion's Spirit\".\n- When casting Resonance Skill Furious Punches, \"Lion's Spirit\" is restored.\n- When casting Intro Skill Lion Awakens, \"Lion's Spirit\" is restored.\n- When casting Resonance Liberation Strive: Lion's Vigor, \"Lion's Spirit\" is restored."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
+          "skillName": "Ancient Arts",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Ancient Arts": "Attack the target, dealing Glacio DMG.",
+            "Furious Punches": "When Basic Attacks 3, 4, or 5 or Basic Attack Feral Roars hits the target, Resonance Skill Ancient Arts is replaced with Resonance Skill Furious Punches. Lingyang's Basic Attack cycle starts from Basic Attack 3 after casting Basic Attack Feral Roars and Resonance Skill Furious Punches in turn.\n\nLingyang's Resonance Skill does not reset his Basic Attack cycle."
+          }
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Strive: Lion's Vigor",
+          "skillDesc": "Attack the target, dealing Glacio DMG, and receive the blessing of Lion's Vigor.",
+          "skillVars": {
+            "Lion's Vigor": "Lingyang's Glacio DMG bonus is increased by 50%."
+          }
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Lion Awakens",
+          "skillDesc": "Lingyang enters the battlefield, dealing Glacio DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Frosty Marks",
+          "skillDesc": "Lingyang releases a shockwave centered on the skill target, dealing Glacio DMG equal to 587.94% of Lingyang's ATK to targets within the range.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Lion's Pride",
+          "skillDesc": "Damage of the Intro Skill Lion Awakens is increased by 50%.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Diligent Practice",
+          "skillDesc": "Under the Forte Circuit Striding Lion state, within 3s after each Basic Attack, the next Forte Circuit Mountain Roamer will deal additional Glacio DMG, equal to 150% of Mountain Roamer damage, considered as Resonance Skill damage",
           "skillVars": {}
         }
       },
