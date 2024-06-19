@@ -2,7 +2,7 @@
   "name": "characters",
   "description": "Wuthering Waves Characters Dataset",
   "version": "1.0.24",
-  "latestAdd": { "name": "Yinlin", "id": 17 },
+  "latestAdd": { "name": "Rover (Havoc)", "id": 18 },
   "data": [
     {
       "id": 2,
@@ -725,9 +725,68 @@
     },
     {
       "id": 1,
-      "name": "Rover",
+      "name": "Rover (Spectro)",
       "rarity": 5,
-      "attribute": "Omni",
+      "attribute": "Spectro",
+      "weapon": "Sword",
+      "profile": {
+        "info": "",
+        "gender": "",
+        "birthplace": "",
+        "affiliation": ""
+      },
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Inherent Skill 1": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        },
+        "Inherent Skill 2": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillVars": {}
+        }
+      },
+      "image": {
+        "icon": "roverM_icon.png",
+        "portrait": "roverM_portrait.png"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Rover (Havoc)",
+      "rarity": 5,
+      "attribute": "Havoc",
       "weapon": "Sword",
       "profile": {
         "info": "",

@@ -10,6 +10,7 @@
   transition: all 0.2s ease-in-out;
 }
 .cc-portrait-container {
+  position: relative;
   overflow: hidden;
   border-radius: 5rem 0;
 }
