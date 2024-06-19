@@ -442,50 +442,62 @@
       "attribute": "Aero",
       "weapon": "Gauntlet",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Jianxin, a Taoist monk and successor of Fengyiquan, has dedicated her life to mastering the ultimate martial art. With the power to harness and transform environmental Chi, she can create protective barriers that purify both body and mind.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Fengyiquan",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Jianxin performs up to 4 consecutive attacks, dealing Aero DMG.",
+            "Heavy Attack": "Jianxin consumes STA to attack the target, dealing Aero DMG.",
+            "Mid-air Attack": "Jianxin consumes STA to plunge and unleash a powerful kick, dealing Aero DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Primordial Chi Spiral",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Heavy Attack: Primordial Chi Spiral": "When \"Chi\" reaches max stacks, hold Heavy Attack to cast Primordial Chi Spiral and start Zhoutian Progress.",
+            "Zhoutian Progress": "Jianxin's resistance to interruption is increased, and her damage taken is reduced by 50%. Jianxin continuously consumes \"Chi\" and casts Chi Strike to attack targets nearby, dealing Aero DMG.\n\nAs Zhoutian Progress accumulates, Jianxin reaches different Zhoutian and gains effects accordingly:\n- Before Minor Zhoutian: Gain Zhoutian Progress 1 shield. When Zhoutian Progress is interrupted, cast Pushing Punch to attack the target, dealing Aero DMG.\n- Minor Zhoutian: Gain Zhoutian Progress 2 shield and cast Shock to attack the target, dealing Aero DMG. When Zhoutian Progress is interrupted, cast Yielding Pull to attack the target, dealing Aero DMG.\n- Major Zhoutian - Inner: Gain Zhoutian Progress 3 shield and cast Shock to attack the target, dealing Aero DMG. When Zhoutian Progress is interrupted, cast Yielding Pull to attack the target, dealing Aero DMG.\n- Major Zhoutian - Outer: Gain Zhoutian Progress 3 shield and cast Shock to attack the target, dealing Aero DMG.\n- When Basic Attack button is released, interrupted Zhoutian Progress and lose all \"Chi\";\n- When all \"Chi\" is consumed, end Zhoutian Progress.\n\nWhen Zhoutian Progress ends, regain a shield according to the Zhoutian Progress reached,. As the shield provided by Heavy Attack: Primordial Chi Spiral persists, the active character is healed once every 6s.",
+            "Chi": "Jianxin can hold up to 120 Chi.\n- Chi is obtained when a Normal Attack Fengyiquan hits the target.\n- Chi is obtained when the Resonance Skill Calming Air is cast.\n- Chi is obtained when the Resonance Skills Chi Counter or Chi Parry hits the target.\n- Chi is obtained when the Intro Skill Essence of Tao hits the target."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Calming Air",
+          "skillDesc": "Hold Resonance Skill to enter Parry Stance.",
+          "skillVars": {
+            "Chi Counter": "When Jianxin is attacked in the Parry Stance, she does not take damage and immediately performs Chi Counter, dealing Aero DMG.",
+            "Chi Parry": "Release the Resonance Skill button during Parry Stance to interrupt Parry Stance and perform Chi Parry, dealing Aero DMG."
+          }
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Purification Force Field",
+          "skillDesc": "Create a strong wind field, continuously pulling targets within the wind field to the center and dealing Aero DMG. When the wind field disappears, it will trigger an explosion to deal Aero DMG to all targets within the range again.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Essence of Tao",
+          "skillDesc": "Pull in targets within the range, dealing Aero DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Transcendence",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Resonance Liberation DMG Amplified by 38% for 14s or until they are switched off field.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Formless Release",
+          "skillDesc": "Damage of Resonance Liberation Purification Force Field is increased by 20%",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Reflection",
+          "skillDesc": "The Shield obtained with Heavy Attack Primordial Chi Spiral is increased by 20%.",
           "skillVars": {}
         }
       },
