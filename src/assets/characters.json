@@ -513,10 +513,10 @@
       "attribute": "Aero",
       "weapon": "Broadblade",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Jiyan, leader of the Midnight Rangers, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.",
+        "gender": "Male",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou, Midnight Rangers"
       },
       "skills": {
         "Normal Attack": {
@@ -533,38 +533,44 @@
           }
         },
         "Forte Circuit": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Qingloong at War",
+          "skillDesc": "When casting Resonance Skill Windqueller, if Jiyan has 30 or more \"Resolve\", he consumes 30 \"Resolve\" to increase the damage of this Resonance Skill Windqueller by 20%. When Jiyan is in Qingloong Mode, DMG of Resonance Skill Windqueller is increased by 20% and no longer consumes \"Resolve\".",
+          "skillVars": {
+            "Resonance Liberation: Emerald Storm: Finale": "When casting Resonance Liberation Emerald Storm: Prelude, if Jiyan has 30 \"Resolve\" or more, he will consume 30 \"Resolve\" to cast Emerald Storm: Finale, dealing Aero DMG, considered as Heavy Attack damage. Emerald Storm: Finale can be cast in mid-air at low altitude.",
+            "Resolve": "Jiyan can hold up to 60 Resolve. Jiyan gains \"Resolve\" when his Normal Attack Lone Lance hits the target. Jiyan gains \"Resolve\" when the Intro Skill Tactical Strike hits the target. If Jiyan does not hit a target within 15s, his \"Resolve\" will gradually decrease."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Windqueller",
+          "skillDesc": "Dash forward a certain distance, dealing Aero DMG. Can be cast in the air.",
           "skillVars": {}
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Emerald Storm: Prelude",
+          "skillDesc": "After releasing Emerald Storm: Prelude, Jiyan enters Qingloong Mode.",
+          "skillVars": {
+            "Qingloong Mode": "Jiyan has increased Anti-interruption; Basic Attack, Heavy Attack and Dodge Counter are replaced with Heavy Attack Lance of Qingloong.",
+            "Heavy Attack: Lance of Qingloong": "Perform up to 3 continuous attacks, dealing Aero DMG, considered as Heavy Attack damage."
+          }
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Tactical Strike",
+          "skillDesc": "Jiyan pierces the target in mid-air, dealing Aero DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Discipline",
+          "skillDesc": "When the next character's (or other characters on a nearby team that activates an Outro Skill) Heavy Attack hits a target, Jiyan will summon Qingloong to launch a Coordinated Attack, dealing Aero DMG equal to 313.40% of Jiyan's ATK. This attack lasts for 8s, and can be triggered once every 1s, up to 2 times.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Heavenly Balance",
+          "skillDesc": "After casting the Intro Skill Tactical Strike, Jiyan's ATK is increased by 10% for 15s.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Wind Gathering",
+          "skillDesc": "When Jiyan's attacks hit a target, Jiyan's Crit. DMG is increased by 12% for 8s.",
           "skillVars": {}
         }
       },
