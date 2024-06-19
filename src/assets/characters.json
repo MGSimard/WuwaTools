@@ -22,7 +22,7 @@
           "skillDesc": "",
           "skillVars": {
             "Basic Attack": "Aalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s.",
-            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot.\n\nThe aimed shot fired after charging finishes deals Aero DMG.",
+            "Heavy Attack": "Aalto enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Aero DMG.",
             "Mid-air Attack": "Aalto consumes STA to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
           }
@@ -173,10 +173,10 @@
           "skillName": "Hunting Mission",
           "skillDesc": "",
           "skillVars": {
-            "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\".\n\nWhen casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
-            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gears state, \"Cruelty\" cannot be acquired.\n\nWhen Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
-            "Heavy Attack: \"Death Messenger\"": "When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\".\n\nWhen casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.",
-            "\"Killing Intent\"": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5.\n\nWhen Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
+            "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
+            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gears state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
+            "Heavy Attack: \"Death Messenger\"": "When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.",
+            "\"Killing Intent\"": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
           }
         },
         "Resonance Skill": {
@@ -293,50 +293,63 @@
       "attribute": "Havoc",
       "weapon": "Sword",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "With a vengeful blade of condensed blood in hand, Ranger Danjin hunts down thieves and bandits for retribution. She journeys to distant lands in pursuit of justice.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Execution",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Danjin performs up to 3 consecutive attacks, dealing Havoc DMG.",
+            "Heavy Attack": "Danjin consumes STA to launch consecutive attacks, dealing Havoc DMG.",
+            "Mid-air Attack": "Consume STA to perform a Mid-air Plunging Attack, dealing Havoc DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to launch an attack, dealing Havoc DMG.",
+            "Dodge Counter: Ruby Shades": "After a successful Dodge Counter, Danjin can use Resonance Skill Crimson Fragment to perform Resonance Skill: Crimson Erosion."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Serene Vigil",
+          "skillDesc": "Chaoscleave, dealing Havoc DMG, considered as Heavy Attack damage, and healing Danjin. If current \"Ruby Blossom\" reaches over 120, 120 \"Ruby Blossom\" is consumed instead to increase the damage multiplier of Chaoscleave and Scatterbloom performed this time.",
+          "skillVars": {
+            "Heavy Attack: Scatterbloom": "Use Basic Attack after Heavy Attack Chaoscleave to cast Scatterbloom to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
+            "Ruby Blossom": "Danjin can hold up to 120 Ruby Blossom. Danjin obtains \"Ruby Blossom\" when using Resonance Skill Crimson Fragment."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
+          "skillName": "Crimson Fragment",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Crimson Erosion": "After Basic Attack 2, Dodge Counter or Intro Skill Vindication, use Resonance Skill to perform up to 2 consecutive strikes, dealing Havoc DMG. When Crimson Erosion 2 hits a target, apply Incinerating Will to it.",
+            "Incinerating Will": "Danjin's damage dealt to targets marked with Incinerating Will is increased by 20%.",
+            "Sanguine Pulse": "Use Resonance Skill after Basic Attack 3 to perform up to 3 consecutive attacks, dealing Havoc DMG."
+          }
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Crimson Bloom",
+          "skillDesc": "Danjin's anger intensifies as she frantically swings her dual blades, performing multiple rapid consecutive attacks, and 1 Scarlet Burst attack(s), dealing Havoc DMG.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Vindication",
+          "skillDesc": "With unwavering determination, Danjin unleashes a strike, dealing Havoc DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Duality",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Havoc DMG Amplified by 23% for 14s or until they are switched off field.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Crimson Light",
+          "skillDesc": "Damage of Resonance Skill Crimson Erosion triggered by Dodge Counter: Ruby Shades is increased by 20%. The HP cost and stacks of \"Ruby Blossom\" recovered are doubled.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Overflow",
+          "skillDesc": "After casting the Resonance Skill Sanguine Pulse, Danjin's Heavy Attack damage is increased by 30% for 5s.",
           "skillVars": {}
         }
       },
