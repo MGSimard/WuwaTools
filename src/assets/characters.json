@@ -520,9 +520,17 @@
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Lone Lance",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Jiyan performs up to 5 consecutive attacks, dealing Aero DMG.",
+            "Heavy Attack": "Jiyan consumes Stamina to thrust forward, dealing Aero DMG.",
+            "Heavy Attack: Windborne Strike": "Hold the Basic Attack during Heavy Attack to cast Windborne Strike after the Heavy Attack ends, dealing Aero DMG.",
+            "Heavy Attack: Abyssal Slash": "Release the Basic Attack during the Heavy Attack to cast Abyssal Slash after the Heavy Attack ends, dealing Aero DMG.",
+            "Mid-air Attack": "Jiyan consumes Stamina to perform a Mid-Air Plunging Attack, dealing Aero DMG. After the Plunging Attack, use Basic Attack to perform a follow-up attack, dealing Aero DMG.",
+            "Mid-air Attack: Banner of Triumph": "After casting the Heavy Attack Windborne Strike or the Resonance Skill Windqueller in the air, Jiyan can perform a mid-air attack, dealing Aero DMG.",
+            "Dodge Counter": "Use a Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
+          }
         },
         "Forte Circuit": {
           "skillName": "",

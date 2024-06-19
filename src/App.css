@@ -67,7 +67,6 @@
   display: flex;
   gap: 2rem;
   padding: 2rem;
-  background-color: rgba(28, 29, 33, 0.6);
   border: var(--glassBorder);
 }
 .profile-portrait {
@@ -85,10 +84,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-}
-.skill-container {
-  background-color: rgba(28, 29, 33, 0.6);
-  border: var(--glassBorder);
 }
 .sc-head,
 .sc-body {
@@ -228,8 +223,6 @@
 /* GLASS */
 .glass {
   background-color: rgba(28, 29, 33, 0.6);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
   border: var(--glassBorder);
 }
 

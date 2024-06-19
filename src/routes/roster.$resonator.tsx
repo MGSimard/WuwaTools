@@ -39,8 +39,8 @@ function Resonator() {
       <h1>Resonator // {name}</h1>
       <section>
         <h2>▸ Profile Data</h2>
-        <div className="profile-container">
-          <img className="profile-portrait" src={`/characters/${image.portrait}`} />
+        <div className="profile-container glass">
+          <img className="profile-portrait" src={`/characters/${image.portrait}`} alt={`${name} portrait`} />
           <div className="profile-data">
             <table className="pd-table">
               <tbody>
@@ -86,7 +86,7 @@ function Resonator() {
         <h2>▸ Skills</h2>
         <div className="skills-container">
           {Object.entries(skills).map(([skill, skillContents]) => (
-            <div key={skill} className="skill-container">
+            <div key={skill} className="skill-container glass">
               <div className="sc-head">
                 <h3>{skill}</h3>
                 <h4>{skillContents.skillName}</h4>
