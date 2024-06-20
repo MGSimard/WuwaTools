@@ -86,6 +86,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+.skill-container:nth-child(1),
+.skill-container:nth-child(2) {
+  grid-column: span 2;
+}
 .sc-head,
 .sc-body {
   padding: 1rem 2rem;
