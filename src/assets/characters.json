@@ -724,6 +724,74 @@
       }
     },
     {
+      "id": 18,
+      "name": "Rover (Havoc)",
+      "rarity": 5,
+      "attribute": "Havoc",
+      "weapon": "Sword",
+      "profile": {
+        "info": "?",
+        "gender": "?",
+        "birthplace": "?",
+        "affiliation": "?"
+      },
+      "skills": {
+        "Normal Attack": {
+          "skillName": "Tuneslayer",
+          "skillDesc": "",
+          "skillVars": {
+            "Basic Attack": "Rover-Havoc performs up to 5 consecutive attacks, dealing Havoc DMG.",
+            "Heavy Attack": "Rover-Havoc consumes STA to attack, dealing Havoc DMG. Use Basic Attack after casting Heavy Attack to cast Basic Attack 4.",
+            "Mid-air Attack": "Rover-Havoc consumes STA to cast a Mid-Air Plunging ATtack, dealing Havoc DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
+          }
+        },
+        "Forte Circuit": {
+          "skillName": "Umbra Eclipse",
+          "skillDesc": "",
+          "skillVars": {
+            "Devastation": "When \"Umbra\" is full, hold Basic Attack to cast Devastation to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
+            "Dark Surge": "After casting Devastation, Rover enters the Dark Surge state. In this state:\n- Basic Attack is replaced with Enhanced Basic Attack, which performs up to 5 consecutive attacks, dealing Havoc DMG;\n- Heavy Attack is replaced with Enhanced Heavy Attack;\n- Use Basic Attack after casting Enhanced Heavy Attack to cast Heavy Attack Thwackblade to attack the target, dealing Havoc DMG, considered as Heavy Attack damage;\n- Use Basic Attack after casting Heavy ATtack Thwackblade to cast Enhanced Basic Attack 3 to attack the target, dealing Havoc DMG;\n- Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing Havoc DMG.",
+            "Umbra": "Rover can hold up to 100 points of Umbra.\n- Normal Attack Tuneslayer recovers Umbra on hit.\n- Resonance Skill Wingblade recovers Umbra when cast.\n- Resonance Skill Lifetaker recovers Umbra when cast.\n- Intro Skill Instant of Annihilation recovers Umbra when cast."
+          }
+        },
+        "Resonance Skill": {
+          "skillName": "Wingblade",
+          "skillDesc": "Transform sound into feathers, dealing Havoc DMG.",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "Deadening Abyss",
+          "skillDesc": "Rover gathers resonating sounds to attack a target, dealing Havoc DMG.",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "Instant of Annihilation",
+          "skillDesc": "Attack the target, dealing Havoc DMG.",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Soundweaver",
+          "skillDesc": "Rover summons a Havoc Field, dealing Havoc DMG equal to 143.3% of Rover's ATK to all targets within range every 2s for 6s.",
+          "skillVars": {}
+        },
+        "Inherent Skill 1": {
+          "skillName": "Metamorph",
+          "skillDesc": "In the Dark Surge state, Havoc DMG bonus is increased by 20%.",
+          "skillVars": {}
+        },
+        "Inherent Skill 2": {
+          "skillName": "Bleak Crescendo",
+          "skillDesc": "While in the Dark Surge state, Basic Attack recovers 1 extra Resonance Energy when it hits a target, and this effect can be triggered 1 time per second.",
+          "skillVars": {}
+        }
+      },
+      "image": {
+        "icon": "roverM_icon.png",
+        "portrait": "roverM_portrait.png"
+      }
+    },
+    {
       "id": 1,
       "name": "Rover (Spectro)",
       "rarity": 5,
@@ -782,65 +850,7 @@
         "portrait": "roverM_portrait.png"
       }
     },
-    {
-      "id": 18,
-      "name": "Rover (Havoc)",
-      "rarity": 5,
-      "attribute": "Havoc",
-      "weapon": "Sword",
-      "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
-      },
-      "skills": {
-        "Normal Attack": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Forte Circuit": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        },
-        "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
-        }
-      },
-      "image": {
-        "icon": "roverM_icon.png",
-        "portrait": "roverM_portrait.png"
-      }
-    },
+
     {
       "id": 11,
       "name": "Sanhua",
