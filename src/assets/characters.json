@@ -798,50 +798,61 @@
       "attribute": "Spectro",
       "weapon": "Sword",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "?",
+        "gender": "?",
+        "birthplace": "?",
+        "affiliation": "?"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Vibration Manifestation",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Rover performs up to 4 consecutive attacks, dealing Spectro DMG.",
+            "Heavy Attack": "Rover consumes STA to attack the target, dealing Spectro DMG.",
+            "Heavy Attack: Resonance": "After Basic Attack 3 or Heavy ATtack, press the Basic Attack button at the right time to perform Heavy Attack Resonance, dealing Spectro DMG.",
+            "Heavy Attack: Aftertune": "After Heavy Attack Resonance or Dodge Counter hits a target, press the Basic Attack button to perform Heavy Attack Aftertune, dealing Spectro DMG.",
+            "Mid-air Attack": "Rover consumes STA to perform a Mid-Air Plunging ATtack, dealing Spectro DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Spectro DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "World in a Grain of Sand",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Resonance Skill: Resonating Spin": "If \"Diminutive Sound\" exceeds 50 when Resonance Skill is used, Rover consumes 50 \"Diminutive Sound\" to cast Resonating Spin, dealing Spectro DMG, considered as Resonance SKill damage.",
+            "Basic Attack: Resonating Echoes": "After Resonance Skill Resonating Spin ends, Rover performs Resonating Echoes upon using Basic Attack.\n\nLaunch attacks forward, dealing Spectro DMG, considered as Resonance Skill DMG.",
+            "Diminutive Sound": "Rover can hold up to 100 \"Diminutive Sounds\".\n- Rover obtains \"Diminutive Sound\" for every Normal Attack Vibraton Manifestation on hit.\n- Rover obtains \"Diminutive Sound\" for every Heavy ATtack Aftertune on hit.\n- Rover obtains \"Diminutive Sound\" upon casting Intro Skill Waveshock."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Resonating Slashes",
+          "skillDesc": "Rover launches an attack forward, dealing Spectro DMG.",
           "skillVars": {}
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Echoing Orchestra",
+          "skillDesc": "Rover converges Spectro energy to assail the target area, detonating it after a short delay and dealing Spectro DMG.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Waveshock",
+          "skillDesc": "Rover attacks the target, dealing Spectro DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Instant",
+          "skillDesc": "Generate an area of stasis surrounding the next character (or a character on a nearby team that activates an Outro Skill), lasting for 3s.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Reticence",
+          "skillDesc": "Damage dealt by Rover's Basic Attack Resonating Echoes is increased by 60%.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Silent Listener",
+          "skillDesc": "Rover gains 15% ATK increase for 5s upon casting Heavy Attack Resonance.",
           "skillVars": {}
         }
       },
