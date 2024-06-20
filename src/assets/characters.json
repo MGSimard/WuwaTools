@@ -694,7 +694,7 @@
           "skillName": "Violent Finale",
           "skillDesc": "Deal Fusion DMG, and apply Burning Rhapsody to all characters on the team.",
           "skillVars": {
-            "Burning Rhapsody": "- When the active character's Basic Attack hits the target, Mortefi launches a Coordinated Attack, firing 1 Marcato.\n- When the active character's Heavy Attack hits the target, Mortefi launches a Coordinated ATtack, firing 2 Marcato.\n\nMortefi can launch one Coordinated Attack every 0.35s."
+            "Burning Rhapsody": "- When the active character's Basic Attack hits the target, Mortefi launches a Coordinated Attack, firing 1 Marcato.\n- When the active character's Heavy Attack hits the target, Mortefi launches a Coordinated Attack, firing 2 Marcato.\n\nMortefi can launch one Coordinated Attack every 0.35s."
           }
         },
         "Intro Skill": {
@@ -704,7 +704,7 @@
         },
         "Outro Skill": {
           "skillName": "Rage Transposition",
-          "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Heavy ATtack damage amplified by 38% for 14s or until they are switched off field.",
+          "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Heavy Attack damage amplified by 38% for 14s or until they are switched off field.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
@@ -742,7 +742,7 @@
           "skillVars": {
             "Basic Attack": "Rover-Havoc performs up to 5 consecutive attacks, dealing Havoc DMG.",
             "Heavy Attack": "Rover-Havoc consumes STA to attack, dealing Havoc DMG. Use Basic Attack after casting Heavy Attack to cast Basic Attack 4.",
-            "Mid-air Attack": "Rover-Havoc consumes STA to cast a Mid-Air Plunging ATtack, dealing Havoc DMG.",
+            "Mid-air Attack": "Rover-Havoc consumes STA to cast a Mid-Air Plunging Attack, dealing Havoc DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
           }
         },
@@ -751,7 +751,7 @@
           "skillDesc": "",
           "skillVars": {
             "Devastation": "When \"Umbra\" is full, hold Basic Attack to cast Devastation to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
-            "Dark Surge": "After casting Devastation, Rover enters the Dark Surge state. In this state:\n- Basic Attack is replaced with Enhanced Basic Attack, which performs up to 5 consecutive attacks, dealing Havoc DMG;\n- Heavy Attack is replaced with Enhanced Heavy Attack;\n- Use Basic Attack after casting Enhanced Heavy Attack to cast Heavy Attack Thwackblade to attack the target, dealing Havoc DMG, considered as Heavy Attack damage;\n- Use Basic Attack after casting Heavy ATtack Thwackblade to cast Enhanced Basic Attack 3 to attack the target, dealing Havoc DMG;\n- Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing Havoc DMG.",
+            "Dark Surge": "After casting Devastation, Rover enters the Dark Surge state. In this state:\n- Basic Attack is replaced with Enhanced Basic Attack, which performs up to 5 consecutive attacks, dealing Havoc DMG;\n- Heavy Attack is replaced with Enhanced Heavy Attack;\n- Use Basic Attack after casting Enhanced Heavy Attack to cast Heavy Attack Thwackblade to attack the target, dealing Havoc DMG, considered as Heavy Attack damage;\n- Use Basic Attack after casting Heavy Attack Thwackblade to cast Enhanced Basic Attack 3 to attack the target, dealing Havoc DMG;\n- Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing Havoc DMG.",
             "Umbra": "Rover can hold up to 100 points of Umbra.\n- Normal Attack Tuneslayer recovers Umbra on hit.\n- Resonance Skill Wingblade recovers Umbra when cast.\n- Resonance Skill Lifetaker recovers Umbra when cast.\n- Intro Skill Instant of Annihilation recovers Umbra when cast."
           }
         },
@@ -810,9 +810,9 @@
           "skillVars": {
             "Basic Attack": "Rover performs up to 4 consecutive attacks, dealing Spectro DMG.",
             "Heavy Attack": "Rover consumes STA to attack the target, dealing Spectro DMG.",
-            "Heavy Attack: Resonance": "After Basic Attack 3 or Heavy ATtack, press the Basic Attack button at the right time to perform Heavy Attack Resonance, dealing Spectro DMG.",
+            "Heavy Attack: Resonance": "After Basic Attack 3 or Heavy Attack, press the Basic Attack button at the right time to perform Heavy Attack Resonance, dealing Spectro DMG.",
             "Heavy Attack: Aftertune": "After Heavy Attack Resonance or Dodge Counter hits a target, press the Basic Attack button to perform Heavy Attack Aftertune, dealing Spectro DMG.",
-            "Mid-air Attack": "Rover consumes STA to perform a Mid-Air Plunging ATtack, dealing Spectro DMG.",
+            "Mid-air Attack": "Rover consumes STA to perform a Mid-Air Plunging Attack, dealing Spectro DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Spectro DMG."
           }
         },
@@ -822,7 +822,7 @@
           "skillVars": {
             "Resonance Skill: Resonating Spin": "If \"Diminutive Sound\" exceeds 50 when Resonance Skill is used, Rover consumes 50 \"Diminutive Sound\" to cast Resonating Spin, dealing Spectro DMG, considered as Resonance SKill damage.",
             "Basic Attack: Resonating Echoes": "After Resonance Skill Resonating Spin ends, Rover performs Resonating Echoes upon using Basic Attack.\n\nLaunch attacks forward, dealing Spectro DMG, considered as Resonance Skill DMG.",
-            "Diminutive Sound": "Rover can hold up to 100 \"Diminutive Sounds\".\n- Rover obtains \"Diminutive Sound\" for every Normal Attack Vibraton Manifestation on hit.\n- Rover obtains \"Diminutive Sound\" for every Heavy ATtack Aftertune on hit.\n- Rover obtains \"Diminutive Sound\" upon casting Intro Skill Waveshock."
+            "Diminutive Sound": "Rover can hold up to 100 \"Diminutive Sounds\".\n- Rover obtains \"Diminutive Sound\" for every Normal Attack Vibraton Manifestation on hit.\n- Rover obtains \"Diminutive Sound\" for every Heavy Attack Aftertune on hit.\n- Rover obtains \"Diminutive Sound\" upon casting Intro Skill Waveshock."
           }
         },
         "Resonance Skill": {
@@ -881,7 +881,7 @@
           "skillVars": {
             "Basic Attack": "Sanhua performs up to 5 consecutive attacks, dealing Glacio DMG.",
             "Heavy Attack": "Sanhua consumes STA to launch attacks, dealing Glacio DMG.",
-            "Mid-air Attack": "Sanhua consumes STA to perform a Mid-Air Plunging ATtack, dealing Glacio DMG.",
+            "Mid-air Attack": "Sanhua consumes STA to perform a Mid-Air Plunging Attack, dealing Glacio DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
           }
         },
