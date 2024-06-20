@@ -869,50 +869,59 @@
       "attribute": "Glacio",
       "weapon": "Sword",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "The bodyguard of Jinzhou's Magistrate, known for having an icy personality. Once regarded as the Asura of Calamity, Sanhua is now a taciturn guardian. She has learned to maintain inner calmness amidst the chaotic frequencies, and the things that once frightened her now fuel her determination.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Frigid Light",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Sanhua performs up to 5 consecutive attacks, dealing Glacio DMG.",
+            "Heavy Attack": "Sanhua consumes STA to launch attacks, dealing Glacio DMG.",
+            "Mid-air Attack": "Sanhua consumes STA to perform a Mid-Air Plunging ATtack, dealing Glacio DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Clarity of Mind",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Heavy Attack: Detonate": "When holding Basic Attack, a cursor moves back and forth on the Forte Gauge. Release Basic Attack while the cursor falls in the \"Frostbite\" area to perform Heavy Attack Detonate, dealing Glacio DMG considered as Heavy Attack damage.",
+            "Ice Burst": "Sanhua's Heavy Attack Detonate detonates all \"Ice Thorns\", \"Ice Prisms\" and \"Glaciers\" within her attack range, dealing Glacio DMG. Ice Burst deals Resonance Skill DMG.",
+            "Frostbite Area": "The \"Frostbite\" area expands with every 1 stack of \"Clarity\". Clarity stacks up to 2 times.\n- Sanhua obtains 1 stack of Clarity upon performing Basic Attack 5.\n- Sanhua obtains 1 stack of Clarity upon casting Intro Skill Freezing Thorns.\n- Sanhua obtains 1 stack of Clarity upon casting Resonance Skill Eternal Frost.\n- Sanhua obtains 2 stacks of Clarity upon casting Resonance Liberation Glacial Gaze.\n\n Upon casting Heavy Attack Detonate, all \"Clarity\" is removed."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Eternal Frost",
+          "skillDesc": "Sanhua sends an air blade to create 1 \"Ice Prism\" on the ground, dealing Glacio DMG.",
           "skillVars": {}
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Glacial Gaze",
+          "skillDesc": "Sanhua deals Glacio DMG and creates 1 \"Glacier\".",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Freezing Thorns",
+          "skillDesc": "Sanhua swings her blade downward and creates 1 \"Ice Thorn\", dealing Glacio DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Silversnow",
+          "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Basic Attack damage amplified by 38% for 14s or until they are switched off field.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Condensation",
+          "skillDesc": "Damage dealt by Sanhua's Resonance Skill increased by 20% for 8s after casting her Intro Skill.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Avalanche",
+          "skillDesc": "Damage dealt by Sanhua's Forte Circuit Ice Brust is increased by 20% for 8s after casting Basic Attack 5.",
           "skillVars": {}
         }
       },
