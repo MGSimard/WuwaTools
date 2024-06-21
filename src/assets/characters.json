@@ -821,7 +821,7 @@
           "skillDesc": "",
           "skillVars": {
             "Resonance Skill: Resonating Spin": "If \"Diminutive Sound\" exceeds 50 when Resonance Skill is used, Rover consumes 50 \"Diminutive Sound\" to cast Resonating Spin, dealing Spectro DMG, considered as Resonance SKill damage.",
-            "Basic Attack: Resonating Echoes": "After Resonance Skill Resonating Spin ends, Rover performs Resonating Echoes upon using Basic Attack.\n\nLaunch attacks forward, dealing Spectro DMG, considered as Resonance Skill DMG.",
+            "Basic Attack: Resonating Echoes": "After Resonance Skill Resonating Spin ends, Rover performs Resonating Echoes upon using Basic Attack. Launch attacks forward, dealing Spectro DMG, considered as Resonance Skill DMG.",
             "Diminutive Sound": "Rover can hold up to 100 \"Diminutive Sounds\".\n- Rover obtains \"Diminutive Sound\" for every Normal Attack Vibraton Manifestation on hit.\n- Rover obtains \"Diminutive Sound\" for every Heavy Attack Aftertune on hit.\n- Rover obtains \"Diminutive Sound\" upon casting Intro Skill Waveshock."
           }
         },
