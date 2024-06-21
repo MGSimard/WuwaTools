@@ -102,8 +102,8 @@
           "skillDesc": "",
           "skillVars": {
             "You'tan": "A Remnant Creature that answers to Baizhi's mind and desires while sharing all her stats. You'tan goes back to Baizhi when Baizhi dodges.",
-            "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously heal all characters on nearby teams. Each 1 \"Concentration\" consumed provides 1 healing. The healings happens every 2s.\n\nWhen Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy;\n\nWhen Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
-            "Forte Gauge: Concentration": "Baizhi can hold up to 4 \"Concentrations\". Baizhi obtains 1 \"Concentration\" for every Basic Attack on hit."
+            "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously heal all characters on nearby teams. Each 1 \"Concentration\" consumed provides 1 healing. The healings happens every 2s.\n- When Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy;\n- When Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
+            "Forte Gauge: Concentration": "Baizhi can hold up to 4 \"Concentrations\".\n- Baizhi obtains 1 \"Concentration\" for every Basic Attack on hit."
           }
         },
         "Resonance Skill": {
@@ -174,7 +174,7 @@
           "skillDesc": "",
           "skillVars": {
             "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
-            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gears state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
+            "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\".\n- Under Resonance Liberation Deathblade Gears state, \"Cruelty\" cannot be acquired.\n- When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
             "Heavy Attack: \"Death Messenger\"": "When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.",
             "\"Killing Intent\"": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
           }
@@ -315,7 +315,7 @@
           "skillDesc": "Chaoscleave, dealing Havoc DMG, considered as Heavy Attack damage, and healing Danjin. If current \"Ruby Blossom\" reaches over 120, 120 \"Ruby Blossom\" is consumed instead to increase the damage multiplier of Chaoscleave and Scatterbloom performed this time.",
           "skillVars": {
             "Heavy Attack: Scatterbloom": "Use Basic Attack after Heavy Attack Chaoscleave to cast Scatterbloom to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
-            "Ruby Blossom": "Danjin can hold up to 120 Ruby Blossom. Danjin obtains \"Ruby Blossom\" when using Resonance Skill Crimson Fragment."
+            "Ruby Blossom": "Danjin can hold up to 120 Ruby Blossom.\n- Danjin obtains \"Ruby Blossom\" when using Resonance Skill Crimson Fragment."
           }
         },
         "Resonance Skill": {
@@ -537,7 +537,7 @@
           "skillDesc": "When casting Resonance Skill Windqueller, if Jiyan has 30 or more \"Resolve\", he consumes 30 \"Resolve\" to increase the damage of this Resonance Skill Windqueller by 20%. When Jiyan is in Qingloong Mode, DMG of Resonance Skill Windqueller is increased by 20% and no longer consumes \"Resolve\".",
           "skillVars": {
             "Resonance Liberation: Emerald Storm: Finale": "When casting Resonance Liberation Emerald Storm: Prelude, if Jiyan has 30 \"Resolve\" or more, he will consume 30 \"Resolve\" to cast Emerald Storm: Finale, dealing Aero DMG, considered as Heavy Attack damage. Emerald Storm: Finale can be cast in mid-air at low altitude.",
-            "Resolve": "Jiyan can hold up to 60 Resolve. Jiyan gains \"Resolve\" when his Normal Attack Lone Lance hits the target. Jiyan gains \"Resolve\" when the Intro Skill Tactical Strike hits the target. If Jiyan does not hit a target within 15s, his \"Resolve\" will gradually decrease."
+            "Resolve": "Jiyan can hold up to 60 Resolve.\n- Jiyan gains \"Resolve\" when his Normal Attack Lone Lance hits the target.\n- Jiyan gains \"Resolve\" when the Intro Skill Tactical Strike hits the target. If Jiyan does not hit a target within 15s, his \"Resolve\" will gradually decrease."
           }
         },
         "Resonance Skill": {
@@ -937,50 +937,62 @@
       "attribute": "Havoc",
       "weapon": "Broadblade",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Taoqi is the director of border defense at the Ministry of Development. Despite her seemingly laid-back demeanor, she consistently proves to be a dependable and supportive individual, always lending her hand to those in need. Taoqi is not only a reliable colleague, but also a trustworthy friend that people can confide in.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Concealed Edge",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Taoqi performs up to 4 continuous attacks, dealing Havoc DMG.",
+            "Heavy Attack": "Taoqi consumes STA to deal Havoc DMG. If Basic Attack button is held, Taoqi enters Rocksteady Defense state.",
+            "Rocksteady Defense": "Taoqi's damage taken is reduced by 35%;\n- When Taoqi is attacked during Rocksteady Defense, she will cast Strategic Parry;\n- Strategic Parry is automatically cast after Rocksteady Defense lasts for 3s;\n- If Taoqi is attacked when casting Resonance Skill Rocksteady Shield, Strategic Parry is automatically cast.",
+            "Strategic Parry": "Taoqi attacks the target, dealing Havoc DMG.",
+            "Mid-air Attack": "Taoqi consumes STA to perform a Mid-Air Plunging Attack, dealing Havoc DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Power Shift",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Timed Counters": "When carrying \"Resolving Caliber\", use Basic Attack after Heavy Attack Strategic Parry or Intro Skill Defense Formation to cast Timed Counters, performing up to 3 consecutive attacks, dealing Havoc DMG, considered as Basic Attack damage.\n- Timed Counters consume 1 \"Resolving Caliber\" upon hitting an enemy to grand a shield.\n- After casting the Intro Skill Defense Formation, use Basic Attack to directly cast Timed Counters.",
+            "Resolving Caliber": "Taoqi can hold up to 3 Resolving Caliber.\n- Basic Attack 4 will consume all of Taoqi's \"Rocksteady Shields\" to grant that many \"Resolving Caliber\".\n- While Rocksteady Shield exists, when the active character is attacked, 1 \"Rocksteady Shield\" will be consumed to recover \"Resolving Caliber\".\n- After Rocksteady Shield ends, all remaining \"Rocksteady Shield\" will be consumed to grant that many \"Resolving Caliber\"."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillVars": {}
+          "skillName": "Fortified Defense",
+          "skillDesc": "Taoqi deals Havoc DMG to surrounding targets, generating 3 Rocksteady Shield and healing herself. If attacked when casting Fortified Defense, Strategic Parry will be automatically cast.",
+          "skillVars": {
+            "Rocksteady Shield": "When the active character on the team is attacked, 1 Rocksteady Shield is consumed to reduce the damage taken."
+          }
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Unmovable",
+          "skillDesc": "Launch an attack based on Taoqi's DEF to the target, dealing Havoc DMG.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Defense Formation",
+          "skillDesc": "Attack the target, dealing Havoc DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Iron Will",
+          "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Resonance Skill damage amplified by 38% for 14s or until they are switched off field.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Steadfast Protection",
+          "skillDesc": "While Resonance Skill Rocksteady Shield lasts, the Character's DEF is increased by 15%.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Unyielding",
+          "skillDesc": "After Heavy Attack Strategic Parry is successfully triggered, 25 Stamina is recovered.",
           "skillVars": {}
         }
       },
