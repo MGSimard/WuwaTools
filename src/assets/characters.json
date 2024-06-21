@@ -1022,7 +1022,7 @@
             "Heavy Attack": "Verina consumes STA to charge forward, dealing Spectro DMG.",
             "Mid-air Attack": "Verina consumes STA to perform up to 3 consecutive attacks in mid-air, dealing Spectro DMG.",
             "Mid-air Heavy Attack": "Hold Basic Attack to consume STA and perform a mid-air Plunging Attack, dealing Spectro DMG.",
-            "Dodge Counter": "Use Basic ATtack after a successful Dodge to attack the target, dealing SPectro DMG."
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing SPectro DMG."
           }
         },
         "Forte Circuit": {
@@ -1079,50 +1079,60 @@
       "attribute": "Aero",
       "weapon": "Sword",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Yangyang is an Outrider of the Midnight Rangers. Once sheltered, now a fighter. She soars with the wind to protect others, like a skylark in flight.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Feather as Blade",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Yangyang performs up to 4 consecutive attacks, dealing Aero DMG.",
+            "Heavy Attack": "Yangyang consumes STA to lunge forward, dealing Aero DMG.",
+            "Heavy Attack: Zephyr Song": "Use Basic Attack after Heavy Attack or Dodge counter to perform Heavy Attack Zephyr Song, dealing Aero DMG.",
+            "Mid-air Attack": "Yangyang consumes STA to perform a Plunging Attack from mid-air, dealing Aero DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to thrust forward, dealing Aero DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Echoing Feathers",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Heavy Attack: Stormy Strike": "When Yangyang has 3 Melodies, she can cast Stormy Strike after Heavy ATtack or Dodge Counter, dealing Aero DMG.",
+            "Mid-air Attack: Feather Release": "When Yangyang has 3 Melodies, cast Basic Attack in mid-air to consume all Melodies and perform consecutive strikes, diving from mid-air, dealing Aero DMG. As Yangyang lands, she sheathes her sword with an attack, dealing Aero DMG, considered as Basic Attack damage.",
+            "Melody": "Yangyang can hold up to 3 Melodies.\n- Yangyang obtains 1 Melody with every Basic Attack 4 on hit.\n- Yangyang obtains 1 Melody for every Heavy Attack Zephyr Song on hit.\n- Yangyang obtains 1 Melody for every Resonance Skill Zephyr Domain on hit.\n- Yangyang obtains 1 Melody upon casting Intro Skill Cerulean Song."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Zephyr Domain",
+          "skillDesc": "Yangyang wields her sword to create a whirling vortex of winds that gathers nearby enemies to the center, dealing Aero DMG.",
           "skillVars": {}
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Wind Spirals",
+          "skillDesc": "Yangyang conjures a mighty Cyclone that gathers nearby enemies, dealing Aero DMG.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Cerulean Song",
+          "skillDesc": "Yangyang sends the target into the air, dealing Aero DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Whispering Breeze",
+          "skillDesc": "Yangyang recovers 4 Resonance Energy per second over 5s for the incoming character (or a character on a nearby team that activates an Outro Skill).",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Compassion",
+          "skillDesc": "Yangyang recovers 30 STA after she casts a Mid-air Attack Feather Release.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Lazuline Mercy",
+          "skillDesc": "Yangyang's Aero DMG bonus is increased by 8% for 8s after casting Intro Skill Cerulean Song.",
           "skillVars": {}
         }
       },
