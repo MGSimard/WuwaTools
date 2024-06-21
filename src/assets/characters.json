@@ -1222,50 +1222,63 @@
       "attribute": "Electro",
       "weapon": "Gauntlet",
       "profile": {
-        "info": "",
-        "gender": "",
-        "birthplace": "",
-        "affiliation": ""
+        "info": "Yuanwu owns a boxing gym where he teaches martial arts and health management. He is well-respected in the community for his cordial demeanor and pleasant temperament.",
+        "gender": "Male",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Leihuangquan",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Basic Attack": "Yuanwu performs up to 5 consecutive attacks, dealing Electro DMG.",
+            "Heavy Attack": "Yuanwu consumes STA to attack the target, dealing Electro DMG.",
+            "Mid-air Attack": "Yuanwu consumes STA to launch a Mid-air Plunging Attack, dealing Electro DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Unassuming Blade",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Rumbling Spark": "When \"Readiness\" is full, long press Resonance Skill to consume all \"Readiness\" and cast Rumbling Spark, dealing Electro DMG and entering the Lightning Infused state.",
+            "Thunder Uprising": "When \"Readiness\" is full, Resonance Skill Thunder Wedge will be replaced with Thunder Uprising, dealing Electro DMG.",
+            "Lightning Infused": "The character in Lightning Infused state has a greatly increased resistance to interruption. When Yuanwu is in this state:\n- Basic Attacks: Hits targets in a larger range, reduce enemy Vibration Strength with increased efficiency;\n- Heavy Attacks: Have increased attack speed, reduce enemy Vibration Strength with increased efficiency;\n- Dodge Counters: Have increased attack speed, reduce enemy Vibration Strength with increased efficiency.\n- Use Basic Attack within 3s after casting a Heavy Attack or a successful Counterattack to cast Thunderweaver, dealing Electro DMG, considered as Basic Attack damage;\n- Does not recover \"Readiness\".",
+            "Readiness": "Yuanwu can hold up to 100 \"Readiness\".\n- When Resonance Skill Thunder Wedge is on the field, Yuanwu gains 6 \"Readiness\" every second, even when he is not the active character;\n- When Resonance Skill Thunder Wedge hits a target with a Coordinated Attack, Yuanwu gains 5 \"Readiness\"."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
+          "skillName": "Leihuang Master",
           "skillDesc": "",
-          "skillVars": {}
+          "skillVars": {
+            "Thunder Wedge": "Yuanwu summons Thunder Wedge, dealing Electro DMG, and forms a Thunder Field centered on the Thunder Wedge. Thunder Wedge lasts for 12s. Forte Circuit Rumbling Spark and Resonance Liberation Blazing Might will immediately detonate Resonance Skill Thunder Wedge on the field, dealing Electro DMG, considered as Resonance Skill damage.",
+            "Thunder Field": "The active character gains the effects below when in the Thunder Field:\n- A Coordinated Attack from Resonance Skill Thunder Wedge is triggered when attacks hit a target, dealing Electro DMG.\n- This can be triggered once every 1.s. The effect lasts for 1.5s."
+          }
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Blazing Might",
+          "skillDesc": "Awaken the power of thunder and provide Forte Circuit Lightning Infused tstatus to all characters on a nearby team for 10s, then perform a powerful blow that deals Electro DMG.",
           "skillVars": {}
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Thnuder Bombardment",
+          "skillDesc": "Attack the target, dealing Electro DMG.",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Lightning Manipulation",
+          "skillDesc": "Yuanwu unleashes thunderbolts in an area cnetered around the skill target, greatly reducing the Vibration Strength of enemies upon impact.",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Thunderous Determination",
+          "skillDesc": "The damage multiplier of Resonance Skill Thunder Uprising is increased by 40%, and its reduction efficiency of enemy Vibration Strength is enhanced.",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
+          "skillName": "Reserved Confidence",
+          "skillDesc": "The ranges of the Resonance Skills Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if \"Readiness\" is not full, Yuanwu will automatically leave 1 Resonance Skill Thunder Wedge in place.",
           "skillVars": {}
         }
       },
