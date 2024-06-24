@@ -418,7 +418,7 @@
         "Normal Attack": {
           "skillName": "Wooly Attack",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Encore_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Encore performs up to 4 consecutive attacks, dealing Fusion DMG.",
             "Basic Attack: Wooly Strike": "After Basic Attack 4, press the Basic Attack button to attack the target, dealing Fusion DMG.",
@@ -430,7 +430,7 @@
         "Forte Circuit": {
           "skillName": "Black & White Woolies",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Encore_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Cloudy Frenzy": "When Encore's \"Mayhem\" is full, after casting a Heavy Attack, Encore will consume all \"Mayhem\" to enter the Mayhem state, reducing damage taken by 70%. Switching characters does not interrupt the Mayhem state. After the Mayhem state ends, Encore will cast Cloudy Frenzy, dealing Fusion DMG, considered as Resonance Liberation damage.",
             "Heavy Attack: Cosmos Rupture": "During Cosmos Rave, when casting Heavy Attack, if \"Mayhem is full, Encore will consume all \"Mayhem\" to enter Cosmos' Mayhem state, reducing damage taken by 70%. Switching characters does not interrupt the Cosmos' Mayhem state. After Cosmos' Mayhem state ends, Encore will cast Cosmos Rupture, dealing Fusion DMG, considered as Resonance Liberation damage.",
@@ -440,7 +440,7 @@
         "Resonance Skill": {
           "skillName": "Flaming Woolies",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Encore_ResonanceSkill.webp",
           "skillVars": {
             "Flaming Woolies": "Encore summons Cloudy and Cosmos to attack with burning rays, dealing Fusion DMG.",
             "Energetic Welcome": "After casting Flaming Woolies, use Resonance Skill to perform Energetic Welcome, dealing Fusion DMG."
@@ -449,7 +449,7 @@
         "Resonance Liberation": {
           "skillName": "Cosmos Rave",
           "skillDesc": "As Encore loses control, Cosmos breaks free and wreaks havoc on its surroundings.",
-          "skillIcon": "",
+          "skillIcon": "Encore_ResonanceLiberation.webp",
           "skillVars": {
             "Basic Attack: Cosmos - Frolicking": "During Cosmos Rave, the Basic Attack is replaced with Cosmos- Frolicking, which performs up to 4 consecutive attacks, dealing Fusion DMG, considered as Basic Attack damage.",
             "Cosmos - Heavy Attack": "During Cosmos Rave, the Heavy Attack is replaced with Cosmos - Heavy Attack, consuming STA to attack the target, dealing Fusion DMG, considered as Heavy Attack damage.",
@@ -460,25 +460,25 @@
         "Intro Skill": {
           "skillName": "Woolies Helpers",
           "skillDesc": "Encore pounces at the enemies with Cosmos, dealing Fusion DMG.",
-          "skillIcon": "",
+          "skillIcon": "Encore_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Thermal Field",
           "skillDesc": "Encore generates a Thermal Field centered around skill target, with a radius of 3m. Targets inside the Thermal Field are continuously burned, suffering Fusion DMG equal to 176.76% of Encore's ATK every 1.5s for 6s.",
-          "skillIcon": "",
+          "skillIcon": "Encore_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Angry Cosmos",
           "skillDesc": "During the Resonance Liberation Cosmos Rave, when Encore's HP is above 70%, damage dealt is increased by 10%.",
-          "skillIcon": "",
+          "skillIcon": "Encore_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Woolies Cheer Dance",
           "skillDesc": "When Resonance Skill Flaming Woolies or Resonance Skill Cosmos - Rampage is cast, Encore's Fusion DMG Bonus is increased by 10% for 10s.",
-          "skillIcon": "",
+          "skillIcon": "Encore_InherentSkill2.webp",
           "skillVars": {}
         }
       }
