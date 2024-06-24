@@ -663,7 +663,7 @@
         "Normal Attack": {
           "skillName": "Majestic Fists",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Lingyang performs up to 5 consecutive attacks, dealing Glacio DMG.",
             "Basic Attack: Feral Roars": "After Resonance Skill Furious Punches is cast, Basic Attack 5 is replaced with Feral Roars, dealing Glacio DMG.",
@@ -675,7 +675,7 @@
         "Forte Circuit": {
           "skillName": "Unification of Spirits",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Glorious Plunge": "When Lion's Spirit is full, use Heavy Attack to perform Glorious Plunge, dealing Glacio DMG.",
             "Mid-air Attack: Tail Strike": "When Lion's Spirit is not full, use Basic Attack after Heavy Attack to perform Tail Strike, dealing Glacio DMG.",
@@ -686,7 +686,7 @@
         "Resonance Skill": {
           "skillName": "Ancient Arts",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_ResonanceSkill.webp",
           "skillVars": {
             "Ancient Arts": "Attack the target, dealing Glacio DMG.",
             "Furious Punches": "When Basic Attacks 3, 4, or 5 or Basic Attack Feral Roars hits the target, Resonance Skill Ancient Arts is replaced with Resonance Skill Furious Punches. Lingyang's Basic Attack cycle starts from Basic Attack 3 after casting Basic Attack Feral Roars and Resonance Skill Furious Punches in turn.\n\nLingyang's Resonance Skill does not reset his Basic Attack cycle."
@@ -695,7 +695,7 @@
         "Resonance Liberation": {
           "skillName": "Strive: Lion's Vigor",
           "skillDesc": "Attack the target, dealing Glacio DMG, and receive the blessing of Lion's Vigor.",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_ResonanceLiberation.webp",
           "skillVars": {
             "Lion's Vigor": "Lingyang's Glacio DMG bonus is increased by 50%."
           }
@@ -703,25 +703,25 @@
         "Intro Skill": {
           "skillName": "Lion Awakens",
           "skillDesc": "Lingyang enters the battlefield, dealing Glacio DMG.",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Frosty Marks",
           "skillDesc": "Lingyang releases a shockwave centered on the skill target, dealing Glacio DMG equal to 587.94% of Lingyang's ATK to targets within the range.",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Lion's Pride",
           "skillDesc": "Damage of the Intro Skill Lion Awakens is increased by 50%.",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Diligent Practice",
           "skillDesc": "Under the Forte Circuit Striding Lion state, within 3s after each Basic Attack, the next Forte Circuit Mountain Roamer will deal additional Glacio DMG, equal to 150% of Mountain Roamer damage, considered as Resonance Skill damage",
-          "skillIcon": "",
+          "skillIcon": "Lingyang_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -746,7 +746,7 @@
         "Normal Attack": {
           "skillName": "Impromptu Show",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Mortefi uses his dual pistols and flames to perform up to 4 consecutive shots, dealing Fusion DMG.",
             "Heavy Attack": "Mortefi enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Fusion DMG.",
@@ -757,7 +757,7 @@
         "Forte Circuit": {
           "skillName": "Fury Fugue",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_ForteCircuit.webp",
           "skillVars": {
             "Resonance Skill: Fury Fugue": "When Mortefi's \"Annoyance\" reaches 100, his Reosnance Skill is replaced with Fury Fudge. When casting Fury Fudge, Mortefi consumes all \"Annoyance\" to unleash high-speed flame lightning, dealing Fusion DMG, considered as Resonance Skill damage.",
             "Annoyance": "Mortefi can hold up to 100 Annoyance.\n- When Normal Attack Impromptu Show hits the target, \"Annoyance\" is restored.\n- When Intro Skill Dissonance hits the target, \"Annoyance\" is restored.\n- When Resonance Skill Passionate Variation hits the target, \"Annoyance\" is restored.\n- Within 5s after casting Passionate Variation, Basic Attack Impromptu Show that hits the target additionally restores \"Annoyance\"."
@@ -766,13 +766,13 @@
         "Resonance Skill": {
           "skillName": "Passionate Variation",
           "skillDesc": "Launch a flashing lightning of flames forward, dealing Fusion DMG.",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Violent Finale",
           "skillDesc": "Deal Fusion DMG, and apply Burning Rhapsody to all characters on the team.",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_ResonanceLiberation.webp",
           "skillVars": {
             "Burning Rhapsody": "- When the active character's Basic Attack hits the target, Mortefi launches a Coordinated Attack, firing 1 Marcato.\n- When the active character's Heavy Attack hits the target, Mortefi launches a Coordinated Attack, firing 2 Marcato.\n\nMortefi can launch one Coordinated Attack every 0.35s."
           }
@@ -780,25 +780,25 @@
         "Intro Skill": {
           "skillName": "Dissonance",
           "skillDesc": "Attack the target, dealing Fusion DMG.",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Rage Transposition",
           "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Heavy Attack damage amplified by 38% for 14s or until they are switched off field.",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Harmonic Control",
           "skillDesc": "After casting Resonance Skill Passionate Variation, the damage of Resonance Skill Fury Fugue is increased by 25% for 8s.",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Rhythmic Vibrato",
           "skillDesc": "During Resonance Liberation Burning Rhapsody, each hit of Resonance Liberation Marcato will increase the damage of the next Resonance Liberation Marcato by 1.5%, which can be triggered once every 0.35s, stacking up to 50 times. The effect will be reset after Resonance Liberation Burning Rhapsody ends.",
-          "skillIcon": "",
+          "skillIcon": "Mortefi_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -823,7 +823,7 @@
         "Normal Attack": {
           "skillName": "Tuneslayer",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "RoverH_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Rover-Havoc performs up to 5 consecutive attacks, dealing Havoc DMG.",
             "Heavy Attack": "Rover-Havoc consumes STA to attack, dealing Havoc DMG. Use Basic Attack after casting Heavy Attack to cast Basic Attack 4.",
@@ -834,7 +834,7 @@
         "Forte Circuit": {
           "skillName": "Umbra Eclipse",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "RoverH_ForteCircuit.webp",
           "skillVars": {
             "Devastation": "When \"Umbra\" is full, hold Basic Attack to cast Devastation to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
             "Dark Surge": "After casting Devastation, Rover enters the Dark Surge state. In this state:\n- Basic Attack is replaced with Enhanced Basic Attack, which performs up to 5 consecutive attacks, dealing Havoc DMG;\n- Heavy Attack is replaced with Enhanced Heavy Attack;\n- Use Basic Attack after casting Enhanced Heavy Attack to cast Heavy Attack Thwackblade to attack the target, dealing Havoc DMG, considered as Heavy Attack damage;\n- Use Basic Attack after casting Heavy Attack Thwackblade to cast Enhanced Basic Attack 3 to attack the target, dealing Havoc DMG;\n- Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing Havoc DMG.",
@@ -844,37 +844,37 @@
         "Resonance Skill": {
           "skillName": "Wingblade",
           "skillDesc": "Transform sound into feathers, dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "RoverH_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Deadening Abyss",
           "skillDesc": "Rover gathers resonating sounds to attack a target, dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "RoverH_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Instant of Annihilation",
           "skillDesc": "Attack the target, dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "RoverH_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Soundweaver",
           "skillDesc": "Rover summons a Havoc Field, dealing Havoc DMG equal to 143.3% of Rover's ATK to all targets within range every 2s for 6s.",
-          "skillIcon": "",
+          "skillIcon": "RoverH_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Metamorph",
           "skillDesc": "In the Dark Surge state, Havoc DMG bonus is increased by 20%.",
-          "skillIcon": "",
+          "skillIcon": "RoverH_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Bleak Crescendo",
           "skillDesc": "While in the Dark Surge state, Basic Attack recovers 1 extra Resonance Energy when it hits a target, and this effect can be triggered 1 time per second.",
-          "skillIcon": "",
+          "skillIcon": "RoverH_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -899,7 +899,7 @@
         "Normal Attack": {
           "skillName": "Vibration Manifestation",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "RoverS_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Rover performs up to 4 consecutive attacks, dealing Spectro DMG.",
             "Heavy Attack": "Rover consumes STA to attack the target, dealing Spectro DMG.",
@@ -912,7 +912,7 @@
         "Forte Circuit": {
           "skillName": "World in a Grain of Sand",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "RoverS_ForteCircuit.webp",
           "skillVars": {
             "Resonance Skill: Resonating Spin": "If \"Diminutive Sound\" exceeds 50 when Resonance Skill is used, Rover consumes 50 \"Diminutive Sound\" to cast Resonating Spin, dealing Spectro DMG, considered as Resonance Skill damage.",
             "Basic Attack: Resonating Echoes": "After Resonance Skill Resonating Spin ends, Rover performs Resonating Echoes upon using Basic Attack. Launch attacks forward, dealing Spectro DMG, considered as Resonance Skill DMG.",
@@ -922,37 +922,37 @@
         "Resonance Skill": {
           "skillName": "Resonating Slashes",
           "skillDesc": "Rover launches an attack forward, dealing Spectro DMG.",
-          "skillIcon": "",
+          "skillIcon": "RoverS_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Echoing Orchestra",
           "skillDesc": "Rover converges Spectro energy to assail the target area, detonating it after a short delay and dealing Spectro DMG.",
-          "skillIcon": "",
+          "skillIcon": "RoverS_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Waveshock",
           "skillDesc": "Rover attacks the target, dealing Spectro DMG.",
-          "skillIcon": "",
+          "skillIcon": "RoverS_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Instant",
           "skillDesc": "Generate an area of stasis surrounding the next character (or a character on a nearby team that activates an Outro Skill), lasting for 3s.",
-          "skillIcon": "",
+          "skillIcon": "RoverS_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Reticence",
           "skillDesc": "Damage dealt by Rover's Basic Attack Resonating Echoes is increased by 60%.",
-          "skillIcon": "",
+          "skillIcon": "RoverS_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Silent Listener",
           "skillDesc": "Rover gains 15% ATK increase for 5s upon casting Heavy Attack Resonance.",
-          "skillIcon": "",
+          "skillIcon": "RoverS_InherentSkill2.webp",
           "skillVars": {}
         }
       }
