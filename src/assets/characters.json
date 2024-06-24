@@ -1133,7 +1133,7 @@
         "Normal Attack": {
           "skillName": "Cultivation",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Verina_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Verina performs up to 5 consecutive attacks with vines, dealing Spectro DMG.",
             "Heavy Attack": "Verina consumes STA to charge forward, dealing Spectro DMG.",
@@ -1145,7 +1145,7 @@
         "Forte Circuit": {
           "skillName": "Starflower Blooms",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Verina_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Starflower Blooms": "When casting Heavy Attack, if Verina carries \"Photosynthesis Energy\", Verina consumes 1 stack of \"Photosynthesis Energy\" to recover Concerto Energy and heal all characters on a nearby team. Heavy Attack: Starflower Blooms deals Spectro DMG, considered as Heavy Attack damage.",
             "Mid-air Attack: Starflower Blooms": "When casting Mid-air Attack, if Verina carries \"Photosynthesis Energy\", Verina consumes 1 stack of \"Photosynthesis Energy\" to recover Concerto Energy and heal all characters on a nearby team. Mid-air Attack: Starflower Blooms deals Spectro DMG, considered as Basic Attack damage. Verina can cast Mid-air Attack: Starflower Blooms by using Basic Attack after casting Heavy Attack: Starflower Blooms.",
@@ -1155,13 +1155,13 @@
         "Resonance Skill": {
           "skillName": "Botany Experiment",
           "skillDesc": "Verina converges an energy field in front to grow foliage, dealing Spectro DMG within range.",
-          "skillIcon": "",
+          "skillIcon": "Verina_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Arboreal Flourish",
           "skillDesc": "Verina nourishes nearby foliage at rapid speed, dealing Spectro DMG while healing all Characters on teams nearby. A Photosynthesis Mark is applied to the target on hit.",
-          "skillIcon": "",
+          "skillIcon": "Verina_ResonanceLiberation.webp",
           "skillVars": {
             "Photosynthesis Mark": "Whenever a Character on a team nearby performs an attack on targets with a Photosynthesis Mark, Verina performs a Coordinated Attack, dealing Spectro DMG while healing the active Character dealing damage on a team nearby, triggered 1 time per second."
           }
@@ -1169,25 +1169,25 @@
         "Intro Skill": {
           "skillName": "Verdant Growth",
           "skillDesc": "Verina attacks the target, dealing Spectro DMG.",
-          "skillIcon": "",
+          "skillIcon": "Verina_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Blossom",
           "skillDesc": "Verina heals the incoming Resonator (or Resonator on a nearby team that activates this Outro Skill) by 19% of her ATK per second for 6s. All Resonators on a nearby team have their damage amplified by 15% for 30s.",
-          "skillIcon": "",
+          "skillIcon": "Verina_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Gift of Nature",
           "skillDesc": "When Verina casts Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish or Outro Skill Blossom, all team members' ATK are increased by 20% for 20s.",
-          "skillIcon": "",
+          "skillIcon": "Verina_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Grace of Life",
           "skillDesc": "Verina protects a team member from fatal damage and grants a shield with strength equal to 120% of Verina's ATK, lasting for 10s. This can be triggered 1 time every 10 minutes.",
-          "skillIcon": "",
+          "skillIcon": "Verina_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -1212,7 +1212,7 @@
         "Normal Attack": {
           "skillName": "Feather as Blade",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Yangyang performs up to 4 consecutive attacks, dealing Aero DMG.",
             "Heavy Attack": "Yangyang consumes STA to lunge forward, dealing Aero DMG.",
@@ -1224,7 +1224,7 @@
         "Forte Circuit": {
           "skillName": "Echoing Feathers",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Stormy Strike": "When Yangyang has 3 Melodies, she can cast Stormy Strike after Heavy Attack or Dodge Counter, dealing Aero DMG.",
             "Mid-air Attack: Feather Release": "When Yangyang has 3 Melodies, cast Basic Attack in mid-air to consume all Melodies and perform consecutive strikes, diving from mid-air, dealing Aero DMG. As Yangyang lands, she sheathes her sword with an attack, dealing Aero DMG, considered as Basic Attack damage.",
@@ -1234,37 +1234,37 @@
         "Resonance Skill": {
           "skillName": "Zephyr Domain",
           "skillDesc": "Yangyang wields her sword to create a whirling vortex of winds that gathers nearby enemies to the center, dealing Aero DMG.",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Wind Spirals",
           "skillDesc": "Yangyang conjures a mighty Cyclone that gathers nearby enemies, dealing Aero DMG.",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Cerulean Song",
           "skillDesc": "Yangyang sends the target into the air, dealing Aero DMG.",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Whispering Breeze",
           "skillDesc": "Yangyang recovers 4 Resonance Energy per second over 5s for the incoming character (or a character on a nearby team that activates an Outro Skill).",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Compassion",
           "skillDesc": "Yangyang recovers 30 STA after she casts a Mid-air Attack Feather Release.",
-          "skillIcon": "",
+          "skillIcon": "Yangyang_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Lazuline Mercy",
           "skillDesc": "Yangyang's Aero DMG bonus is increased by 8% for 8s after casting Intro Skill Cerulean Song.",
-          "skillIcon": "",
+          "skillIcon": "InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -1289,7 +1289,7 @@
         "Normal Attack": {
           "skillName": "Zapstring's Dance",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Yinlin controls the puppet \"Zapstring\" to perform up to 4 attacks, dealing Electro DMG.",
             "Heavy Attack": "Yinlin consumes STA to control \"Zapstring\", dealing Electro DMG.",
@@ -1300,7 +1300,7 @@
         "Forte Circuit": {
           "skillName": "Chameleon Cipher",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_ForteCircuit.webp",
           "skillVars": {
             "Chameleon Cipher": "When Yinlin's \"Judgement Points\" is full, her Heavy Attack is replaced with Chameleon Cipher, which consumes all \"Judgement Points\" to attack the target, dealing Electro DMG. When it hits a target marked with Sinner's Mark, the Sinner's Mark is replaced with Punishment Mark, lasting for 18s.",
             "Sinner's Mark": "Basic Attack Zapstring's Dance, Resonance Liberation Thundering Wrath, and Intro Skill Roaring Storm will apply Sinner's Mark on hit. Sinner's Mark is removed when Yinlin exits.",
@@ -1311,7 +1311,7 @@
         "Resonance Skill": {
           "skillName": "Magnetic Roar",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_ResonanceSkill.webp",
           "skillVars": {
             "Magnetic Roar": "The puppet \"Zapstring\" deals Electro DMG to the target, and puts Yinlin in Resonance Skill Execution Mode.",
             "Execution Mode": "Basic Attack and Dodge Counter will trigger 1 Electromagnetic Blast when hitting a target. Each stage of Basic Attack or Dodge Counter can only trigger 1 Electromagnetic Blast, up to 4 times.",
@@ -1322,31 +1322,31 @@
         "Resonance Liberation": {
           "skillName": "Thundering Wrath",
           "skillDesc": "Command \"Zapstring\" to call for thunder to fall upon a large range, dealing Electro DMG.",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Raging Storm",
           "skillDesc": "Command puppet \"Zapstring to attack, dealing Electro DMG in a large range.",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Strategist",
           "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Electro DMG amplified by 20% and Resonance Liberation damage amplified by 25% for 14s or until they are switched off field.",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Pain Immersion",
           "skillDesc": "After using Resonance Skill Magnetic Roar, Yinlin's Crit. Rate is increased by 15% for 5s.",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Deadly Focus",
           "skillDesc": "The damage of Resonance Skill Lightning Execution is increased by 10% when hitting targets marked with Sinner's Mark, and Yinlin's ATK is increased by 10% for 4s when this is triggered.",
-          "skillIcon": "",
+          "skillIcon": "Yinlin_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -1371,7 +1371,7 @@
         "Normal Attack": {
           "skillName": "Leihuangquan",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Yuanwu performs up to 5 consecutive attacks, dealing Electro DMG.",
             "Heavy Attack": "Yuanwu consumes STA to attack the target, dealing Electro DMG.",
@@ -1382,7 +1382,7 @@
         "Forte Circuit": {
           "skillName": "Unassuming Blade",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_ForteCircuit.webp",
           "skillVars": {
             "Rumbling Spark": "When \"Readiness\" is full, long press Resonance Skill to consume all \"Readiness\" and cast Rumbling Spark, dealing Electro DMG and entering the Lightning Infused state.",
             "Thunder Uprising": "When \"Readiness\" is full, Resonance Skill Thunder Wedge will be replaced with Thunder Uprising, dealing Electro DMG.",
@@ -1393,7 +1393,7 @@
         "Resonance Skill": {
           "skillName": "Leihuang Master",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_ResonanceSkill.webp",
           "skillVars": {
             "Thunder Wedge": "Yuanwu summons Thunder Wedge, dealing Electro DMG, and forms a Thunder Field centered on the Thunder Wedge. Thunder Wedge lasts for 12s. Forte Circuit Rumbling Spark and Resonance Liberation Blazing Might will immediately detonate Resonance Skill Thunder Wedge on the field, dealing Electro DMG, considered as Resonance Skill damage.",
             "Thunder Field": "The active character gains the effects below when in the Thunder Field:\n- A Coordinated Attack from Resonance Skill Thunder Wedge is triggered when attacks hit a target, dealing Electro DMG.\n- This can be triggered once every 1.2s.\n- The effect lasts for 1.5s."
@@ -1402,31 +1402,31 @@
         "Resonance Liberation": {
           "skillName": "Blazing Might",
           "skillDesc": "Awaken the power of thunder and provide Forte Circuit Lightning Infused status to all characters on a nearby team for 10s, then perform a powerful blow that deals Electro DMG.",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Thunder Bombardment",
           "skillDesc": "Attack the target, dealing Electro DMG.",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Lightning Manipulation",
           "skillDesc": "Yuanwu unleashes thunderbolts in an area centered around the skill target, greatly reducing the Vibration Strength of enemies upon impact.",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Thunderous Determination",
           "skillDesc": "The damage multiplier of Resonance Skill Thunder Uprising is increased by 40%, and its reduction efficiency of enemy Vibration Strength is enhanced.",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Reserved Confidence",
           "skillDesc": "The ranges of the Resonance Skills Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if \"Readiness\" is not full, Yuanwu will automatically leave 1 Resonance Skill Thunder Wedge in place.",
-          "skillIcon": "",
+          "skillIcon": "Yuanwu_InherentSkill2.webp",
           "skillVars": {}
         }
       }

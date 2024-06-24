@@ -19,9 +19,9 @@ function Home() {
         <h2>To Do:</h2>
         <ul>
           <li>- More features potentially</li>
-          <li>- Find skill icon assets for character profiles</li>
           <li>- Figure out layout for character profile header</li>
           <li>- Make different icons for Rover element types</li>
+          <li>- Add element icons to character cards</li>
         </ul>
       </section>
       <section>
