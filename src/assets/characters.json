@@ -262,7 +262,7 @@
         "Normal Attack": {
           "skillName": "POW POW",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Chixia_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Chixia fires up to 4 consecutive shots, dealing Fusion DMG.",
             "Heavy Attack": "Chixia enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Fusion DMG.",
@@ -273,7 +273,7 @@
         "Forte Circuit": {
           "skillName": "Heroic Bullets",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Chixia_ForteCircuit.webp",
           "skillVars": {
             "Resonance Skill: DAKA DAKA!": "Hold Resonance Skill Whizzing Fight Spirit to enter \"DAKA DAKA!\". In this state:\n- Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing Fusion DMG, considered as Resonance Skill damage;\n- Tap Basic Attack to cast Basic Attack 4, dealing Fusion DMG, considered as Basic Attack damage. Then she exits the \"DAKA DAKA!\" state;\n- If 30 \"Thermobaric Bullets\" have been fired when Basic Attack is activated, Chixia will cast Resonance Skill Boom Boom and terminate \"DAKA DAKA!\".\n- Chixia exits the \"DAKA DAKA!\" state when all \"Thermobaric Bullets\" are consumed.",
             "Resonance Skill: Boom Boom": "Deal Fusion DMG, considered as Resonance Skill damage.",
@@ -283,37 +283,37 @@
         "Resonance Skill": {
           "skillName": "Whizzing Fight Spirit",
           "skillDesc": "Chixia unleashes a flurry of shots, dealing Fusion DMG. Whizzing Fight Spirit has 2 initial charges.",
-          "skillIcon": "",
+          "skillIcon": "Chixia_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Blazing Flames",
           "skillDesc": "Chixia fires up fast shots at nearby enemies, dealing Fusion DMG.",
-          "skillIcon": "",
+          "skillIcon": "Chixia_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Grand Entrance",
           "skillDesc": "Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing Fusion DMG.",
-          "skillIcon": "",
+          "skillIcon": "Chixia_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Leaping Flames",
           "skillDesc": "Chixia releases a shockwave surrounding the target, dealing Fusion DMG equal to 530% of Chixia's ATK to enemies within the range.",
-          "skillIcon": "",
+          "skillIcon": "Chixia_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Scorching Magazine",
           "skillDesc": "Max \"Thermobaric Bullets\" is increased by 10 rounds. The damage of Resonance Skill Boom Boom is increased by 50%.",
-          "skillIcon": "",
+          "skillIcon": "Chixia_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Numbingly Spicy!",
           "skillDesc": "Each \"Thermobaric Bullets\" that hits a target during Resonance Skill DAKA DAKA! increases ATK by 1% for 10s, stacking up to 30 times.",
-          "skillIcon": "",
+          "skillIcon": "Chixia_InherentSkill2.webp",
           "skillVars": {}
         }
       }
