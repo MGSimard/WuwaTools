@@ -20,8 +20,6 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
-          <li>- Make different icons for Rover element types</li>
-          <li>- Add element icons to character cards</li>
         </ul>
       </section>
       <section>
