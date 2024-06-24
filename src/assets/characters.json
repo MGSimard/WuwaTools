@@ -978,7 +978,7 @@
         "Normal Attack": {
           "skillName": "Frigid Light",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Sanhua performs up to 5 consecutive attacks, dealing Glacio DMG.",
             "Heavy Attack": "Sanhua consumes STA to launch attacks, dealing Glacio DMG.",
@@ -989,7 +989,7 @@
         "Forte Circuit": {
           "skillName": "Clarity of Mind",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Detonate": "When holding Basic Attack, a cursor moves back and forth on the Forte Gauge. Release Basic Attack while the cursor falls in the \"Frostbite\" area to perform Heavy Attack Detonate, dealing Glacio DMG considered as Heavy Attack damage.",
             "Ice Burst": "Sanhua's Heavy Attack Detonate detonates all \"Ice Thorns\", \"Ice Prisms\" and \"Glaciers\" within her attack range, dealing Glacio DMG. Ice Burst deals Resonance Skill DMG.",
@@ -999,37 +999,37 @@
         "Resonance Skill": {
           "skillName": "Eternal Frost",
           "skillDesc": "Sanhua sends an air blade to create 1 \"Ice Prism\" on the ground, dealing Glacio DMG.",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Glacial Gaze",
           "skillDesc": "Sanhua deals Glacio DMG and creates 1 \"Glacier\".",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Freezing Thorns",
           "skillDesc": "Sanhua swings her blade downward and creates 1 \"Ice Thorn\", dealing Glacio DMG.",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Silversnow",
           "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Basic Attack damage amplified by 38% for 14s or until they are switched off field.",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Condensation",
           "skillDesc": "Damage dealt by Sanhua's Resonance Skill increased by 20% for 8s after casting her Intro Skill.",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Avalanche",
           "skillDesc": "Damage dealt by Sanhua's Forte Circuit Ice brust is increased by 20% for 8s after casting Basic Attack 5.",
-          "skillIcon": "",
+          "skillIcon": "Sanhua_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -1054,7 +1054,7 @@
         "Normal Attack": {
           "skillName": "Concealed Edge",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Taoqi performs up to 4 continuous attacks, dealing Havoc DMG.",
             "Heavy Attack": "Taoqi consumes STA to deal Havoc DMG. If Basic Attack button is held, Taoqi enters Rocksteady Defense state.",
@@ -1067,7 +1067,7 @@
         "Forte Circuit": {
           "skillName": "Power Shift",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_ForteCircuit.webp",
           "skillVars": {
             "Timed Counters": "When carrying \"Resolving Caliber\", use Basic Attack after Heavy Attack Strategic Parry or Intro Skill Defense Formation to cast Timed Counters, performing up to 3 consecutive attacks, dealing Havoc DMG, considered as Basic Attack damage.\n- Timed Counters consume 1 \"Resolving Caliber\" upon hitting an enemy to grant a shield.\n- After casting the Intro Skill Defense Formation, use Basic Attack to directly cast Timed Counters.",
             "Resolving Caliber": "Taoqi can hold up to 3 Resolving Caliber.\n- Basic Attack 4 will consume all of Taoqi's \"Rocksteady Shields\" to grant that many \"Resolving Caliber\".\n- While Rocksteady Shield exists, when the active character is attacked, 1 \"Rocksteady Shield\" will be consumed to recover \"Resolving Caliber\".\n- After Rocksteady Shield ends, all remaining \"Rocksteady Shield\" will be consumed to grant that many \"Resolving Caliber\"."
@@ -1076,7 +1076,7 @@
         "Resonance Skill": {
           "skillName": "Fortified Defense",
           "skillDesc": "Taoqi deals Havoc DMG to surrounding targets, generating 3 Rocksteady Shield and healing herself. If attacked when casting Fortified Defense, Strategic Parry will be automatically cast.",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_ResonanceSkill.webp",
           "skillVars": {
             "Rocksteady Shield": "When the active character on the team is attacked, 1 Rocksteady Shield is consumed to reduce the damage taken."
           }
@@ -1084,31 +1084,31 @@
         "Resonance Liberation": {
           "skillName": "Unmovable",
           "skillDesc": "Launch an attack based on Taoqi's DEF to the target, dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Defense Formation",
           "skillDesc": "Attack the target, dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Iron Will",
           "skillDesc": "The incoming Resonator (or Resonator on a nearby team that activates Outro Skill) has their Resonance Skill damage amplified by 38% for 14s or until they are switched off field.",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Steadfast Protection",
           "skillDesc": "While Resonance Skill Rocksteady Shield lasts, the Character's DEF is increased by 15%.",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Unyielding",
           "skillDesc": "After Heavy Attack Strategic Parry is successfully triggered, 25 Stamina is recovered.",
-          "skillIcon": "",
+          "skillIcon": "Taoqi_InherentSkill2.webp",
           "skillVars": {}
         }
       }
