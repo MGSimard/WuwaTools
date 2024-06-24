@@ -95,8 +95,15 @@
   padding: 1rem 2rem;
 }
 .sc-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   border-bottom: var(--glassBorder);
   background: linear-gradient(to right, rgb(0, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0) 50%);
+}
+.sch-skillIcon-container {
+  max-height: 6rem;
+  max-width: 6rem;
 }
 .sc-head h3 {
   font-size: 1.2rem;

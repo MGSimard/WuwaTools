@@ -88,8 +88,13 @@ function Resonator() {
           {Object.entries(skills).map(([skill, skillContents]) => (
             <div key={skill} className="skill-container glass">
               <div className="sc-head">
-                <h3>{skill}</h3>
-                <h4>{skillContents.skillName}</h4>
+                <div className="sch-skillIcon-container">
+                  <img src={`/characters/skills/${skillContents.skillIcon}`} alt="Skill Icon" />
+                </div>
+                <div>
+                  <h3>{skill}</h3>
+                  <h4>{skillContents.skillName}</h4>
+                </div>
               </div>
               <div className="sc-body">
                 {skillContents.skillDesc && (
