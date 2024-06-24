@@ -102,7 +102,7 @@
         "Normal Attack": {
           "skillName": "Destined Promise",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Baizhi instructs You'tan to perform up to 4 consecutive attacks, dealing Glacio DMG.",
             "Heavy Attack": "Baizhi continuously consumes STA to command You'tan to attack enemies, dealing Glacio DMG. During Heavy Attack, Baizhi can command You'tan to move.",
@@ -113,7 +113,7 @@
         "Forte Circuit": {
           "skillName": "Cycle of Life",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_ForteCircuit.webp",
           "skillVars": {
             "You'tan": "A Remnant Creature that answers to Baizhi's mind and desires while sharing all her stats. You'tan goes back to Baizhi when Baizhi dodges.",
             "Concentration": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously heal all characters on nearby teams. Each 1 \"Concentration\" consumed provides 1 healing. The healings happens every 2s.\n- When Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy;\n- When Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.",
@@ -123,13 +123,13 @@
         "Resonance Skill": {
           "skillName": "Emergency Plan",
           "skillDesc": "Baizhi calls You'tan to attack the target, dealing Glacio DMG while immediately healing all characters on nearby teams.",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Momentary Union",
           "skillDesc": "Baizhi summons You'tan to heal all characters on nearby teams, generating 4 stacks of Remnant Entities.",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_ResonanceLiberation.webp",
           "skillVars": {
             "Remnant Entities": "Remnant Entities follow the active team members. 1 stack of Remnant Entities is automatically consumed to attack the targets every 2.5s, dealing Glacio DMG on hit while healing the active character on a nearby team."
           }
@@ -137,19 +137,19 @@
         "Intro Skill": {
           "skillName": "Overflowing Frost",
           "skillDesc": "Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio DMG while healing all characters on a nearby team.",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Rejuvenating Flow",
           "skillDesc": "Baizhi heals the incoming character (or a character on a nearby team that activates an Outro Skill) by 1.54% of her Max HP every 3s for 30s. The healed character(s) also have their All-Type DMG Amplified by 15% for 6s.",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Harmonic Range",
           "skillDesc": "When Baizhi casts Resonance Skill Emergency Plan, You'tan generates a field of Euphonia that lasts 15s.",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_InherentSkill1.webp",
           "skillVars": {
             "Euphonia": "ATK of the Resonators who pick up Euphonia is increased by 15% for 20s."
           }
@@ -157,7 +157,7 @@
         "Inherent Skill 2": {
           "skillName": "Stimulus Feedback",
           "skillDesc": "Baizhi's Heavy Attack on hit heals the character with the lowest HP on a nearby team by 0.25% of her Max HP.",
-          "skillIcon": "",
+          "skillIcon": "Baizhi_InherentSkill2.webp",
           "skillVars": {}
         }
       }
@@ -182,7 +182,7 @@
         "Normal Attack": {
           "skillName": "Gnawing Fangs",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Calcharo performs up to 4 consecutive attacks, dealing Electro DMG.",
             "Heavy Attack": "Consumes STA to attack the target, dealing Electro DMG.",
@@ -193,7 +193,7 @@
         "Forte Circuit": {
           "skillName": "Hunting Mission",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
             "\"Cruelty\"": "Calcharo can hold up to 3 \"Cruelty\".\n- Under Resonance Liberation Deathblade Gears state, \"Cruelty\" cannot be acquired.\n- When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
@@ -204,13 +204,13 @@
         "Resonance Skill": {
           "skillName": "Extermination Order",
           "skillDesc": "Calcharo performs up to 3 consecutive attacks, dealing Electro DMG.\n\nIf Calcharo is switched off field, or if Resonance Skill Extermination Order is not activated again in a while, this skill will enter Cooldown.\n\nResonance Skill Extermination Order does not interrupt Calcharo's Basic Attack cycle.",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_ResonanceSkill.webp",
           "skillVars": {}
         },
         "Resonance Liberation": {
           "skillName": "Phantom Etching",
           "skillDesc": "Calcharo attacks the target, dealing Electro DMG and enters Deathblade Gear state. After Deathblade Gear state ends, Calcharo's next Intro Skill is replaced with Intro Skill \"Necessary Means\", which deals Electro DMG, considered as Intro Skill damage.",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_ResonanceLiberation.webp",
           "skillVars": {
             "Deathblade Gear": "- Basic Attack is replaced with Basic Attack Hounds Roar;\n- Heavy Attack deals increased DMG, considered as Resonance Liberation damage;\n- Dodge Counter deals increased damage, considered Resonance Liberation damage.",
             "Basic Attack: Hounds Roar": "Calcharo performs up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack damage."
@@ -219,25 +219,25 @@
         "Intro Skill": {
           "skillName": "Wanted Outlaw",
           "skillDesc": "Attack the target, dealing Electro DMG.",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Shadowy Raid",
           "skillDesc": "Calcharo summons Phantom to support the active Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK.",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Bloodshed Awaken",
           "skillDesc": "When casting Heavy Attack \"Mercy\", Calcharo's Resonance Liberation damage bonus is increased by 10% for 15s.",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Revenant Rush",
           "skillDesc": "When Heavy Attack \"Death Messenger\" hits the target, the damage taken by Calcharo is reduced by 15% for 5s.",
-          "skillIcon": "",
+          "skillIcon": "Calcharo_InherentSkill2.webp",
           "skillVars": {}
         }
       }
