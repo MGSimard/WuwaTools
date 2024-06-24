@@ -503,7 +503,7 @@
         "Normal Attack": {
           "skillName": "Fengyiquan",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Jianxin performs up to 4 consecutive attacks, dealing Aero DMG.",
             "Heavy Attack": "Jianxin consumes STA to attack the target, dealing Aero DMG.",
@@ -514,7 +514,7 @@
         "Forte Circuit": {
           "skillName": "Primordial Chi Spiral",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Primordial Chi Spiral": "When \"Chi\" reaches max stacks, hold Heavy Attack to cast Primordial Chi Spiral and start Zhoutian Progress.",
             "Zhoutian Progress": "Jianxin's resistance to interruption is increased, and her damage taken is reduced by 50%. Jianxin continuously consumes \"Chi\" and casts Chi Strike to attack targets nearby, dealing Aero DMG.\n\nAs Zhoutian Progress accumulates, Jianxin reaches different Zhoutian and gains effects accordingly:\n- Before Minor Zhoutian: Gain Zhoutian Progress 1 shield. When Zhoutian Progress is interrupted, cast Pushing Punch to attack the target, dealing Aero DMG.\n- Minor Zhoutian: Gain Zhoutian Progress 2 shield and cast Shock to attack the target, dealing Aero DMG. When Zhoutian Progress is interrupted, cast Yielding Pull to attack the target, dealing Aero DMG.\n- Major Zhoutian - Inner: Gain Zhoutian Progress 3 shield and cast Shock to attack the target, dealing Aero DMG. When Zhoutian Progress is interrupted, cast Yielding Pull to attack the target, dealing Aero DMG.\n- Major Zhoutian - Outer: Gain Zhoutian Progress 3 shield and cast Shock to attack the target, dealing Aero DMG.\n- When Basic Attack button is released, interrupted Zhoutian Progress and lose all \"Chi\";\n- When all \"Chi\" is consumed, end Zhoutian Progress.\n\nWhen Zhoutian Progress ends, regain a shield according to the Zhoutian Progress reached,. As the shield provided by Heavy Attack: Primordial Chi Spiral persists, the active character is healed once every 6s.",
@@ -524,7 +524,7 @@
         "Resonance Skill": {
           "skillName": "Calming Air",
           "skillDesc": "Hold Resonance Skill to enter Parry Stance.",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_ResonanceSkill.webp",
           "skillVars": {
             "Chi Counter": "When Jianxin is attacked in the Parry Stance, she does not take damage and immediately performs Chi Counter, dealing Aero DMG.",
             "Chi Parry": "Release the Resonance Skill button during Parry Stance to interrupt Parry Stance and perform Chi Parry, dealing Aero DMG."
@@ -533,31 +533,31 @@
         "Resonance Liberation": {
           "skillName": "Purification Force Field",
           "skillDesc": "Create a strong wind field, continuously pulling targets within the wind field to the center and dealing Aero DMG. When the wind field disappears, it will trigger an explosion to deal Aero DMG to all targets within the range again.",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Essence of Tao",
           "skillDesc": "Pull in targets within the range, dealing Aero DMG.",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Transcendence",
           "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Resonance Liberation DMG Amplified by 38% for 14s or until they are switched off field.",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Formless Release",
           "skillDesc": "Damage of Resonance Liberation Purification Force Field is increased by 20%",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Reflection",
           "skillDesc": "The Shield obtained with Heavy Attack Primordial Chi Spiral is increased by 20%.",
-          "skillIcon": "",
+          "skillIcon": "Jianxin_InherentSkill2.webp",
           "skillVars": {}
         }
       }
