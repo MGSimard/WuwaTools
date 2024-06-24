@@ -30,6 +30,7 @@ export const TierListElem = ({ id, index, row }: Props) => {
   return (
     <div ref={ref} id={id.name} className={`tl-char cc-r${id.rarity}`}>
       <img src={`/characters/${id.image.icon}`} alt={id.name} />
+      <img className="tlc-attribute" src={`/attributes/${id.attribute}.png`} alt="" />
     </div>
   );
 };

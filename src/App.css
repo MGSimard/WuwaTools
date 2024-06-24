@@ -20,6 +20,14 @@
 .character-card:hover > .cc-portrait-container > .cc-portrait {
   scale: 1.1;
 }
+.cc-attribute {
+  position: absolute;
+  width: 25%;
+  bottom: 1%;
+  left: 1%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 999rem;
+}
 .cc-name {
   padding: 1rem;
   text-align: center;
@@ -71,8 +79,17 @@
   border: var(--glassBorder);
 }
 .profile-portrait {
+  position: relative;
   max-width: 20rem;
   align-self: flex-start;
+}
+.pp-attribute {
+  position: absolute;
+  width: 20%;
+  right: 5%;
+  bottom: 5%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 999rem;
 }
 .pd-table {
   text-align: left;
@@ -182,6 +199,7 @@
   width: 100%;
 }
 .tl-char {
+  position: relative;
   background-color: var(--clr-cardBg);
   border-radius: 1rem;
   overflow: hidden;
@@ -190,6 +208,14 @@
 }
 .tl-char img {
   pointer-events: none;
+}
+.tlc-attribute {
+  position: absolute;
+  width: 30%;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 999rem;
 }
 .tl-sidebar {
   display: flex;
