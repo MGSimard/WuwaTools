@@ -338,7 +338,7 @@
         "Normal Attack": {
           "skillName": "Execution",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Danjin_NormalAttack.webp",
           "skillVars": {
             "Basic Attack": "Danjin performs up to 3 consecutive attacks, dealing Havoc DMG.",
             "Heavy Attack": "Danjin consumes STA to launch consecutive attacks, dealing Havoc DMG.",
@@ -350,7 +350,7 @@
         "Forte Circuit": {
           "skillName": "Serene Vigil",
           "skillDesc": "Chaoscleave, dealing Havoc DMG, considered as Heavy Attack damage, and healing Danjin. If current \"Ruby Blossom\" reaches over 120, 120 \"Ruby Blossom\" is consumed instead to increase the damage multiplier of Chaoscleave and Scatterbloom performed this time.",
-          "skillIcon": "",
+          "skillIcon": "Danjin_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Scatterbloom": "Use Basic Attack after Heavy Attack Chaoscleave to cast Scatterbloom to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
             "Ruby Blossom": "Danjin can hold up to 120 Ruby Blossom.\n- Danjin obtains \"Ruby Blossom\" when using Resonance Skill Crimson Fragment."
@@ -359,7 +359,7 @@
         "Resonance Skill": {
           "skillName": "Crimson Fragment",
           "skillDesc": "",
-          "skillIcon": "",
+          "skillIcon": "Danjin_ResonanceSkill.webp",
           "skillVars": {
             "Crimson Erosion": "After Basic Attack 2, Dodge Counter or Intro Skill Vindication, use Resonance Skill to perform up to 2 consecutive strikes, dealing Havoc DMG. When Crimson Erosion 2 hits a target, apply Incinerating Will to it.",
             "Incinerating Will": "Danjin's damage dealt to targets marked with Incinerating Will is increased by 20%.",
@@ -369,31 +369,31 @@
         "Resonance Liberation": {
           "skillName": "Crimson Bloom",
           "skillDesc": "Danjin's anger intensifies as she frantically swings her dual blades, performing multiple rapid consecutive attacks, and 1 Scarlet Burst attack(s), dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "Danjin_ResonanceLiberation.webp",
           "skillVars": {}
         },
         "Intro Skill": {
           "skillName": "Vindication",
           "skillDesc": "With unwavering determination, Danjin unleashes a strike, dealing Havoc DMG.",
-          "skillIcon": "",
+          "skillIcon": "Danjin_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
           "skillName": "Duality",
           "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Havoc DMG Amplified by 23% for 14s or until they are switched off field.",
-          "skillIcon": "",
+          "skillIcon": "Danjin_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
           "skillName": "Crimson Light",
           "skillDesc": "Damage of Resonance Skill Crimson Erosion triggered by Dodge Counter: Ruby Shades is increased by 20%. The HP cost and stacks of \"Ruby Blossom\" recovered are doubled.",
-          "skillIcon": "",
+          "skillIcon": "Danjin_InherentSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
           "skillName": "Overflow",
           "skillDesc": "After casting the Resonance Skill Sanguine Pulse, Danjin's Heavy Attack damage is increased by 30% for 5s.",
-          "skillIcon": "",
+          "skillIcon": "Danjin_InherentSkill2.webp",
           "skillVars": {}
         }
       }
