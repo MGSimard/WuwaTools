@@ -1,8 +1,8 @@
 {
   "name": "characters",
   "description": "Wuthering Waves Characters Dataset",
-  "version": "1.0.24",
-  "latestAdd": { "name": "Rover (Havoc)", "id": 18 },
+  "version": "1.1.0",
+  "latestAdd": { "name": "Jinhsi", "id": 19 },
   "data": [
     {
       "id": 2,
@@ -558,6 +558,87 @@
           "skillName": "Reflection",
           "skillDesc": "The Shield obtained with Heavy Attack Primordial Chi Spiral is increased by 20%.",
           "skillIcon": "Jianxin_InherentSkill2.webp",
+          "skillVars": {}
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "Jinhsi",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weapon": "Broadblade",
+      "profile": {
+        "info": "Jinhsi, Magistrate of Jinzhou, gently brightens the hopes of her people, like rays of winter sunlight. As the revered Sentinel's Appointed Resonator, she displays humility and wholeheartedly commits herself to guiding her people towards a brilliant future.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
+      },
+      "image": {
+        "icon": "jinhsi_icon.png",
+        "portrait": "jinhsi_portrait.png"
+      },
+      "skills": {
+        "Normal Attack": {
+          "skillName": "Slash of Breaking Dawn",
+          "skillDesc": "",
+          "skillIcon": "Jinhsi_NormalAttack.webp",
+          "skillVars": {
+            "Basic Attack": "Perform up to 4 consecutive strikes, dealing Spectro DMG.",
+            "Heavy Attack": "Perform a charged attack at the cost of Stamina, dealing Spectro DMG.",
+            "Mid-air Attack": "Perform a plunging attack while in mid-air at the cost of Stamina, dealing Spectro DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to counterattack, dealing Spectro DMG."
+          }
+        },
+        "Forte Circuit": {
+          "skillName": "Luminal Synthesis",
+          "skillDesc": "",
+          "skillIcon": "Jinhsi_ForteCircuit.webp",
+          "skillVars": {
+            "Incarnation": "While in Incarnation:\n- Alternative Basic Attack \"Incarnation - Basic Attack\" becomes available. Perform up to 4 consecutive strikes, dealing Spectro DMG considered as Resonance Skill damage. The basic attack cycle of this will not be reset. Can be cast in mid-air.\n- Alternative Resonance Skill \"Crescent Divinity\" becomes available. Deal Spectro DMG. Can be cast in mid-air.\n- Alternative Heavy Attack \"Incarnation - Heavy Attack\" becomes available. Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG.\n- Alternative Dodge \"Incarnation - Dodge\" is available while in mid-air. Can be cast multiple times at the cost of Stamina.\n- Alternative Dodge Counter \"Incarnation - Dodge Counter\" becomes available. Deal Spectro DMG. Can be cast mid-air.",
+            "Resonance Skill - Illuminous Epiphany": "After Stage 4 of \"Incarnation - Basic Attack\", Incarnation terminates and Jinhsi gains Ordination Glow. Can be cast mid-air.\n\nWhile Ordination Glow lasts:\n- Basic Attack is replaced with Heavy Attack \"Incarnation - Heavy Attack\". Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG.\n- Resonance Skill is replaced with Resonance Skill \"Illuminous Epiphany\". Send out Solar Flare that detonates as Stella Glamor, dealing Spectro DMG after a short delay. Consume up to 50 Incandescence, with each point of Incandescence granting bonus damage multiplier percentage to Stella Glamor. Can be cast in mid-air.\n- After casting Resonance Skill Illuminous Epiphany, Jinhsi gains Unison. This can be triggered once every 25s.",
+            "Unison": "While Jinhsi has Unison, switching to other Resonators will remove Jinhsi's Unison to trigger Jinhsi's Outro Skill and the incoming Resonator's Intro Skill. Unison will be consumed in priority in place of Concerto Energy when Concerto Energy is full.",
+            "Incandescence": "Jinhsi can hold up to 50 Incandescence.\nWhen Jinhsi is in the party, all nearby Resonators in the party gain Eras in Unity. Eras in Unity provides 2 independent effects:\n- Jinhsi gains 1 Incandescence anytime Resonators in the party inflict Attribute damage. This effect may be triggered by damage of the same Attribute for up to 1 time(s) every 3s.\n- Additionally, Jinhsi gains 2 Incandescence when Resonators in the party damage the enemy with Coordinated Attacks. This effect may be triggered by Coordinated Attacks of the same Attribute for up to 1 time(s) every 3s."
+          }
+        },
+        "Resonance Skill": {
+          "skillName": "Trailing Lights of Eons",
+          "skillDesc": "Dash forward and perform consecutive strikes that inflict Spectro DMG.",
+          "skillIcon": "Jinhsi_ResonanceSkill.webp",
+          "skillVars": {
+            "Overflowing Radiance": "After Jinhsi uses Basic Attack 4 or, while not in Incarnation, Intro Skill Loong's Halo, an alternative Resonance Skill Overflowing Radiance is available within 5s. Resonance Skill Overflowing Radiance inflicts Spectro DMG and sends Jinhsi into Incarnation. Can be cast in mid-air."
+          }
+        },
+        "Resonance Liberation": {
+          "skillName": "Purge of Light",
+          "skillDesc": "Unleash the power of invocation to deal Spectro DMG. Can be cast in mid-air.",
+          "skillIcon": "Jinhsi_ResonanceLiberation.webp",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "Loong's Halo",
+          "skillDesc": "Attack the target, dealing Spectro DMG.",
+          "skillIcon": "Jinhsi_IntroSkill.webp",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Temporal Bender",
+          "skillDesc": "Summoning the power homologous with the Sentinel, Jinhsi may now gain Incandescence via Eras in Unity from damage of the same Attribute more ffectively, at 1 time(s) every 1s for 20s.",
+          "skillIcon": "Jinhsi_OutroSkill.webp",
+          "skillVars": {}
+        },
+        "Inherent Skill 1": {
+          "skillName": "Radiant Surge",
+          "skillDesc": "",
+          "skillIcon": "Jinhsi_InherentSkill1.webp",
+          "skillVars": {
+            "Incarnation": "Jinhsi's Spectro DMG bonus is increased by 20%."
+          }
+        },
+        "Inherent Skill 2": {
+          "skillName": "Converged Flash",
+          "skillDesc": "Damage multiplier of Intro Skill Loong's Halo is incrased by 50%.",
+          "skillIcon": "Jinhsi_InherentSkill2.webp",
           "skillVars": {}
         }
       }

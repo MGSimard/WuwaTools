@@ -33,6 +33,11 @@ So anyways with that out of the way I'm not too certain if or what tool I want t
 - [html-to-image](https://github.com/bubkoo/html-to-image)
 - [downloadjs](https://github.com/rndme/download)
 
+### AES Keys for version 1.1 (From https://github.com/RealNath/wuwa-aes-archive)
+
+- 0x43C51CC2369B9DD195EDCF426C78E30E99D7514DC14E8C03A831E128A3941010
+- 0x52B3F2003A28C3145C98866BEECC3F884051140E03CC42946A89DB126AD55E9C
+
 ## Usage
 
 - Go to https://wuwatools.web.app/

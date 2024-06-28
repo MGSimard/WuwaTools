@@ -149,6 +149,9 @@ table {
 .activeLink {
   font-weight: 700;
 }
+.linkDecorate {
+  text-decoration: underline;
+}
 /**/
 
 @media only screen and (max-width: 968px) {

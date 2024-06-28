@@ -34,6 +34,22 @@ function Home() {
           <li>- downloadjs</li>
         </ul>
       </section>
+      <section>
+        <h2>AES Keys for resource extraction (version 1.1.0)</h2>
+        <li>Main: 0x43C51CC2369B9DD195EDCF426C78E30E99D7514DC14E8C03A831E128A3941010</li>
+        <li>PAK5: 0x52B3F2003A28C3145C98866BEECC3F884051140E03CC42946A89DB126AD55E9C</li>
+        <li>
+          <a className="linkDecorate" href="https://github.com/RealNath/wuwa-aes-archive">
+            https://github.com/RealNath/wuwa-aes-archive
+          </a>
+        </li>
+        <li>
+          Use{" "}
+          <a className="linkDecorate" href="https://fmodel.app/" target="_blank">
+            FModel
+          </a>
+        </li>
+      </section>
     </>
   );
 }
