@@ -139,7 +139,7 @@ button {
   border: none;
 }
 ul {
-  list-style: none;
+  list-style-type: none;
 }
 table {
   border-collapse: collapse;
