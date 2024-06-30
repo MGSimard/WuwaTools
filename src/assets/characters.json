@@ -169,7 +169,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Complex Simplicity": "Resonance Skill Emergency Plan additionally restores 2.5 Resonance Energy for every 1 \"Concentration\" consumed.",
+        "Silent Tundra": "Resonance Skill Emergency Plan increased Baizhi's Glacio DMG bonus by 15% and her Healing by 15% if she has 4 \"Concentration\". These effects last for 12s.",
+        "Veritas Lux Mea": "Intro Skill Overflowing Frost increases Baizhi's Max HP by 12% for 10s.",
+        "Eternal Verity": "Upon casting Resonance Liberation Momentary Union, Resonance Liberation Remnant Entities gains the following enhancements:\n- Remnant Entities can be performed 2 more time(s);\n- Healing multiplier of Remnant Entities is increased by 20%;\n- Remnant Entities deals additional Glacio DMG equal to 1.20% of Baizhi's Max HP.",
+        "A Wish Answered": "If a team member is downed when Baizhi is alive on the team, immediately revive them and restore their HP to 100% of their Max HP. This effect can be triggered once every 10 minute(s).",
+        "Seeker's Devotion": "When Euphonia is picked up, increase the Glacio DMG bonus of all characters nearby by 12% for 20s."
+      }
     },
     {
       "id": 4,

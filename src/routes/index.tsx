@@ -18,6 +18,12 @@ function Home() {
       <section>
         <h2>To Do:</h2>
         <ul>
+          <li>
+            -{" "}
+            <a className="linkDecorate" href="https://i.imgur.com/HADamI2.jpeg" target="_blank">
+              REMIND YOURSELF TO DO DIVIDER IN-LINE WITH SECTION TITLE + RESONANCE ICON ON ::AFTER WITH RIGHT XXrem
+            </a>
+          </li>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
         </ul>

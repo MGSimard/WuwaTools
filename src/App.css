@@ -125,6 +125,7 @@
 .sch-skillIcon-container {
   max-height: 6rem;
   max-width: 6rem;
+  overflow: hidden;
 }
 .sc-head h3 {
   font-size: 1.2rem;
