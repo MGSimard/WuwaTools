@@ -322,10 +322,13 @@
     text-align: center;
     flex-direction: column;
   }
+  .resonanceChain-container {
+    grid-template-columns: 1fr;
+  }
 }
 @media only screen and (max-width: 354px) {
-  .pd-table td {
-    overflow-wrap: break-word;
-    word-break: break-all;
+  .pd-table tr {
+    display: flex;
+    flex-direction: column;
   }
 }

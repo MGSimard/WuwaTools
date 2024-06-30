@@ -76,7 +76,7 @@ function Resonator() {
                   <th>&nbsp;</th>
                   <td>&nbsp;</td>
                 </tr>
-                <tr>
+                <tr className="bio">
                   <th>Bio:</th>
                   <td>{profile.info}</td>
                 </tr>
