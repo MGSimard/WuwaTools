@@ -80,6 +80,14 @@
           "skillIcon": "Aalto_InherentSkill2.webp",
           "skillVars": {}
         }
+      },
+      "resonanceChain": {
+        "Trickster's Opening Show": "The cooldown of Resonance Skill Shift Trick is reduced by 4s.",
+        "Mistweaver's Debut": "\"Mist Avatar\" inherits 100% more HP from Aalto. When Aalto attacks targets taunted by the \"Mist Avatar(s)\", his ATK is increased by 15%.",
+        "Hazey Transition": "When Aalto's Basic Attack or Mid-air Attack passes through the Mist, 2 more bullets will be generated, dealing 50% of the DMG of Basic Attack or Mid-air Attack.",
+        "Blake Bloom for Finale": "The damage of Resonance Skill Mist Bullets is increased by 30%; Aalto receives 30% less damage in his Forte Circuit Mistcloak Dash state.",
+        "Applause of the Lost": "In the Forte Circuit Mistcloak Dash state, Aalto's Aero DMG bonus is increased by 25% for 6s.",
+        "Broker's Secrets": "Resonance Liberation Flower in the Mist now additionally increased Crit. Rate by 8%. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by 50%."
       }
     },
     {
@@ -160,7 +168,8 @@
           "skillIcon": "Baizhi_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 4,
@@ -240,7 +249,8 @@
           "skillIcon": "Calcharo_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 5,
@@ -316,7 +326,8 @@
           "skillIcon": "Chixia_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 6,
@@ -396,7 +407,8 @@
           "skillIcon": "Danjin_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 7,
@@ -481,7 +493,8 @@
           "skillIcon": "Encore_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 8,
@@ -560,7 +573,8 @@
           "skillIcon": "Jianxin_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 19,
@@ -641,7 +655,8 @@
           "skillIcon": "Jinhsi_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 16,
@@ -722,7 +737,8 @@
           "skillIcon": "Jiyan_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 9,
@@ -805,7 +821,8 @@
           "skillIcon": "Lingyang_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 10,
@@ -882,7 +899,8 @@
           "skillIcon": "Mortefi_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 18,
@@ -958,7 +976,8 @@
           "skillIcon": "RoverH_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 1,
@@ -1036,9 +1055,9 @@
           "skillIcon": "RoverS_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
-
     {
       "id": 11,
       "name": "Sanhua",
@@ -1113,7 +1132,8 @@
           "skillIcon": "Sanhua_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 12,
@@ -1192,7 +1212,8 @@
           "skillIcon": "Taoqi_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 13,
@@ -1271,7 +1292,8 @@
           "skillIcon": "Verina_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 14,
@@ -1348,7 +1370,8 @@
           "skillIcon": "InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 17,
@@ -1430,7 +1453,8 @@
           "skillIcon": "Yinlin_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 15,
@@ -1510,7 +1534,8 @@
           "skillIcon": "Yuanwu_InherentSkill2.webp",
           "skillVars": {}
         }
-      }
+      },
+      "resonanceChain": {}
     }
   ]
 }

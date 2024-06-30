@@ -18,7 +18,7 @@ function Resonator() {
     );
   }
 
-  const { name, rarity, attribute, weapon, profile, skills, image } = charData;
+  const { name, rarity, attribute, weapon, profile, image, skills, resonanceChain } = charData;
 
   const highlight = (eleType: string, text: string) => {
     const toHL = `${eleType} DMG`;
@@ -112,6 +112,32 @@ function Resonator() {
                     <p>{highlight(attribute, value as string)}</p>
                   </div>
                 ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section>
+        <h2>▸ Resonance Chain</h2>
+        <div className="resonanceChain-container">
+          {Object.entries(resonanceChain).map(([sequence, sequenceDesc], index) => (
+            <div key={sequence} className="glass">
+              <div className="sc-head">
+                <div className="sch-skillIcon-container">
+                  <img
+                    src={`/characters/resonanceChains/${name}_ResonanceChain${index + 1}.webp`}
+                    alt="Sequence Icon"
+                  />
+                </div>
+                <div>
+                  <h3>Sequence {index + 1}</h3>
+                  <h4>{sequence}</h4>
+                </div>
+              </div>
+              <div className="sc-body">
+                <p className="scb-desc">
+                  <strong>{highlight(attribute, sequenceDesc)}</strong>
+                </p>
               </div>
             </div>
           ))}

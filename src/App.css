@@ -148,6 +148,11 @@
   color: var(--clr-heading);
   font-size: 1.6rem;
 }
+.resonanceChain-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
 
 /**/
 /* TIER LIST PAGE */
