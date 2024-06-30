@@ -637,7 +637,7 @@
         },
         "Inherent Skill 2": {
           "skillName": "Converged Flash",
-          "skillDesc": "Damage multiplier of Intro Skill Loong's Halo is incrased by 50%.",
+          "skillDesc": "Damage multiplier of Intro Skill Loong's Halo is increased by 50%.",
           "skillIcon": "Jinhsi_InherentSkill2.webp",
           "skillVars": {}
         }
