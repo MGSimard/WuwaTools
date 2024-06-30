@@ -111,7 +111,9 @@
 .skill-container:nth-child(2) {
   grid-column: span 2;
 }
-.sc-head,
+.sc-head {
+  padding: 1rem;
+}
 .sc-body {
   padding: 1rem 2rem;
 }
