@@ -14,7 +14,7 @@ React/Vite TypeScript Project
 
 ![WuwaTools Screenshot](https://i.imgur.com/RKjr6kx.png)
 
-This project was an excuse to learn the basics of TypeScript, naturally I end up spending more time wrangling with unrelated stuff like Drag & Drop. Bounced from library to library, settled for the alpha rewrite of [dnd-kit](https://github.com/clauderic/dnd-kit/issues/1188#issuecomment-2161876989) by [the guy](https://github.com/clauderic). Following his guide, refactor took about 10 minutes tops, pretty baller library rewrite.
+This project was an excuse to learn the basics of TypeScript, naturally I end up spending more time wrangling with unrelated stuff like Drag & Drop. Bounced from library to library, settled for the alpha rewrite of [dnd-kit](https://github.com/clauderic/dnd-kit/issues/1188#issuecomment-2161876989) by [Clauderic](https://github.com/clauderic). Following his documentation, refactor took about 10 minutes tops, pretty baller library rewrite.
 
 Not too certain what features I'd like to write next. The major problem being that there is no public API for Wuthering Waves, so I had to write the entire JSON myself _(without keys it's about 50k characters by now)_. Bit of a nightmare, without mentioning maintaining all of it between updates. As this is a project for fun it probably won't see much updating once I'm done with it.
 
