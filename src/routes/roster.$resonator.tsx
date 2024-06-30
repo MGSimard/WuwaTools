@@ -54,7 +54,7 @@ function Resonator() {
                 </tr>
                 <tr>
                   <th>Rarity:</th>
-                  <td>{rarity}</td>
+                  <td>{rarity} Stars</td>
                 </tr>
                 <tr>
                   <th>Attribute:</th>
@@ -65,16 +65,16 @@ function Resonator() {
                   <td>{weapon}</td>
                 </tr>
                 <tr>
-                  <th>&nbsp;</th>
-                  <td>&nbsp;</td>
-                </tr>
-                <tr>
                   <th>Birthplace:</th>
                   <td>{profile.birthplace}</td>
                 </tr>
                 <tr>
                   <th>Affiliation:</th>
                   <td>{profile.affiliation}</td>
+                </tr>
+                <tr>
+                  <th>&nbsp;</th>
+                  <td>&nbsp;</td>
                 </tr>
                 <tr>
                   <th>Bio:</th>

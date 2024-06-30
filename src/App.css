@@ -71,11 +71,10 @@
 .hl-spectro {
   color: var(--clr-spectro);
 }
+/* PROFILE DATA */
 .profile-container {
   position: relative;
   display: flex;
-  gap: 2rem;
-  padding: 2rem;
   border: var(--glassBorder);
 }
 .profile-portrait {
@@ -91,6 +90,9 @@
   background: rgba(0, 0, 0, 0.5);
   border-radius: 999rem;
 }
+.profile-data {
+  padding: 4rem 2rem;
+}
 .pd-table {
   text-align: left;
 }
@@ -98,6 +100,8 @@
   vertical-align: top;
   padding-right: 1rem;
 }
+
+/* SKILLS */
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -309,5 +313,11 @@
   .sc-head {
     text-align: center;
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 354px) {
+  .pd-table td {
+    overflow-wrap: break-word;
+    word-break: break-all;
   }
 }
