@@ -257,7 +257,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Covert Negotiation": "When Resonance Skill Extermination Order hits a target, it additionally recovers 10 Resonance Energy. This can be triggered once every 20s.",
+        "Zero-Sum Game": "After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill damage bonus is increased by 30% for 15s.",
+        "Iron Fist Diplomacy": "During the Resonance Liberation Deathblade Gear state, Calcharo's Electro DMG bonus is increased by 25%.",
+        "Dark Alliance": "After casting Outro Skill Shadowy Raid, Electro DMG bonus of all team members is increased by 20% for 30s.",
+        "Unconventional Compact": "Intro Skill Wanted Criminal and Intro Skill \"Necessary Means\" deal 50% more damage.",
+        "The Ultimatum": "When casting Resonance Liberation \"Death Messenger\", Calcharo will summon 2 Phantoms to perform Coordinated Attacks. Each Phantom deals Electro DMG equal to 100.00% of Calcharo's ATK, which is considered Resonance Liberation damage."
+      }
     },
     {
       "id": 5,
@@ -496,7 +503,7 @@
         },
         "Inherent Skill 2": {
           "skillName": "Woolies Cheer Dance",
-          "skillDesc": "When Resonance Skill Flaming Woolies or Resonance Skill Cosmos - Rampage is cast, Encore's Fusion DMG Bonus is increased by 10% for 10s.",
+          "skillDesc": "When Resonance Skill Flaming Woolies or Resonance Skill Cosmos - Rampage is cast, Encore's Fusion DMG bonus is increased by 10% for 10s.",
           "skillIcon": "Encore_InherentSkill2.webp",
           "skillVars": {}
         }
