@@ -21,6 +21,7 @@ function Home() {
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
           <li>- Lightweight interactive map with Leafletjs</li>
+          <li>- Active route style similar to wuthering wave's menu</li>
         </ul>
       </section>
       <section>

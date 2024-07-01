@@ -12,6 +12,7 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as TierlistImport } from './routes/tierlist'
+import { Route as MapImport } from './routes/map'
 import { Route as IndexImport } from './routes/index'
 import { Route as RosterIndexImport } from './routes/roster.index'
 import { Route as RosterResonatorImport } from './routes/roster.$resonator'
@@ -20,6 +21,11 @@ import { Route as RosterResonatorImport } from './routes/roster.$resonator'
 
 const TierlistRoute = TierlistImport.update({
   path: '/tierlist',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const MapRoute = MapImport.update({
+  path: '/map',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -47,6 +53,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexImport
+      parentRoute: typeof rootRoute
+    }
+    '/map': {
+      id: '/map'
+      path: '/map'
+      fullPath: '/map'
+      preLoaderRoute: typeof MapImport
       parentRoute: typeof rootRoute
     }
     '/tierlist': {
@@ -77,6 +90,7 @@ declare module '@tanstack/react-router' {
 
 export const routeTree = rootRoute.addChildren({
   IndexRoute,
+  MapRoute,
   TierlistRoute,
   RosterResonatorRoute,
   RosterIndexRoute,
@@ -91,6 +105,7 @@ export const routeTree = rootRoute.addChildren({
       "filePath": "__root.tsx",
       "children": [
         "/",
+        "/map",
         "/tierlist",
         "/roster/$resonator",
         "/roster/"
@@ -98,6 +113,9 @@ export const routeTree = rootRoute.addChildren({
     },
     "/": {
       "filePath": "index.tsx"
+    },
+    "/map": {
+      "filePath": "map.tsx"
     },
     "/tierlist": {
       "filePath": "tierlist.tsx"

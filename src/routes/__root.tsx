@@ -1,7 +1,7 @@
 import { createRootRoute, Outlet, Link } from "@tanstack/react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTableList } from "@fortawesome/free-solid-svg-icons/faTableList";
-import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook, faMap } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import wuwaToolsLogo from "../assets/wuwatools.png";
 
@@ -34,6 +34,12 @@ export const Route = createRootRoute({
               <Link to="/tierlist" activeProps={activeProps}>
                 <FontAwesomeIcon icon={faTableList} />
                 <span>Tier List</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/map" activeProps={activeProps}>
+                <FontAwesomeIcon icon={faMap} />
+                <span>Map</span>
               </Link>
             </li>
           </ul>
