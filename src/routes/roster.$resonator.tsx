@@ -9,7 +9,7 @@ export const Route = createFileRoute("/roster/$resonator")({
 
 function Resonator() {
   const { resonator } = Route.useParams();
-  const charData = charactersData.data.find((char) => char.name.toLowerCase() === resonator);
+  const charData = charactersData.data.find((char) => char.name.toLowerCase() === resonator.toLowerCase());
 
   if (!charData) {
     return (
@@ -23,6 +23,7 @@ function Resonator() {
   const { name, rarity, attribute, weapon, profile, image, skills, resonanceChain } = charData;
 
   const highlight = (eleType: string, text: string) => {
+    // Highlight instances of matching ELEMENT DMG to respective element colors
     const toHL = `${eleType} DMG`;
     const parts = text.split(new RegExp(`(${toHL})`, "i"));
     return parts.map((part, i) =>
@@ -34,6 +35,11 @@ function Resonator() {
         part
       )
     );
+  };
+
+  const removeSpaces = (toModify: string) => {
+    // For "Rover (Element)" cases
+    return toModify.replace(/ /g, "_");
   };
 
   return (
@@ -119,6 +125,7 @@ function Resonator() {
           ))}
         </div>
       </section>
+
       <section>
         <SectionDivider title={"Resonance Chain"} />
         <div className="resonanceChain-container">
@@ -127,7 +134,7 @@ function Resonator() {
               <div className="sc-head">
                 <div className="sch-skillIcon-container">
                   <img
-                    src={`/characters/resonanceChains/${name}_ResonanceChain${index + 1}.webp`}
+                    src={`/characters/resonanceChains/${removeSpaces(name)}_ResonanceChain${index + 1}.webp`}
                     alt="Sequence Icon"
                   />
                 </div>

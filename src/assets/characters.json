@@ -202,7 +202,7 @@
           "skillVars": {
             "Basic Attack": "Calcharo performs up to 4 consecutive attacks, dealing Electro DMG.",
             "Heavy Attack": "Consumes STA to attack the target, dealing Electro DMG.",
-            "Mid-air Attack": "Consumes STA to perform a Mid-Air Plunging Attack, dealing Electro DMG.",
+            "Mid-air Attack": "Consumes STA to perform a Mid-air Plunging Attack, dealing Electro DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
           }
         },
@@ -463,7 +463,7 @@
             "Basic Attack": "Encore performs up to 4 consecutive attacks, dealing Fusion DMG.",
             "Basic Attack: Wooly Strike": "After Basic Attack 4, press the Basic Attack button to attack the target, dealing Fusion DMG.",
             "Heavy Attack": "Encore consumes STA to attack the target, dealing Fusion DMG.",
-            "Mid-air Attack": "Encore consumes STA to perform a Mid-Air Plunging Attack, dealing Fusion DMG.",
+            "Mid-air Attack": "Encore consumes STA to perform a Mid-air Plunging Attack, dealing Fusion DMG.",
             "Dodge Counter": "Use Basic Attack after successful Dodge to attack the target, dealing Fusion DMG."
           }
         },
@@ -733,7 +733,7 @@
             "Heavy Attack": "Jiyan consumes Stamina to thrust forward, dealing Aero DMG.",
             "Heavy Attack: Windborne Strike": "Hold the Basic Attack during Heavy Attack to cast Windborne Strike after the Heavy Attack ends, dealing Aero DMG.",
             "Heavy Attack: Abyssal Slash": "Release the Basic Attack during the Heavy Attack to cast Abyssal Slash after the Heavy Attack ends, dealing Aero DMG.",
-            "Mid-air Attack": "Jiyan consumes Stamina to perform a Mid-Air Plunging Attack, dealing Aero DMG. After the Plunging Attack, use Basic Attack to perform a follow-up attack, dealing Aero DMG.",
+            "Mid-air Attack": "Jiyan consumes Stamina to perform a Mid-air Plunging Attack, dealing Aero DMG. After the Plunging Attack, use Basic Attack to perform a follow-up attack, dealing Aero DMG.",
             "Mid-air Attack: Banner of Triumph": "After casting the Heavy Attack Windborne Strike or the Resonance Skill Windqueller in the air, Jiyan can perform a mid-air attack, dealing Aero DMG.",
             "Dodge Counter": "Use a Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
           }
@@ -996,7 +996,7 @@
           "skillVars": {
             "Basic Attack": "Rover-Havoc performs up to 5 consecutive attacks, dealing Havoc DMG.",
             "Heavy Attack": "Rover-Havoc consumes STA to attack, dealing Havoc DMG. Use Basic Attack after casting Heavy Attack to cast Basic Attack 4.",
-            "Mid-air Attack": "Rover-Havoc consumes STA to cast a Mid-Air Plunging Attack, dealing Havoc DMG.",
+            "Mid-air Attack": "Rover-Havoc consumes STA to cast a Mid-air Plunging Attack, dealing Havoc DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
           }
         },
@@ -1047,7 +1047,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Cryptic Insight": "Resonance Skill damage bonus is increased by 30%.",
+        "Waning Crescent": "Reset Resonance Skill's Cooldown when Rover enters the Dark Surge state by casting Heavy Attack Devastation.",
+        "Surging Resonance": "In the Dark Surge state, Basic Attack 5 restores HP equal to 10% of total HP lost on hit.",
+        "Annihilated Silence": "Heavy Attack Devastation and Resonance Liberation Deadening Abyss reduces enemy Havoc resistance by 10% for 20s on hit.",
+        "Aeon Symphony": "In the Dark Surge state, Basic Attack 5 deals additional Havoc DMG equal to 50% of Basic Attack 5 damage.",
+        "Ebbing Undercurrent": "In the Dark Surge state, Rover's Crit. Rate is increased by 25%."
+      }
     },
     {
       "id": 1,
@@ -1075,7 +1082,7 @@
             "Heavy Attack": "Rover consumes STA to attack the target, dealing Spectro DMG.",
             "Heavy Attack: Resonance": "After Basic Attack 3 or Heavy Attack, press the Basic Attack button at the right time to perform Heavy Attack Resonance, dealing Spectro DMG.",
             "Heavy Attack: Aftertune": "After Heavy Attack Resonance or Dodge Counter hits a target, press the Basic Attack button to perform Heavy Attack Aftertune, dealing Spectro DMG.",
-            "Mid-air Attack": "Rover consumes STA to perform a Mid-Air Plunging Attack, dealing Spectro DMG.",
+            "Mid-air Attack": "Rover consumes STA to perform a Mid-air Plunging Attack, dealing Spectro DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Spectro DMG."
           }
         },
@@ -1126,7 +1133,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Odyssey of Beginnings": "Rover's Crit. Rate is increased by 15% for 7s when casting Resonance Skill Resonating Slashes or Resonance Skill Resonanting Spin.",
+        "Microcosmic Murmurs": "Rover's Spectro DMG bonus is increased by 20%.",
+        "Visages of Dust": "Rover's Energy Regen is increased by 20%.",
+        "Resonating Lamella": "When casting Resonance Liberation Echoing Resonance, Rover continuously restores HP for all team members: HP equal to 20% of Rover's ATK will be restored every second for 5s.",
+        "Temporal Virtuoso": "Rover's Resonance Liberation damage bonus is increased by 40%.",
+        "Echoes of Wanderlust": "Resonance Skill Resonating Slashes and Resonance Skill Resonating Spin reduces the target's Spectro DMG resistance by 10% on hit for 20s."
+      }
     },
     {
       "id": 11,
@@ -1152,7 +1166,7 @@
           "skillVars": {
             "Basic Attack": "Sanhua performs up to 5 consecutive attacks, dealing Glacio DMG.",
             "Heavy Attack": "Sanhua consumes STA to launch attacks, dealing Glacio DMG.",
-            "Mid-air Attack": "Sanhua consumes STA to perform a Mid-Air Plunging Attack, dealing Glacio DMG.",
+            "Mid-air Attack": "Sanhua consumes STA to perform a Mid-air Plunging Attack, dealing Glacio DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
           }
         },
@@ -1203,7 +1217,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Solitude's Embrace": "Basic Attack 5 increases Sanhua's Crit. Rate by 15% for 10s.",
+        "Snowy Clarity": "Stamina cost of Heavy ATtack Detonate is reduced by 10. When Sanhua casts Resonance Skill Eternal Frost, her Anti-interruption is enhanced for 10s.",
+        "Anomalous Vision": "Sanhua's damage dealt is increased by 35% against targets with HP below 70%.",
+        "Blade Mastery": "Resonance Liberation Glacial Gaze restores 10 Resonance Energy. Damage of the next Heavy Attack Detonate within 5s is increased by 120%.",
+        "Unraveling Fate": "Crit. DMG of Forte Circuit Ice Burst is increased by 100%. Ice Creations (Ice Thorn, Ice Prism, and Glacier) will explode even if they are not detonated.",
+        "Daybreak Radiance": "After an Ice Prism or a Glacier is detonated, all team members' ATK is increased by 10% for 20s, stacking up to 2 times."
+      }
     },
     {
       "id": 12,
@@ -1231,7 +1252,7 @@
             "Heavy Attack": "Taoqi consumes STA to deal Havoc DMG. If Basic Attack button is held, Taoqi enters Rocksteady Defense state.",
             "Rocksteady Defense": "Taoqi's damage taken is reduced by 35%;\n- When Taoqi is attacked during Rocksteady Defense, she will cast Strategic Parry;\n- Strategic Parry is automatically cast after Rocksteady Defense lasts for 3s;\n- If Taoqi is attacked when casting Resonance Skill Rocksteady Shield, Strategic Parry is automatically cast.",
             "Strategic Parry": "Taoqi attacks the target, dealing Havoc DMG.",
-            "Mid-air Attack": "Taoqi consumes STA to perform a Mid-Air Plunging Attack, dealing Havoc DMG.",
+            "Mid-air Attack": "Taoqi consumes STA to perform a Mid-air Plunging Attack, dealing Havoc DMG.",
             "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
           }
         },
@@ -1283,7 +1304,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Essence of Tranquility": "Forte Circuit Power Shift's Shield is increased by 40%.",
+        "Silent Strength": "The Crit. Rate and Crit. DMG of Resonance Liberation Unmovable is increased by 20% and 20%, respectively.",
+        "Keen-eyed Observer": "The duration of Resonance Skill Rocksteady SHield is extended to 30s.",
+        "Heavylifting Duty": "When Taoqi successfully triggers Heavy Attack Strategic Parry, she restores 25% HP and increases her DEF by 50% for 5s. This can be triggered once every 15s.",
+        "Benevolent Guardian": "The damage of Forte Circuit Power Shift is increased by 50%. When Forte Circuit Power Shift hits a target, restore 20 Resonance Energy.",
+        "Defender of Peace": "The damage of Taoqi's Basic Attack and Heavy Attack is increased by 40% while the Shield granted by Resonance Skill Rocksteady Shield holds."
+      }
     },
     {
       "id": 13,
@@ -1363,7 +1391,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Moment of Emergence": "Outro Skill Blossom grants the next character a continuous Healing effect, recovering HP by 20% of Verina's ATK every 5s for 30s.",
+        "Sprouting Reflections": "Resonance Skill Botany Experiment additionally grants 1 \"Photosynthesis Energy\" and 10 Concerto Energy.",
+        "The Choice to Flourish": "Healing of Resonance Liberation's Photosynthesis Mark is increased by 12%.",
+        "Blossoming Embrace": "Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arobreal Flourish and Outro Skill Blossom increases the Spectro DMG bonus of all team members by 15% for 24s.",
+        "Miraculous Blooms": "When Verina heals a team member with HP less than 50%, her Healing is increased by 20%.",
+        "Joyous Harvest": "Heavy Attack Starflower Blooms and Mid-air Attack Starflower Blooms deal 20% more damage. They will trigger Coordinated Attack 1 time and heal all characters nearby. The damage of this Coordinated Attack and the Healing are equal to those of the Resonance Liberation's Photosynthesis Mark."
+      }
     },
     {
       "id": 14,
@@ -1400,7 +1435,7 @@
           "skillIcon": "Yangyang_ForteCircuit.webp",
           "skillVars": {
             "Heavy Attack: Stormy Strike": "When Yangyang has 3 Melodies, she can cast Stormy Strike after Heavy Attack or Dodge Counter, dealing Aero DMG.",
-            "Mid-air Attack: Feather Release": "When Yangyang has 3 Melodies, cast Basic Attack in mid-air to consume all Melodies and perform consecutive strikes, diving from mid-air, dealing Aero DMG. As Yangyang lands, she sheathes her sword with an attack, dealing Aero DMG, considered as Basic Attack damage.",
+            "Mid-air Attack: Feather Release": "When Yangyang has 3 Melodies, cast Basic Attack in mid-air to consume all Melodies and perform consecutive strikes, diving from wwww, dealing Aero DMG. As Yangyang lands, she sheathes her sword with an attack, dealing Aero DMG, considered as Basic Attack damage.",
             "Melody": "Yangyang can hold up to 3 Melodies.\n- Yangyang obtains 1 Melody with every Basic Attack 4 on hit.\n- Yangyang obtains 1 Melody for every Heavy Attack Zephyr Song on hit.\n- Yangyang obtains 1 Melody for every Resonance Skill Zephyr Domain on hit.\n- Yangyang obtains 1 Melody upon casting Intro Skill Cerulean Song."
           }
         },
@@ -1441,7 +1476,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Sapphire Skies, Soaring Sparrows": "Intro Skill Cerulean Song increases Yangyang's Aero DMG bonus by an additional 15% for 8s.",
+        "Nesting Twigs, in Beaks They Harrow": "Heavy Attack recovers an additional 10 Resonance Energy for Yangyang when it hits a target, which can be triggered 1 time every 20s.",
+        "Nature Sings in Symphony": "Resonance Skill damage bonus is increased by 40%. The Wind Field's pulling effect on surrounding targets is enhanced, and the pulling range is expanded by 33%.",
+        "Close Your Eyes and Listen in": "Mid-air Attack Feather Release's damage is increased by 95%.",
+        "Winds Whisper in Harmony": "Resonance Liberation Wind Spirals' damage is increased by 85%.",
+        "A Tribute to Life's Sweet Hymn": "After casting Mid-air Attack Feather Release, the ATK of all team members is increased by 20% for 20s."
+      }
     },
     {
       "id": 17,
@@ -1524,7 +1566,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Morality's Crossroads": "Resonance Skill Magnetic Roar and Lightning Execution deal 70% more damage.",
+        "Ensnarled by Rapport": "Resonance Skill Electromagnetic Blast recovers an additional 5 \"Judgement Point(s)\" and 5 Resonance Energy on hit.",
+        "Unyielding Verdict": "Forte Circuit Judgement Strike's damage multiplier is increased by 55%.",
+        "Steadfast Conviction": "When Forte Circuit Judgement Strike hits a target, the ATK of all team members is increased by 20% for 12s.",
+        "Resounding Will": "Resonance Liberation Thundering Wrath deals 100% extra damage to targets with Forte Circuit's Sinner's Mark or Punishment Mark.",
+        "Pursuit of Justice": "In the first 30s after casting Resonance Liberation Thundering Wrath, when Yinlin's Basic Attack hits a target, Furious Thunder will be triggered, dealing Electro DMG equal to 419.59% of Yinlin's ATK. Every Basic Attack hit can trigger Furious Thunder 1 time, up to 4 times. This is considered Resonance Skill damage."
+      }
     },
     {
       "id": 15,
@@ -1605,7 +1654,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Steaming Cup of Justice": "When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by 20%, and his Heavy Attack Speed is increased by 20%.",
+        "Fire Heart, Serene Mind": "Intro Skill Thunder Bombardment additionally recovers 15 Resonance Energy for Yuanwu.",
+        "Upholder of Integrity": "When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by 20% of Yuanwu's DEF.",
+        "Retributive Knuckles": "When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to 200% of Yuanwu's DEF for 10s.",
+        "Neighborhood Protector": "When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation damage bonus is increased by 50%.",
+        "Defender of All Realms": "All team members nearby within the range of Resonance Skill Thunder Wedge will gain a 32% DEF increased, lasting 3s."
+      }
     }
   ]
 }
