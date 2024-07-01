@@ -341,7 +341,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "No.1 Hero Play Fan": "Resonance Skill Boom Boom hits will always be Critical Hits.",
+        "Leaping Sparkles": "During Resonance Liberation Blazing Flames, for every 1 target defeated, Chixia recovers 5 Resonance Energy, up to 20 each time.",
+        "Eternal Flames": "Resonance Liberation Blazing Flames deals 40% more damage to targets whose HP is below 50%.",
+        "Hero's Ultimate Move": "Resonance Liberation Blazing Flames grants 60 \"Thermobaric Bullets\" and immediately resets the Cooldown of Resonance Skill Whizzing Fight Spirit.",
+        "Trumphant Explosions": "When the Inherent Skill Numbingly Spicy! reaches max stacks, ATK is additionally increased by 30%.",
+        "Easter Egg Performance": "Resonance Skill Boom Boom increased the Basic Attack damage bonus of all team members by 25% for 15s."
+      }
     },
     {
       "id": 6,
@@ -422,7 +429,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Crimson Heart of Justice": "When Danjin attacks a target with Resonance Skill's Incinerating Will, her ATK is icnreased by 5% for 6s, stacking up to 6 times. Danjin loses 1 stack of this effect each time she takes damage.",
+        "Dusted Mirror": "When Danjin attacks a target with Resonance Skill's Incinerating Will, her damage dealt is increased by 20%.",
+        "Fleeting Blossom": "Resonance Liberation damage bonus i increased by 30%.",
+        "Solitary Carnation": "When Danjin has more than 60 \"Ruby Blossom\", her Crit. Rate is increased by 15%. This effect lasts until the end of Heavy Attack: Scatterbloom even after all \"Ruby Blossom\" is consumed when casting Heavy Attack: Chaoscleave.",
+        "Reigning Blade": "Danjin's Havoc DMG bonus i increased by 15%, and further increased by another 15% when her HP is lower than 60%.",
+        "Bloodied Jade": "Heavy ATtack Chaoscleave increased the ATK of all team members by 20% for 20s."
+      }
     },
     {
       "id": 7,
