@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import charactersData from "../assets/characters.json";
 
+import { SectionDivider } from "../Components/SectionDivider";
+
 export const Route = createFileRoute("/roster/$resonator")({
   component: Resonator,
 });
@@ -38,7 +40,7 @@ function Resonator() {
     <div>
       <h1>Resonator // {name}</h1>
       <section>
-        <h2>▸ Profile Data</h2>
+        <SectionDivider title={"Profile Data"} />
         <div className="profile-container glass">
           <div className="profile-portrait">
             <img src={`/characters/${image.portrait}`} alt={`${name} portrait`} />
@@ -87,7 +89,7 @@ function Resonator() {
       </section>
 
       <section>
-        <h2>▸ Skills</h2>
+        <SectionDivider title={"Skills"} />
         <div className="skills-container">
           {Object.entries(skills).map(([skill, skillContents]) => (
             <div key={skill} className="skill-container glass">
@@ -118,7 +120,7 @@ function Resonator() {
         </div>
       </section>
       <section>
-        <h2>▸ Resonance Chain</h2>
+        <SectionDivider title={"Resonance Chain"} />
         <div className="resonanceChain-container">
           {Object.entries(resonanceChain).map(([sequence, sequenceDesc], index) => (
             <div key={sequence} className="glass">

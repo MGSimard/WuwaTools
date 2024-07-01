@@ -100,7 +100,6 @@
   vertical-align: top;
   padding-right: 1rem;
 }
-
 /* SKILLS */
 .skills-container {
   display: grid;
@@ -156,7 +155,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
-
 /**/
 /* TIER LIST PAGE */
 .tierlist-container {
@@ -274,6 +272,16 @@
 .glass {
   background-color: rgba(28, 29, 33, 0.6);
   border: var(--glassBorder);
+}
+/* DIVIDER */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.sd-line {
+  border-bottom: 1px solid red;
+  flex-grow: 1;
 }
 
 /* MEDIA QUERIES */
