@@ -609,7 +609,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Verdant Branchlet": "After casting Intro Skill Essence of Tao, Jianxin gains 100% extra \"Chi\" from Basic Attacks for 10s.",
+        "Tao Seeker's Journey": "Resonance Skill Calming Air can be used 1 more time.",
+        "Principles of Wuwei": "After staying in the Parry Stance of Resonance Skill Calming Air for 2.5s, Resonance Skill Chi Counter becomes immediately available.",
+        "Multitide Reflection": "When performing Forte Circuit Heavy Attack: Primordial Chi Spiral, Jianxin's Resonance Liberation Purification Force Field damage is increased by 80% for 14s.",
+        "Mirroring Introspection": "The range of Resonance Liberation Purification Force Field is increased by 33%.",
+        "Truth from Within": "During Forte Circuit Heavy Attack: Primordial Qi Spiral, if Jianxin performs Pushing Punch, enhanced Resonance Skill Special Chi Counter can be used 1 time(s) in 5s. Special Chi Counter:\n- Deals Aero DMG equal to 556.67% of Jianxin's ATK, considered as Heavy Attack damage.\n- Obtain a Zhoutian Progress 4 Shield (Benefits from Inherent Skill Reflection's bonus effect)."
+      }
     },
     {
       "id": 19,
