@@ -281,7 +281,7 @@
 }
 .sd-line {
   position: relative;
-  border-bottom: 2px solid var(--clr-text);
+  border-bottom: 2px solid var(--clr-heading);
   flex-grow: 1;
 }
 .sd-line-decor {
@@ -290,7 +290,6 @@
   top: -1.75rem;
   width: 5rem;
 }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1280px) {
   .tierlist-container {

@@ -1,4 +1,4 @@
-import lineDecor from "../assets/ui/T_VisionRecycle_Star.png";
+import lineDecor from "../assets/ui/star_gold.png";
 
 export const SectionDivider = ({ title }: { title: string }) => {
   return (
