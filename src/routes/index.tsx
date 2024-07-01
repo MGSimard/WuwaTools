@@ -20,6 +20,10 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
+          <li>
+            - Potentially look into React-Leafletjs for <strong>lightweight</strong> interactive map. 100% not looking
+            for and placing thousands of markers. Maybe waypoints and encounters at most.
+          </li>
         </ul>
       </section>
       <section>
