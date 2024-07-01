@@ -280,8 +280,15 @@
   gap: 2rem;
 }
 .sd-line {
-  border-bottom: 1px solid red;
+  position: relative;
+  border-bottom: 2px solid var(--clr-text);
   flex-grow: 1;
+}
+.sd-line-decor {
+  position: absolute;
+  right: 1rem;
+  top: -1.75rem;
+  width: 5rem;
 }
 
 /* MEDIA QUERIES */
