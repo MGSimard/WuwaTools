@@ -878,7 +878,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Lion of Light, Blessings Abound": "During Resonance Liberation Lion's Vigor, Lingyang's Anti-Interruption is enhanced.",
+        "Dominant and Fierce, Power Unbound": "Intro Skill Lion Awakens additionally recovers 10 Resonance Energy for Lingyang, triggered once every 20s.",
+        "Jaw-Dropping Feats, Loud and Wide": "During Resonance Liberation Lion's Vigor, Lingyang's Basic Attack damage bonus is increased by 20%, and Resonance Skill damage bonus is increased by 10%.",
+        "Immortals Bow, in Reverence Flawed": "Outro Skill Frosty Marks increases the Glacio DMG bonus of all team members by 20% for 30s.",
+        "Seven Stars Shine, Stepped upon High": "Resonance Liberation Strive: Lion's Vigor additionally deals Glacio DMG equal to 200% of Lingyang's ATK.",
+        "Demons Tremble, Divine Power Night": "In the Forte Circuit Striding Lion state, during the first 3s after every Resonance Skill Mountain Roamer, the Basic Attack damage bonus for Lingyang's next Basic Attack is increased by 100%."
+      }
     },
     {
       "id": 10,
