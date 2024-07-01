@@ -963,7 +963,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Solitary Etude": "During Resonance Liberation Burning Rhapsody, Mortefi launches Coordinated Attacks when the on-field character performs thei Resonance Skills, firing 2 Resonance Liberation's Marcato hits, dealing Fusion DMG.",
+        "Hypocritical Hymn": "After using the Echo Skill, Mortefi restores an additional 10 Resonance Energy. This can be triggered once every 20 seconds.",
+        "Flaming Recitativo": "During Resonance Liberation Burning Rhapsody, the Crit. DMG of Resonance Liberation's Marcato is increased by 30%.",
+        "Cathartic Waltz": "The duration of Resonance Liberation Burning Rhapsody is extended by 7s.",
+        "Funerary Quartet": "When Resonance Skill Passionate Variation or Resonance Skill Fury Fugue hits a target, Coordinated Attacks will be triggered to fire 4 Resonance Liberation's Marcato hit(s), dealing Fusion DMG. Damage of Resonance Liberation's Marcato fired in this way is reduced by 50%.",
+        "Apoplectic Instrumental": "When Resonance Liberation Violent Finale is cast, ATK of all team members is increased by 20% for 20s."
+      }
     },
     {
       "id": 18,
