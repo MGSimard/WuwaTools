@@ -522,7 +522,14 @@
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Wooly's Fairy Tale": "When Basic Attack hits a target, Encore's fusion DMG bonus is increased by 3%, stacking up to 4 time(s) for 6s.",
+        "Sheep-counting Lullaby": "Encore additionally restores 10 Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every 10s.",
+        "Fog? The Black Shores!": "The damage multiplier of Heavy Attack Cloudy Frenzy and Heavy Attack Cosmos Rupture is increased by 40%.",
+        "Adventure? Let's go!": "Heavy Attack Cosmos Rupture increased the Fusion DMG bonus of all team members by 20% for 30s.",
+        "Hero Takes the Stage!": "Resonance Skill damage bonus is increased by 35%.",
+        "Woolies Save the World!": "During Resonance Liberation Cosmos Rave, Encore gains 1 stack(s) of \"Lost Lamb\" every time she deals damage, each stack increased her ATK by 5% for 10s, stacking up to 5 time(s)."
+      }
     },
     {
       "id": 8,
