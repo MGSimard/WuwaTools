@@ -270,13 +270,14 @@
 /**/
 /* MAP PAGE */
 #map {
-  border: 1px solid red;
+  border: var(--glassBorder);
   height: 80vh;
   overflow: hidden;
 }
 .leaflet-container {
   height: 100%;
-  background: black;
+  background-color: rgba(0, 15, 26, 0.6);
+  backdrop-filter: blur(5px);
 }
 /**/
 /* GLASS */
