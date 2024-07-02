@@ -35,6 +35,7 @@ function Home() {
           <li>- FontAwesome</li>
           <li>- html-to-image</li>
           <li>- downloadjs</li>
+          <li>- Leaflet & React Leaflet</li>
           <li>- Firebase Hosting</li>
         </ul>
       </section>

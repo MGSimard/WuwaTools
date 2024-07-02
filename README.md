@@ -34,6 +34,7 @@ Not too certain what features I'd like to write next. The major problem being th
 - [FontAwesome](https://fontawesome.com/)
 - [html-to-image](https://github.com/bubkoo/html-to-image)
 - [downloadjs](https://github.com/rndme/download)
+- [Leaflet](https://leafletjs.com/)/[React Leaflet](https://react-leaflet.js.org/)
 - [Firebase Hosting](https://firebase.google.com/)
 
 ### AES Keys for version 1.1 (From https://github.com/RealNath/wuwa-aes-archive)
