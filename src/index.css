@@ -38,6 +38,7 @@ body {
   color: var(--clr-text);
   font-size: 1.6rem;
   font-family: "LaguSans";
+  background-color: rgba(31, 38, 48, 1);
   background-image: url("./assets/newsbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +57,7 @@ nav {
   border-right: var(--glassBorder);
   left: 0;
   top: 0;
-  z-index: 100;
+  z-index: 2000;
 }
 .nav-logo-container {
   display: flex;
