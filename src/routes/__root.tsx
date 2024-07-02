@@ -15,7 +15,9 @@ export const Route = createRootRoute({
       <nav>
         <div className="nav-content">
           <div className="nav-logo-container">
-            <img src={wuwaToolsLogo} alt="WuwaTools Logo" />
+            <Link to="/">
+              <img src={wuwaToolsLogo} alt="WuwaTools Logo" />
+            </Link>
           </div>
           <ul>
             <li>
