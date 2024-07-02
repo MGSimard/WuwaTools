@@ -15,6 +15,7 @@ import { Route as WorldmapImport } from './routes/worldmap'
 import { Route as TierlistImport } from './routes/tierlist'
 import { Route as IndexImport } from './routes/index'
 import { Route as RosterIndexImport } from './routes/roster.index'
+import { Route as RosterResonatorImport } from './routes/roster.$resonator'
 
 // Create/Update Routes
 
@@ -35,6 +36,11 @@ const IndexRoute = IndexImport.update({
 
 const RosterIndexRoute = RosterIndexImport.update({
   path: '/roster/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const RosterResonatorRoute = RosterResonatorImport.update({
+  path: '/roster/$resonator',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -63,6 +69,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WorldmapImport
       parentRoute: typeof rootRoute
     }
+    '/roster/$resonator': {
+      id: '/roster/$resonator'
+      path: '/roster/$resonator'
+      fullPath: '/roster/$resonator'
+      preLoaderRoute: typeof RosterResonatorImport
+      parentRoute: typeof rootRoute
+    }
     '/roster/': {
       id: '/roster/'
       path: '/roster'
@@ -79,6 +92,7 @@ export const routeTree = rootRoute.addChildren({
   IndexRoute,
   TierlistRoute,
   WorldmapRoute,
+  RosterResonatorRoute,
   RosterIndexRoute,
 })
 
@@ -93,6 +107,7 @@ export const routeTree = rootRoute.addChildren({
         "/",
         "/tierlist",
         "/worldmap",
+        "/roster/$resonator",
         "/roster/"
       ]
     },
@@ -104,6 +119,9 @@ export const routeTree = rootRoute.addChildren({
     },
     "/worldmap": {
       "filePath": "worldmap.tsx"
+    },
+    "/roster/$resonator": {
+      "filePath": "roster.$resonator.tsx"
     },
     "/roster/": {
       "filePath": "roster.index.tsx"
