@@ -140,10 +140,8 @@ button {
 }
 ul {
   list-style-type: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
-ul li {
+section ul li {
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
