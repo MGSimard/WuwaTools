@@ -11,20 +11,20 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as WorldmapImport } from './routes/worldmap'
 import { Route as TierlistImport } from './routes/tierlist'
-import { Route as MapImport } from './routes/map'
 import { Route as IndexImport } from './routes/index'
 import { Route as RosterIndexImport } from './routes/roster.index'
 
 // Create/Update Routes
 
-const TierlistRoute = TierlistImport.update({
-  path: '/tierlist',
+const WorldmapRoute = WorldmapImport.update({
+  path: '/worldmap',
   getParentRoute: () => rootRoute,
 } as any)
 
-const MapRoute = MapImport.update({
-  path: '/map',
+const TierlistRoute = TierlistImport.update({
+  path: '/tierlist',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -49,18 +49,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/map': {
-      id: '/map'
-      path: '/map'
-      fullPath: '/map'
-      preLoaderRoute: typeof MapImport
-      parentRoute: typeof rootRoute
-    }
     '/tierlist': {
       id: '/tierlist'
       path: '/tierlist'
       fullPath: '/tierlist'
       preLoaderRoute: typeof TierlistImport
+      parentRoute: typeof rootRoute
+    }
+    '/worldmap': {
+      id: '/worldmap'
+      path: '/worldmap'
+      fullPath: '/worldmap'
+      preLoaderRoute: typeof WorldmapImport
       parentRoute: typeof rootRoute
     }
     '/roster/': {
@@ -77,8 +77,8 @@ declare module '@tanstack/react-router' {
 
 export const routeTree = rootRoute.addChildren({
   IndexRoute,
-  MapRoute,
   TierlistRoute,
+  WorldmapRoute,
   RosterIndexRoute,
 })
 
@@ -91,19 +91,19 @@ export const routeTree = rootRoute.addChildren({
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/map",
         "/tierlist",
+        "/worldmap",
         "/roster/"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/map": {
-      "filePath": "map.tsx"
-    },
     "/tierlist": {
       "filePath": "tierlist.tsx"
+    },
+    "/worldmap": {
+      "filePath": "worldmap.tsx"
     },
     "/roster/": {
       "filePath": "roster.index.tsx"

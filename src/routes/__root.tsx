@@ -37,9 +37,9 @@ export const Route = createRootRoute({
               </Link>
             </li>
             <li>
-              <Link to="/map" activeProps={activeProps}>
+              <Link to="/worldmap" activeProps={activeProps}>
                 <FontAwesomeIcon icon={faMap} />
-                <span>Map</span>
+                <span>World Map</span>
               </Link>
             </li>
           </ul>

@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-export const Route = createFileRoute("/map")({
+export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
 });
 
