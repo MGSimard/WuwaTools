@@ -22,6 +22,7 @@ Not too certain what features I'd like to write next. The major problem being th
 
 - Character Roster
 - Tier List Creator (With image save)
+- Interactive Map (Work in Progress)
 
 ### Built With
 

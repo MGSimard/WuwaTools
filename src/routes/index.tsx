@@ -13,6 +13,7 @@ function Home() {
         <ul>
           <li>- Roster (Character Profiles)</li>
           <li>- Tier List Creator</li>
+          <li>- Interactive Map (WIP)</li>
         </ul>
       </section>
       <section>
@@ -20,7 +21,7 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
-          <li>- Basic markers on interactive map, update boundaries</li>
+          <li>- Basic markers on interactive map, update boundaries, proper starting origin</li>
           <li>- Active route style similar to wuthering wave's menu</li>
         </ul>
       </section>
