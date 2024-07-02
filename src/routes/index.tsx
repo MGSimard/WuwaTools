@@ -21,7 +21,7 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
-          <li>- Basic markers on interactive map, update boundaries, proper starting origin</li>
+          <li>- Basic markers on interactive map, update boundaries</li>
           <li>- Active route style similar to wuthering wave's menu</li>
         </ul>
       </section>
