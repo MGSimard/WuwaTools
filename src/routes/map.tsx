@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -11,12 +12,18 @@ function InteractiveMap() {
   function CityLabel({ position, text }: { position: [number, number]; text: string }) {
     const map = useMap();
 
-    const icon = L.divIcon({
-      className: "city-label",
-      html: `<div>${text}</div>`,
-    });
+    useEffect(() => {
+      const icon = L.divIcon({
+        className: "city-label",
+        html: `<div>${text}</div>`,
+      });
 
-    L.marker(position, { icon }).addTo(map);
+      const marker = L.marker(position, { icon }).addTo(map);
+
+      return () => {
+        map.removeLayer(marker);
+      };
+    }, []);
 
     return null;
   }
