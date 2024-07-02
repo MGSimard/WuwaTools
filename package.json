@@ -22,12 +22,14 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@million/lint": "^1.0.0-rc.26",
     "@tanstack/react-router": "^1.35.3",
+    "@types/leaflet": "^1.9.12",
     "downloadjs": "^1.4.7",
     "firebase": "^10.12.2",
     "html-to-image": "^1.11.11",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
     "@tanstack/router-vite-plugin": "^1.38.0",
