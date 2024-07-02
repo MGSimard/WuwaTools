@@ -277,7 +277,6 @@
 .leaflet-container {
   height: 100%;
   background-color: rgba(0, 15, 26, 0.6);
-  backdrop-filter: blur(5px);
 }
 .city-label div {
   position: absolute;
