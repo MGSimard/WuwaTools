@@ -190,16 +190,14 @@ table {
     height: auto;
     gap: 0.5rem;
   }
+  .nav-content li a span {
+    display: none;
+  }
   .nav-content li svg {
     width: 2.5rem;
     height: 2.5rem;
   }
   main {
     padding: 10rem 2rem;
-  }
-}
-@media only screen and (max-width: 568px) {
-  .nav-content li a span {
-    display: none;
   }
 }
