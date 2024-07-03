@@ -23,6 +23,17 @@ export const beacons: Array<MapIconTypes["pos"]> = [];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
   [-59.3, 84.98],
+  [-22.25, 22.65],
+  [-3.6, 30.24],
+  [-32, -33.7],
+  [-128.5, 24.9],
+  [-143.95, 67.16],
+  [-151.9, 1],
+  [-219.38, 4.88],
+  [-208, 86.15],
+  [-185.14, 115.3],
+  [-209.06, 195.82],
+  [-231.5, 232.65],
 ];
 
 export function MapIcon({ pos, iconType, size }: MapIconTypes) {
