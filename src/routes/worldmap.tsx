@@ -1,33 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+
+import { LocationLabel, regions } from "../Components/MapComponents/LocationLabel";
+import { MapIcon, nexuses } from "../Components/MapComponents/MapIcon";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
 });
 
 function InteractiveMap() {
-  function CityLabel({ position, text }: { position: [number, number]; text: string }) {
-    const map = useMap();
-
-    useEffect(() => {
-      const icon = L.divIcon({
-        className: "city-label",
-        html: `<div>${text}</div>`,
-      });
-
-      const marker = L.marker(position, { icon }).addTo(map);
-
-      return () => {
-        map.removeLayer(marker);
-      };
-    }, []);
-
-    return null;
-  }
-
   return (
     <>
       <h1>World Map</h1>
@@ -62,20 +45,13 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            <Marker position={[-76, 27]}>
-              <Popup>Work in Progress</Popup>
-            </Marker>
-            <CityLabel position={[-76, 27]} text="Jinzhou" />
-            <CityLabel position={[-136, 36]} text="Tiger's Maw" />
-            <CityLabel position={[-156, -32]} text="Port City of Guixu" />
-            <CityLabel position={[-42, -32]} text="Gorges of Spirits" />
-            <CityLabel position={[-32, 32]} text="Central Plains" />
-            <CityLabel position={[18, 42]} text="Desorock Highlands" />
-            <CityLabel position={[78, 116]} text="Norfall Barrens" />
-            <CityLabel position={[-124, 74]} text="Wuming Bay" />
-            <CityLabel position={[-206, 32]} text="Dim Forest" />
-            <CityLabel position={[-224, 106]} text="Whining Aix's Mire" />
-            <CityLabel position={[-236, 252]} text="Mt. Firmament" />
+
+            {nexuses.map((nexus) => (
+              <MapIcon key={nexus[0] * nexus[1]} pos={nexus} iconType={"nexus"} size={[32, 32]} />
+            ))}
+            {regions.map((region) => (
+              <LocationLabel key={region.text} pos={region.pos} text={region.text} />
+            ))}
           </MapContainer>
         </div>
       </section>

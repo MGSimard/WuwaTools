@@ -278,7 +278,7 @@
   height: 100%;
   background-color: rgba(0, 15, 26, 0.6);
 }
-.city-label div {
+.location-label div {
   position: absolute;
   top: 50%;
   left: 50%;
