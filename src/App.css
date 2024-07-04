@@ -271,7 +271,7 @@
 /* MAP PAGE */
 #map {
   border: var(--glassBorder);
-  height: 80vh;
+  height: 80dvh;
   overflow: hidden;
 }
 .leaflet-container {
