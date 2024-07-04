@@ -271,7 +271,7 @@
 /* MAP PAGE */
 #map {
   border: var(--glassBorder);
-  height: 80dvh;
+  height: 80vh;
   overflow: hidden;
 }
 .leaflet-container {
@@ -362,6 +362,9 @@
   }
   .resonanceChain-container {
     grid-template-columns: 1fr;
+  }
+  #map {
+    height: 60dvh;
   }
 }
 @media only screen and (max-width: 354px) {
