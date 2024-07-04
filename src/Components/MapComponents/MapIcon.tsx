@@ -19,7 +19,13 @@ const icons = {
   nexusDisabled,
 };
 
-export const beacons: Array<MapIconTypes["pos"]> = [];
+export const beacons: Array<MapIconTypes["pos"]> = [
+  [57.1, 64.9],
+  [48.3, 93],
+  [67, 98.7],
+  [86.7, 98.1],
+  [57.2, 123.7],
+];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
   [-59.3, 84.98],

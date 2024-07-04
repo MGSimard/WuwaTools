@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 import { LocationLabel, regions } from "../Components/MapComponents/LocationLabel";
-import { MapIcon, nexuses } from "../Components/MapComponents/MapIcon";
+import { MapIcon, beacons, nexuses } from "../Components/MapComponents/MapIcon";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
@@ -45,7 +45,9 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-
+            {beacons.map((beacon) => (
+              <MapIcon key={beacon[0] * beacon[1]} pos={beacon} iconType={"beacon"} size={[24, 24]} />
+            ))}
             {nexuses.map((nexus) => (
               <MapIcon key={nexus[0] * nexus[1]} pos={nexus} iconType={"nexus"} size={[32, 32]} />
             ))}
