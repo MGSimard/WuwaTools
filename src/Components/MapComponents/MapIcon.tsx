@@ -18,7 +18,7 @@ const icons = {
   nexus,
   nexusDisabled,
 };
-
+// Could consider moving all into one array with region name, location, beacons in region, misc in region
 export const beacons: Array<MapIconTypes["pos"]> = [
   [57.1, 64.9],
   [48.3, 93],
@@ -32,6 +32,23 @@ export const beacons: Array<MapIconTypes["pos"]> = [
   [41.7, 21.5],
   [45.7, 39.9],
   [1.5, 8.5],
+  [-226.3, 215.1],
+  [-239.2, 220.4],
+  [-245.8, 230.2],
+  [-252.7, 230.5],
+  [-262.6, 240.1],
+  [-239.85, 242.63],
+  [-253.3, 256],
+  [-265, 262.8],
+  [-261.7, 271.5],
+  [-246.1, 293.3],
+  [-247.25, 279.9],
+  [-240.4, 278.18],
+  [-217.2, 281.8],
+  [-234.3, 264.4],
+  [-230.5, 266.4],
+  [-222.8, 262.7],
+  [-218.6, 247.4],
 ];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
