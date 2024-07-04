@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import charactersData from "../assets/characters.json";
-
 import { SectionDivider } from "../Components/SectionDivider";
+import charactersData from "../assets/characters/characters.json";
 
 export const Route = createFileRoute("/roster/$resonator")({
   component: Resonator,

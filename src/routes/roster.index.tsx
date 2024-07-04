@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CharacterCard } from "../Components/CharacterCard";
-import charactersData from "../assets/characters.json";
+import charactersData from "../assets/characters/characters.json";
 
 export const Route = createFileRoute("/roster/")({
   component: Roster,
@@ -14,12 +14,11 @@ function Roster() {
       <h1>Character Roster</h1>
       <section>
         <div className="characters-container">
-          {charListData &&
-            charListData.map((char) => (
-              <Link key={char.id} to="/roster/$resonator" params={{ resonator: char.name.toLowerCase() }}>
-                <CharacterCard character={char} />
-              </Link>
-            ))}
+          {charListData.map((char) => (
+            <Link key={char.id} to="/roster/$resonator" params={{ resonator: char.name.toLowerCase() }}>
+              <CharacterCard character={char} />
+            </Link>
+          ))}
         </div>
       </section>
     </>
