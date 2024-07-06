@@ -18,7 +18,7 @@ const icons = {
   nexus,
   nexusDisabled,
 };
-// Could consider moving all into one array with region name, location, beacons in region, misc in region
+
 export const beacons: Array<MapIconTypes["pos"]> = [
   // Norfall Barrens
   [57.1, 64.9],

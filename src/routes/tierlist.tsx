@@ -7,7 +7,7 @@ import downloadjs from "downloadjs";
 
 import { TierListRow } from "../Components/TierListRow";
 import { TierListElem } from "../Components/TierListElem";
-import charactersData from "../assets/characters.json";
+import charactersData from "../assets/jsondb/characters.json";
 
 export const Route = createFileRoute("/tierlist")({
   component: TierList,

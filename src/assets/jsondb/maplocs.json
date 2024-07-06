@@ -1,0 +1,23 @@
+{
+  "name": "maplocs",
+  "description": "Wuthering Waves Map Locations Dataset",
+  "version": "1.1.0",
+  "latestAdd": {},
+  "author": "MGSimard - https://github.com/MGSimard/",
+  "data": [
+    {
+      "region": "Norfall Barrens",
+      "pos": [0, 0],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [
+        [0, 0],
+        [0, 1]
+      ],
+      "beacons": [
+        [0, 0],
+        [0, 1]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    }
+  ]
+}

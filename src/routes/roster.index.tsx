@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CharacterCard } from "../Components/CharacterCard";
-import charactersData from "../assets/characters.json";
+import charactersData from "../assets/jsondb/characters.json";
 
 export const Route = createFileRoute("/roster/")({
   component: Roster,

@@ -3,6 +3,7 @@
   "description": "Wuthering Waves Characters Dataset",
   "version": "1.1.0",
   "latestAdd": { "name": "Jinhsi", "id": 19 },
+  "author": "MGSimard - https://github.com/MGSimard/",
   "data": [
     {
       "id": 2,
