@@ -83,6 +83,12 @@ export const beacons: Array<MapIconTypes["pos"]> = [
   [-142.5, 42.3],
   [-140, 47.8],
   [-136.4, 31.1],
+  // Wuming Bay
+  [-194.92, 49.34],
+  [-174.2, 61.9],
+  [-157.3, 57.3],
+  [-146.3, 50.6],
+  [-127.37, 57.84],
 ];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
