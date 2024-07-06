@@ -71,7 +71,13 @@ export const beacons: Array<MapIconTypes["pos"]> = [
   [-210.6, 30.2],
   [-188.6, 17.3],
   [-192.6, -6.2],
-  //
+  // Port City of Guixu
+  [-172.9, 16],
+  [-173.8, -15],
+  [-160.5, -23.5],
+  [-159.3, -37.4],
+  [-128.6, -38.7],
+  [-134.7, -12.5],
 ];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
