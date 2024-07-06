@@ -20,11 +20,13 @@ const icons = {
 };
 // Could consider moving all into one array with region name, location, beacons in region, misc in region
 export const beacons: Array<MapIconTypes["pos"]> = [
+  // Norfall Barrens
   [57.1, 64.9],
   [48.3, 93],
   [67, 98.7],
   [86.7, 98.1],
   [57.2, 123.7],
+  // Desorock Highlands
   [18.9, 81.6],
   [23, 60.64],
   [5.1, 48.9],
@@ -89,6 +91,10 @@ export const beacons: Array<MapIconTypes["pos"]> = [
   [-157.3, 57.3],
   [-146.3, 50.6],
   [-127.37, 57.84],
+  // Gorges of Spirits
+  [-33.28, -20.65],
+  [-53.3, -27.77],
+  [-56.3, -38.1],
 ];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
