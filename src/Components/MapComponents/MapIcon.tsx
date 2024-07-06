@@ -78,6 +78,11 @@ export const beacons: Array<MapIconTypes["pos"]> = [
   [-159.3, -37.4],
   [-128.6, -38.7],
   [-134.7, -12.5],
+  // Tiger's Maw
+  [-159.45, 40.55],
+  [-142.5, 42.3],
+  [-140, 47.8],
+  [-136.4, 31.1],
 ];
 export const nexuses: Array<MapIconTypes["pos"]> = [
   [-75.7, 27.1],
