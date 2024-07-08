@@ -15,10 +15,10 @@ function InteractiveMap() {
   const nexuses = regions.flatMap((region) => region.nexuses);
   const encounters = regions.flatMap((region) => region.encounters);
 
-  const getIcon = (iconType: string) =>
+  const getIcon = (iconType: string, size: [number, number]) =>
     L.icon({
       iconUrl: `/map/icons/icon_${iconType}.png`,
-      iconSize: [32, 32],
+      iconSize: size,
     });
 
   return (
@@ -54,36 +54,40 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-
             {regions.map((region) => (
               <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
             ))}
             <LayersControl position="topright">
+              <LayersControl.Overlay checked name="Nexus">
+                <LayerGroup>
+                  {nexuses.map((nexus) => (
+                    <Marker
+                      key={nexus[0] * nexus[1]}
+                      position={nexus as [number, number]}
+                      icon={getIcon("nexus", [32, 32])}
+                    />
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
               <LayersControl.Overlay checked name="Beacons">
                 <LayerGroup>
                   {beacons.map((beacon) => (
                     <Marker
                       key={beacon[0] * beacon[1]}
                       position={beacon as [number, number]}
-                      icon={getIcon("beacon")}
+                      icon={getIcon("beacon", [24, 24])}
                     />
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
-              <LayersControl.Overlay checked name="Nexus">
-                <LayerGroup>
-                  {nexuses.map((nexus) => (
-                    <Marker key={nexus[0] * nexus[1]} position={nexus as [number, number]} icon={getIcon("nexus")} />
-                  ))}
-                </LayerGroup>
-              </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Encounters">
                 <LayerGroup>
                   {encounters.map((encounter) => (
                     <Marker
                       key={encounter.name}
                       position={encounter.pos as [number, number]}
-                      icon={getIcon(encounter.name.toLowerCase().replace(/[^\w-]+/g, "_"))}
+                      icon={getIcon(encounter.name.toLowerCase().replace(/[^\w-]+/g, "_"), [24, 24])}
                     />
                   ))}
                 </LayerGroup>
