@@ -80,7 +80,6 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
-
               <LayersControl.Overlay checked name="Encounters">
                 <LayerGroup>
                   {encounters.map((encounter) => (
