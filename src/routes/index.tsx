@@ -24,6 +24,7 @@ function Home() {
           <li>- Finish markers on interactive map, update boundaries</li>
           <li>- Set up max distance render for markers and size locks</li>
           <li>- Style map controls</li>
+          <li>- Separate encounters (bosses, dungeons etc)</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>
           <li>- Active route style similar to wuthering wave's menu</li>
           <li>- Look into glob imports (vite feature)</li>
