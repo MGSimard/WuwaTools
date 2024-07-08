@@ -21,7 +21,8 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
-          <li>- Basic markers on interactive map, update boundaries</li>
+          <li>- Finish markers on interactive map, update boundaries</li>
+          <li>- Set up max distance render for markers and size locks</li>
           <li>- Active route style similar to wuthering wave's menu</li>
           <li>- Look into glob imports (vite feature)</li>
           <li>- Image optimization (later)</li>
