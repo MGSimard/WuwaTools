@@ -6,16 +6,195 @@
   "author": "MGSimard - https://github.com/MGSimard/",
   "data": [
     {
-      "region": "Norfall Barrens",
-      "pos": [0, 0],
+      "region": "Jinzhou",
+      "pos": [-81, 31],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-75.7, 27.1]],
+      "beacons": [
+        [-111, 44.75],
+        [-105.45, 48.35],
+        [-94.05, 54.47],
+        [-96.6, 32],
+        [-85.9, 31.4],
+        [-74.8, 41.7],
+        [-80.38, 18.15]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Tiger's Maw",
+      "pos": [-136, 36],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-128.5, 24.9]],
+      "beacons": [
+        [-159.45, 40.55],
+        [-142.5, 42.3],
+        [-140, 47.8],
+        [-136.4, 31.1]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Port City of Guixu",
+      "pos": [-156, -32],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-151.9, 1]],
+      "beacons": [
+        [-172.9, 16],
+        [-173.8, -15],
+        [-160.5, -23.5],
+        [-159.3, -37.4],
+        [-128.6, -38.7],
+        [-134.7, -12.5]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Gorges of Spirits",
+      "pos": [-42, -32],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-32, -33.7]],
+      "beacons": [
+        [-53.3, -27.77],
+        [-56.3, -38.1]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Central Plains",
+      "pos": [-32, 32],
       "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
       "nexuses": [
-        [0, 0],
-        [0, 1]
+        [-22.25, 22.65],
+        [-59.3, 84.98]
       ],
       "beacons": [
-        [0, 0],
-        [0, 1]
+        [-105.85, -8.9],
+        [-96, 7],
+        [-87.7, -29.8],
+        [-70.3, -11.4],
+        [-33.28, -20.65],
+        [-32.95, -1.7],
+        [-21.6, 2],
+        [-50.1, 11.9],
+        [-51.95, 30.65],
+        [-55.15, 54.6],
+        [-34.75, 57.35],
+        [-33.25, 34.95],
+        [-16.5, 50.9]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Desorock Highlands",
+      "pos": [18, 42],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-3.6, 30.24]],
+      "beacons": [
+        [18.9, 81.6],
+        [23, 60.64],
+        [5.1, 48.9],
+        [20.35, 29.9],
+        [41.7, 21.5],
+        [45.7, 39.9],
+        [1.5, 8.5]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Norfall Barrens",
+      "pos": [78, 116],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [],
+      "beacons": [
+        [57.1, 64.9],
+        [48.3, 93],
+        [67, 98.7],
+        [86.7, 98.1],
+        [57.2, 123.7]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Wuming Bay",
+      "pos": [-124, 74],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-143.95, 67.16]],
+      "beacons": [
+        [-194.92, 49.34],
+        [-174.2, 61.9],
+        [-157.3, 57.3],
+        [-146.3, 50.6],
+        [-127.37, 57.84]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Dim Forest",
+      "pos": [-206, 32],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [[-219.38, 4.88]],
+      "beacons": [
+        [-238.8, 61.5],
+        [-222.8, 58.2],
+        [-210, 53.4],
+        [-236.4, 39.25],
+        [-221.8, 26.7],
+        [-210.6, 30.2],
+        [-188.6, 17.3],
+        [-192.6, -6.2]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Whining Aix's Mire",
+      "pos": [-224, 106],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [
+        [-208, 86.15],
+        [-185.14, 115.3]
+      ],
+      "beacons": [
+        [-214, 143.5],
+        [-192.8, 128],
+        [-207.7, 120.6],
+        [-227, 118.3],
+        [-240.2, 128.6],
+        [-243.45, 105.5],
+        [-233.9, 88],
+        [-218.4, 79.1],
+        [-198.2, 74.2],
+        [-215.2, 103.7],
+        [-186.7, 94.93]
+      ],
+      "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
+    },
+    {
+      "region": "Mt. Firmament",
+      "pos": [-236, 252],
+      "subregions": [{ "name": "SUBREGIONNAME1", "loc": [0, 0] }],
+      "nexuses": [
+        [-209.06, 195.82],
+        [-231.5, 232.65]
+      ],
+      "beacons": [
+        [-226.3, 215.1],
+        [-239.2, 220.4],
+        [-245.8, 230.2],
+        [-252.7, 230.5],
+        [-262.6, 240.1],
+        [-239.85, 242.63],
+        [-253.3, 256],
+        [-265, 262.8],
+        [-261.7, 271.5],
+        [-246.1, 293.3],
+        [-247.25, 279.9],
+        [-240.4, 278.18],
+        [-217.2, 281.8],
+        [-234.3, 264.4],
+        [-230.5, 266.4],
+        [-222.8, 262.7],
+        [-218.6, 247.4]
       ],
       "encounters": [{ "type": "ENCOUNTERNAME1", "loc": [0, 0] }]
     }

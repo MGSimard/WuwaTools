@@ -3,14 +3,19 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-import { LocationLabel, regions } from "../Components/MapComponents/LocationLabel";
-import { MapIcon, beacons, nexuses } from "../Components/MapComponents/MapIcon";
+import maplocs from "../assets/jsondb/maplocs.json";
+import { LocationLabel, MapIcon } from "../Components/MapLocations.tsx";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
 });
 
 function InteractiveMap() {
+  const regions = maplocs.data;
+  const beacons = regions.flatMap((region) => region.beacons);
+  const nexuses = regions.flatMap((region) => region.nexuses);
+  // const encounters = regions.flatMap((region) => region.encounters);
+
   return (
     <>
       <h1>World Map</h1>
@@ -45,14 +50,19 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            {beacons.map((beacon) => (
-              <MapIcon key={beacon[0] * beacon[1]} pos={beacon} iconType={"beacon"} size={[24, 24]} />
+            {regions.map((region) => (
+              <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
             ))}
             {nexuses.map((nexus) => (
-              <MapIcon key={nexus[0] * nexus[1]} pos={nexus} iconType={"nexus"} size={[32, 32]} />
+              <MapIcon key={nexus[0] * nexus[1]} pos={nexus as [number, number]} iconType={"nexus"} size={[32, 32]} />
             ))}
-            {regions.map((region) => (
-              <LocationLabel key={region.text} pos={region.pos} text={region.text} />
+            {beacons.map((beacon) => (
+              <MapIcon
+                key={beacon[0] * beacon[1]}
+                pos={beacon as [number, number]}
+                iconType={"beacon"}
+                size={[24, 24]}
+              />
             ))}
           </MapContainer>
         </div>
