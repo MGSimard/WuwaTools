@@ -29,10 +29,10 @@ export function LocationLabel({ pos, text }: LocationLabelTypes) {
       html: `<div>${text}</div>`,
     });
 
-    const marker = L.marker(pos, { icon }).addTo(map);
+    const loclabel = L.marker(pos, { icon }).addTo(map);
 
     return () => {
-      map.removeLayer(marker);
+      map.removeLayer(loclabel);
     };
   }, []);
 
