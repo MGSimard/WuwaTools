@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
-import { LocationLabel, MapIcon } from "../Components/MapLocations.tsx";
+import { LocationLabel } from "../Components/MapLocations.tsx";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
@@ -14,6 +14,12 @@ function InteractiveMap() {
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
   const encounters = regions.flatMap((region) => region.encounters);
+
+  const getIcon = (iconType: string) =>
+    L.icon({
+      iconUrl: `/map/icons/icon_${iconType}.png`,
+      iconSize: [32, 32],
+    });
 
   return (
     <>
@@ -29,8 +35,7 @@ function InteractiveMap() {
             crs={L.CRS.Simple}
             maxZoom={6}
             minZoom={1}
-            attributionControl={false}
-            zoomControl={false}>
+            attributionControl={false}>
             <TileLayer
               url="/map/{z}/{x}_{y}.png"
               noWrap={true}
@@ -49,28 +54,41 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
+
             {regions.map((region) => (
               <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
             ))}
-            {nexuses.map((nexus) => (
-              <MapIcon key={nexus[0] * nexus[1]} pos={nexus as [number, number]} iconType={"nexus"} size={[32, 32]} />
-            ))}
-            {beacons.map((beacon) => (
-              <MapIcon
-                key={beacon[0] * beacon[1]}
-                pos={beacon as [number, number]}
-                iconType={"beacon"}
-                size={[24, 24]}
-              />
-            ))}
-            {encounters.map((encounter) => (
-              <MapIcon
-                key={encounter.name}
-                pos={encounter.pos as [number, number]}
-                iconType={encounter.name.toLowerCase().replace(/[^\w-]+/g, "_")}
-                size={[32, 32]}
-              />
-            ))}
+            <LayersControl position="topright">
+              <LayersControl.Overlay checked name="Beacons">
+                <LayerGroup>
+                  {beacons.map((beacon) => (
+                    <Marker
+                      key={beacon[0] * beacon[1]}
+                      position={beacon as [number, number]}
+                      icon={getIcon("beacon")}
+                    />
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Nexus">
+                <LayerGroup>
+                  {nexuses.map((nexus) => (
+                    <Marker key={nexus[0] * nexus[1]} position={nexus as [number, number]} icon={getIcon("nexus")} />
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Encounters">
+                <LayerGroup>
+                  {encounters.map((encounter) => (
+                    <Marker
+                      key={encounter.name}
+                      position={encounter.pos as [number, number]}
+                      icon={getIcon(encounter.name.toLowerCase().replace(/[^\w-]+/g, "_"))}
+                    />
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+            </LayersControl>
           </MapContainer>
         </div>
       </section>
