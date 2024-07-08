@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-
 import maplocs from "../assets/jsondb/maplocs.json";
 import { LocationLabel, MapIcon } from "../Components/MapLocations.tsx";
 
@@ -14,7 +13,7 @@ function InteractiveMap() {
   const regions = maplocs.data;
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
-  // const encounters = regions.flatMap((region) => region.encounters);
+  const encounters = regions.flatMap((region) => region.encounters);
 
   return (
     <>
@@ -62,6 +61,14 @@ function InteractiveMap() {
                 pos={beacon as [number, number]}
                 iconType={"beacon"}
                 size={[24, 24]}
+              />
+            ))}
+            {encounters.map((encounter) => (
+              <MapIcon
+                key={encounter.name}
+                pos={encounter.pos as [number, number]}
+                iconType={encounter.name.split(" ").join("_").toLowerCase()}
+                size={[32, 32]}
               />
             ))}
           </MapContainer>

@@ -1,32 +1,13 @@
 import { useEffect } from "react";
 import L from "leaflet";
 import { useMap } from "react-leaflet";
-import beacon from "../assets/mapicons/icon_beacon.png";
-import beaconDisabled from "../assets/mapicons/icon_beacon_disabled.png";
-import nexus from "../assets/mapicons/icon_nexus.png";
-import nexusDisabled from "../assets/mapicons/icon_nexus_disabled.png";
 
-const icons = {
-  beacon,
-  beaconDisabled,
-  nexus,
-  nexusDisabled,
-};
-
-export function MapIcon({
-  pos,
-  iconType,
-  size,
-}: {
-  pos: [number, number];
-  iconType: keyof typeof icons;
-  size: [number, number];
-}) {
+export function MapIcon({ pos, iconType, size }: { pos: [number, number]; iconType: string; size: [number, number] }) {
   const map = useMap();
 
   useEffect(() => {
     const icon = L.icon({
-      iconUrl: icons[iconType],
+      iconUrl: `/map/icons/icon_${iconType}.png`,
       iconSize: size,
     });
 
