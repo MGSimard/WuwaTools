@@ -67,7 +67,7 @@ function InteractiveMap() {
               <MapIcon
                 key={encounter.name}
                 pos={encounter.pos as [number, number]}
-                iconType={encounter.name.split(" ").join("_").toLowerCase()}
+                iconType={encounter.name.toLowerCase().replace(/[^\w-]+/g, "_")}
                 size={[32, 32]}
               />
             ))}

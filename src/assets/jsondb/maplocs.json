@@ -28,7 +28,11 @@
         [-33.25, 34.95],
         [-16.5, 50.9]
       ],
-      "encounters": [{ "name": "Crownless", "pos": [-55, -18.9] }]
+      "encounters": [
+        { "name": "Chaotic Juncture: Ember", "pos": [-32.25, 23.5] },
+        { "name": "Crownless", "pos": [-55, -18.9] },
+        { "name": "Tempest Mephis", "pos": [-23.4, 12.6] }
+      ]
     },
     {
       "region": "Desorock Highlands",
