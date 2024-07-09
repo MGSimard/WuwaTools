@@ -12,7 +12,7 @@ React/Vite TypeScript Project
 
 ## About The Project
 
-![WuwaTools Screenshot](https://i.imgur.com/KTiBZ6G.png)
+![WuwaTools Screenshot](https://i.imgur.com/CswdOey.png)
 
 This project was an excuse to learn the basics of TypeScript, naturally I end up spending more time wrangling with unrelated stuff like Drag & Drop. Bounced from library to library, settled for the alpha rewrite of [dnd-kit](https://github.com/clauderic/dnd-kit/issues/1188#issuecomment-2161876989) by [Clauderic](https://github.com/clauderic). Following his documentation, refactor took about 10 minutes tops, pretty baller library rewrite.
 
