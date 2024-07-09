@@ -48,7 +48,10 @@
         [45.7, 39.9],
         [1.5, 8.5]
       ],
-      "encounters": []
+      "encounters": [
+        { "name": "Impermanence Heron", "pos": [44.2, 33.2] },
+        { "name": "Thundering Mephis", "pos": [28, 40.2] }
+      ]
     },
     {
       "region": "Dim Forest",
