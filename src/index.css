@@ -99,7 +99,7 @@ nav {
 main {
   padding: 5rem 10rem 5rem 29rem;
 }
-section {
+section:not(.leaflet-control-layers-list) {
   margin-bottom: 2rem;
 }
 /**/

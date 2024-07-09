@@ -23,7 +23,7 @@ function Home() {
           <li>- Figure out layout for character profile header</li>
           <li>- Finish markers on interactive map, update boundaries</li>
           <li>- Subregion labels (cities, etc) within regions at a certain zoom level</li>
-          <li>- Markers: Domains, Somnoire, Tower of Adversity, maybe city stores</li>
+          <li>- Markers: Maybe city stores</li>
           <li>- Set up max distance render for markers and size locks</li>
           <li>- Style map controls</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>

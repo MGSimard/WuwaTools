@@ -279,6 +279,7 @@
 .leaflet-container {
   height: 100%;
   background-color: rgba(0, 15, 26, 0.6);
+  font-family: inherit;
 }
 .location-label div {
   position: absolute;
@@ -292,6 +293,51 @@
   text-shadow:
     0 0 3px black,
     0 0 8px black;
+}
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+  background: rgba(0, 0, 0, 0.4);
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  color: white;
+}
+.leaflet-touch .leaflet-bar a {
+  background: none;
+  color: white;
+  border: none;
+}
+.leaflet-touch .leaflet-bar a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.leaflet-control-layers-overlays {
+  font-size: 2rem;
+}
+.leaflet-control-layers-expanded {
+  padding: 0;
+}
+.leaflet-control-layers-overlays label {
+  padding: 0 1rem;
+}
+.leaflet-control-layers-overlays label,
+.leaflet-control-layers-overlays label * {
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.leaflet-control-layers-overlays label:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.leaflet-control-layers-overlays label:hover {
+  background: linear-gradient(to right, rgb(255, 255, 255, 0.2) 10%, rgba(255, 255, 255, 0) 90%);
+}
+.leaflet-control-layers-overlays label span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 /**/
 /* GLASS */
