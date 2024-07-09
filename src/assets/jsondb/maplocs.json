@@ -138,7 +138,7 @@
         [86.7, 98.1],
         [57.2, 123.7]
       ],
-      "encounters": []
+      "encounters": [{ "name": "Statue of the Crownless: Heart", "pos": [83.2, 143] }]
     },
     {
       "region": "Port City of Guixu",
