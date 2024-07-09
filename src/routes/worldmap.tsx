@@ -17,6 +17,7 @@ function InteractiveMap() {
   const tacetFields = regions.flatMap((region) => region["tacet fields"]);
   const tacticalHolograms = regions.flatMap((region) => region["tactical holograms"]);
   const forgeryChallenges = regions.flatMap((region) => region["forgery challenges"]);
+  const misc = regions.flatMap((region) => region.misc);
 
   console.log(bosses);
 
@@ -136,6 +137,21 @@ function InteractiveMap() {
                         <br />
                         <strong>Reward:</strong> {chall.reward}
                         {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
+                      </Popup>
+                    </Marker>
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+
+              <LayersControl.Overlay checked name="Misc">
+                <LayerGroup>
+                  {misc.map((thing) => (
+                    <Marker
+                      key={thing.name}
+                      position={thing.pos as [number, number]}
+                      icon={getIcon(thing.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}>
+                      <Popup>
+                        <strong>{thing.name}</strong>
                       </Popup>
                     </Marker>
                   ))}

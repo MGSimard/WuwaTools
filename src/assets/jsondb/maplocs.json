@@ -35,7 +35,11 @@
       ],
       "tacet fields": [[-31.08, 18.78]],
       "tactical holograms": [],
-      "forgery challenges": [{ "name": "Marigold Woods", "reward": "Phlogiston", "pos": [-96, -1.2] }]
+      "forgery challenges": [{ "name": "Marigold Woods", "reward": "Phlogiston", "pos": [-96, -1.2] }],
+      "misc": [
+        { "name": "Tower of Adversity", "pos": [-63.3, 98] },
+        { "name": "Parallel Perception", "pos": [-31.1, 39.85] }
+      ]
     },
     {
       "region": "Desorock Highlands",
@@ -60,7 +64,8 @@
         [24.76, 77.03]
       ],
       "tactical holograms": [],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": [{ "name": "Perspective Bender", "pos": [37.2, 31.5] }]
     },
     {
       "region": "Dim Forest",
@@ -86,7 +91,8 @@
       "forgery challenges": [
         { "name": "Misty Forest", "reward": "Helix", "pos": [-199, -19.5] },
         { "name": "Moonlit Groves", "reward": "Cadence Flora", "pos": [-174, 36.9] }
-      ]
+      ],
+      "misc": []
     },
     {
       "region": "Gorges of Spirits",
@@ -100,7 +106,8 @@
       "bosses": [{ "name": "Bell-Borne Geochelone", "pos": [-57.2, -50.3] }],
       "tacet fields": [],
       "tactical holograms": [],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": []
     },
     {
       "region": "Jinzhou",
@@ -119,7 +126,8 @@
       "bosses": [],
       "tacet fields": [],
       "tactical holograms": [],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": [{ "name": "The Grand Library", "pos": [-95, 43.35] }]
     },
     {
       "region": "Mt. Firmament",
@@ -151,7 +159,8 @@
       "bosses": [{ "name": "Sentinel Jué", "pos": [-253.7, 283.1] }],
       "tacet fields": [],
       "tactical holograms": [],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": []
     },
     {
       "region": "Norfall Barrens",
@@ -168,7 +177,8 @@
       "bosses": [{ "name": "Statue of the Crownless: Heart", "pos": [83.2, 143] }],
       "tacet fields": [],
       "tactical holograms": [],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": []
     },
     {
       "region": "Port City of Guixu",
@@ -186,7 +196,8 @@
       "bosses": [{ "name": "Inferno Rider", "pos": [-156.7, -46.1] }],
       "tacet fields": [[-167.65, 8.05]],
       "tactical holograms": [],
-      "forgery challenges": [{ "name": "Flaming Remnants", "reward": "Metallic Drip", "pos": [-151.35, -27.3] }]
+      "forgery challenges": [{ "name": "Flaming Remnants", "reward": "Metallic Drip", "pos": [-151.35, -27.3] }],
+      "misc": []
     },
     {
       "region": "Tiger's Maw",
@@ -202,7 +213,8 @@
       "bosses": [],
       "tacet fields": [],
       "tactical holograms": [],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": []
     },
     {
       "region": "Whining Aix's Mire",
@@ -231,7 +243,8 @@
       ],
       "tacet fields": [[-189.2, 131.15]],
       "tactical holograms": [{ "name": "Mourning Aix", "pos": [-241.55, 135.7] }],
-      "forgery challenges": []
+      "forgery challenges": [],
+      "misc": [{ "name": "Depths of Illusive Realm", "pos": [-194.3, 120.6] }]
     },
     {
       "region": "Wuming Bay",
@@ -248,7 +261,8 @@
       "bosses": [{ "name": "Lampylumen Myriad", "pos": [-146.6, 48.2] }],
       "tacet fields": [[-150.7, 54.4]],
       "tactical holograms": [{ "name": "Impermanence Heron", "pos": [-151, 56.4] }],
-      "forgery challenges": [{ "name": "Eroded Ruins", "reward": "Waveworn Residue", "pos": [-154.75, 68.7] }]
+      "forgery challenges": [{ "name": "Eroded Ruins", "reward": "Waveworn Residue", "pos": [-154.75, 68.7] }],
+      "misc": []
     }
   ]
 }
