@@ -13,7 +13,9 @@ function InteractiveMap() {
   const regions = maplocs.data;
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
-  const encounters = regions.flatMap((region) => region.encounters);
+  const bosses = regions.flatMap((region) => region.encounters.bosses);
+
+  console.log(bosses);
 
   const getIcon = (iconType: string, size: [number, number]) =>
     L.icon({
@@ -82,11 +84,11 @@ function InteractiveMap() {
               </LayersControl.Overlay>
               <LayersControl.Overlay checked name="Encounters">
                 <LayerGroup>
-                  {encounters.map((encounter) => (
+                  {bosses.map((boss) => (
                     <Marker
-                      key={encounter.name}
-                      position={encounter.pos as [number, number]}
-                      icon={getIcon(encounter.name.toLowerCase().replace(/[^\w-]+/g, "_"), [38, 38])}
+                      key={boss.name}
+                      position={boss.pos as [number, number]}
+                      icon={getIcon(boss.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}
                     />
                   ))}
                 </LayerGroup>
