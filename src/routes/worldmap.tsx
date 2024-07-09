@@ -13,7 +13,7 @@ function InteractiveMap() {
   const regions = maplocs.data;
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
-  const bosses = regions.flatMap((region) => region.encounters.bosses);
+  const bosses = regions.flatMap((region) => region.bosses);
 
   console.log(bosses);
 
