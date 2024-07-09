@@ -312,7 +312,7 @@
   font-size: 2rem;
 }
 .leaflet-control-layers-expanded {
-  padding: 0;
+  padding: 0.5rem 0;
 }
 .leaflet-control-layers-overlays label {
   padding: 0 1rem;
