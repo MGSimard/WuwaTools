@@ -189,7 +189,10 @@
         [-215.2, 103.7],
         [-186.7, 94.93]
       ],
-      "bosses": []
+      "bosses": [
+        { "name": "Mech Abomination", "pos": [-222, 123.75] },
+        { "name": "Mourning Aix", "pos": [-248.45, 114.25] }
+      ]
     },
     {
       "region": "Wuming Bay",
