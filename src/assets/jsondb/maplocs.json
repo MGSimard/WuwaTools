@@ -65,7 +65,7 @@
         [-188.6, 17.3],
         [-192.6, -6.2]
       ],
-      "encounters": []
+      "encounters": [{ "name": "Feilian Beringal", "pos": [-225.5, 31.4] }]
     },
     {
       "region": "Gorges of Spirits",

@@ -86,7 +86,7 @@ function InteractiveMap() {
                     <Marker
                       key={encounter.name}
                       position={encounter.pos as [number, number]}
-                      icon={getIcon(encounter.name.toLowerCase().replace(/[^\w-]+/g, "_"), [24, 24])}
+                      icon={getIcon(encounter.name.toLowerCase().replace(/[^\w-]+/g, "_"), [38, 38])}
                     />
                   ))}
                 </LayerGroup>
