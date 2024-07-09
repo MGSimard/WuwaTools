@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker } from "react-leaflet";
+import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
-import { LocationLabel } from "../Components/MapLocations.tsx";
+import { LocationLabel } from "../Components/LocationLabels.tsx";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
@@ -16,6 +16,7 @@ function InteractiveMap() {
   const bosses = regions.flatMap((region) => region.bosses);
   const tacetFields = regions.flatMap((region) => region["tacet fields"]);
   const tacticalHolograms = regions.flatMap((region) => region["tactical holograms"]);
+  const forgeryChallenges = regions.flatMap((region) => region["forgery challenges"]);
 
   console.log(bosses);
 
@@ -90,8 +91,11 @@ function InteractiveMap() {
                     <Marker
                       key={boss.name}
                       position={boss.pos as [number, number]}
-                      icon={getIcon(boss.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}
-                    />
+                      icon={getIcon(boss.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}>
+                      <Popup>
+                        <strong>{boss.name}</strong>
+                      </Popup>
+                    </Marker>
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
@@ -112,8 +116,28 @@ function InteractiveMap() {
                     <Marker
                       key={holo.name}
                       position={holo.pos as [number, number]}
-                      icon={getIcon("tactical_hologram", [38, 38])}
-                    />
+                      icon={getIcon("tactical_hologram", [38, 38])}>
+                      <Popup>
+                        <strong>{holo.name}</strong>
+                      </Popup>
+                    </Marker>
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Forgery Challenges">
+                <LayerGroup>
+                  {forgeryChallenges.map((chall) => (
+                    <Marker
+                      key={chall.name}
+                      position={chall.pos as [number, number]}
+                      icon={getIcon("forgery_challenge", [38, 38])}>
+                      <Popup>
+                        <strong>Forgery Challenge: {chall.name}</strong>
+                        <br />
+                        <strong>Reward:</strong> {chall.reward}
+                        {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
+                      </Popup>
+                    </Marker>
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
