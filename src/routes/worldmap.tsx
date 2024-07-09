@@ -14,6 +14,7 @@ function InteractiveMap() {
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
   const bosses = regions.flatMap((region) => region.bosses);
+  const tacetFields = regions.flatMap((region) => region["tacet fields"]);
 
   console.log(bosses);
 
@@ -89,6 +90,17 @@ function InteractiveMap() {
                       key={boss.name}
                       position={boss.pos as [number, number]}
                       icon={getIcon(boss.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}
+                    />
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Tacet Fields">
+                <LayerGroup>
+                  {tacetFields.map((field) => (
+                    <Marker
+                      key={field[0] * field[1]}
+                      position={field as [number, number]}
+                      icon={getIcon("tacet_field", [38, 38])}
                     />
                   ))}
                 </LayerGroup>

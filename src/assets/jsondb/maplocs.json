@@ -32,7 +32,8 @@
         { "name": "Chaotic Juncture: Ember", "pos": [-32.25, 23.5] },
         { "name": "Crownless", "pos": [-55, -18.9] },
         { "name": "Tempest Mephis", "pos": [-23.4, 12.6] }
-      ]
+      ],
+      "tacet fields": [[-31.08, 18.78]]
     },
     {
       "region": "Desorock Highlands",
@@ -51,6 +52,10 @@
       "bosses": [
         { "name": "Impermanence Heron", "pos": [44.2, 33.2] },
         { "name": "Thundering Mephis", "pos": [28, 40.2] }
+      ],
+      "tacet fields": [
+        [7.08, 16],
+        [24.76, 77.03]
       ]
     },
     {
@@ -68,7 +73,8 @@
         [-188.6, 17.3],
         [-192.6, -6.2]
       ],
-      "bosses": [{ "name": "Feilian Beringal", "pos": [-225.5, 31.4] }]
+      "bosses": [{ "name": "Feilian Beringal", "pos": [-225.5, 31.4] }],
+      "tacet fields": [[-231.3, 5]]
     },
     {
       "region": "Gorges of Spirits",
@@ -79,7 +85,8 @@
         [-53.3, -27.77],
         [-56.3, -38.1]
       ],
-      "bosses": [{ "name": "Bell-Borne Geochelone", "pos": [-57.2, -50.3] }]
+      "bosses": [{ "name": "Bell-Borne Geochelone", "pos": [-57.2, -50.3] }],
+      "tacet fields": []
     },
     {
       "region": "Jinzhou",
@@ -95,7 +102,8 @@
         [-74.8, 41.7],
         [-80.38, 18.15]
       ],
-      "bosses": []
+      "bosses": [],
+      "tacet fields": []
     },
     {
       "region": "Mt. Firmament",
@@ -124,7 +132,8 @@
         [-222.8, 262.7],
         [-218.6, 247.4]
       ],
-      "bosses": [{ "name": "Sentinel Jué", "pos": [-253.7, 283.1] }]
+      "bosses": [{ "name": "Sentinel Jué", "pos": [-253.7, 283.1] }],
+      "tacet fields": []
     },
     {
       "region": "Norfall Barrens",
@@ -138,7 +147,8 @@
         [86.7, 98.1],
         [57.2, 123.7]
       ],
-      "bosses": [{ "name": "Statue of the Crownless: Heart", "pos": [83.2, 143] }]
+      "bosses": [{ "name": "Statue of the Crownless: Heart", "pos": [83.2, 143] }],
+      "tacet fields": []
     },
     {
       "region": "Port City of Guixu",
@@ -153,7 +163,8 @@
         [-128.6, -38.7],
         [-134.7, -12.5]
       ],
-      "bosses": [{ "name": "Inferno Rider", "pos": [-156.7, -46.1] }]
+      "bosses": [{ "name": "Inferno Rider", "pos": [-156.7, -46.1] }],
+      "tacet fields": [[-167.65, 8.05]]
     },
     {
       "region": "Tiger's Maw",
@@ -166,7 +177,8 @@
         [-140, 47.8],
         [-136.4, 31.1]
       ],
-      "bosses": []
+      "bosses": [],
+      "tacet fields": []
     },
     {
       "region": "Whining Aix's Mire",
@@ -192,7 +204,8 @@
       "bosses": [
         { "name": "Mech Abomination", "pos": [-222, 123.75] },
         { "name": "Mourning Aix", "pos": [-248.45, 114.25] }
-      ]
+      ],
+      "tacet fields": [[-189.2, 131.15]]
     },
     {
       "region": "Wuming Bay",
@@ -206,7 +219,8 @@
         [-146.3, 50.6],
         [-127.37, 57.84]
       ],
-      "bosses": [{ "name": "Lampylumen Myriad", "pos": [-146.6, 48.2] }]
+      "bosses": [{ "name": "Lampylumen Myriad", "pos": [-146.6, 48.2] }],
+      "tacet fields": [[-150.7, 54.4]]
     }
   ]
 }
