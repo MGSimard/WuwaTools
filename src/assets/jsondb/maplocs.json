@@ -79,7 +79,7 @@
         [-53.3, -27.77],
         [-56.3, -38.1]
       ],
-      "bosses": []
+      "bosses": [{ "name": "Bell-Borne Geochelone", "pos": [-57.2, -50.3] }]
     },
     {
       "region": "Jinzhou",
@@ -203,7 +203,7 @@
         [-146.3, 50.6],
         [-127.37, 57.84]
       ],
-      "bosses": []
+      "bosses": [{ "name": "Lampylumen Myriad", "pos": [-146.6, 48.2] }]
     }
   ]
 }
