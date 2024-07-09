@@ -43,7 +43,9 @@ function Resonator() {
 
   return (
     <div>
-      <h1>Resonator // {name}</h1>
+      <h1>
+        Resonator // <span className="resoTitle">{name}</span>
+      </h1>
       <section>
         <SectionDivider title={"Profile Data"} />
         <div className="profile-container glass">

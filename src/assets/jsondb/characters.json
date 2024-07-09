@@ -2,7 +2,7 @@
   "name": "characters",
   "description": "Wuthering Waves Characters Dataset",
   "version": "1.1.0",
-  "latestAdd": { "name": "Jinhsi", "id": 19 },
+  "latestAdd": { "name": "Changli", "id": 20 },
   "author": "MGSimard - https://github.com/MGSimard/",
   "data": [
     {
@@ -266,6 +266,74 @@
         "Unconventional Compact": "Intro Skill Wanted Criminal and Intro Skill \"Necessary Means\" deal 50% more damage.",
         "The Ultimatum": "When casting Resonance Liberation \"Death Messenger\", Calcharo will summon 2 Phantoms to perform Coordinated Attacks. Each Phantom deals Electro DMG equal to 100.00% of Calcharo's ATK, which is considered Resonance Liberation damage."
       }
+    },
+    {
+      "id": 20,
+      "name": "Changli",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weapon": "Sword",
+      "profile": {
+        "info": "Not much is known about Changli yet.",
+        "gender": "Female",
+        "birthplace": "",
+        "affiliation": ""
+      },
+      "image": {
+        "icon": "changli_icon.png",
+        "portrait": "changli_portrait.png"
+      },
+      "skills": {
+        "Normal Attack": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Forte Circuit": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Resonance Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Inherent Skill 1": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        },
+        "Inherent Skill 2": {
+          "skillName": "",
+          "skillDesc": "",
+          "skillIcon": "",
+          "skillVars": {}
+        }
+      },
+      "resonanceChain": {}
     },
     {
       "id": 5,

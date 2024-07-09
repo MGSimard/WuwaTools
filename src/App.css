@@ -72,6 +72,9 @@
   color: var(--clr-spectro);
 }
 /* PROFILE DATA */
+.resoTitle {
+  color: var(--clr-heading);
+}
 .profile-container {
   position: relative;
   display: flex;
