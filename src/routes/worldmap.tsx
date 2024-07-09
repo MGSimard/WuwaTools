@@ -15,6 +15,7 @@ function InteractiveMap() {
   const nexuses = regions.flatMap((region) => region.nexuses);
   const bosses = regions.flatMap((region) => region.bosses);
   const tacetFields = regions.flatMap((region) => region["tacet fields"]);
+  const tacticalHolograms = regions.flatMap((region) => region["tactical holograms"]);
 
   console.log(bosses);
 
@@ -101,6 +102,17 @@ function InteractiveMap() {
                       key={field[0] * field[1]}
                       position={field as [number, number]}
                       icon={getIcon("tacet_field", [38, 38])}
+                    />
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Tactical Holograms">
+                <LayerGroup>
+                  {tacticalHolograms.map((holo) => (
+                    <Marker
+                      key={holo.name}
+                      position={holo.pos as [number, number]}
+                      icon={getIcon("tactical_hologram", [38, 38])}
                     />
                   ))}
                 </LayerGroup>
