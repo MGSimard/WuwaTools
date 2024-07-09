@@ -100,17 +100,6 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
-              <LayersControl.Overlay checked name="Tacet Fields">
-                <LayerGroup>
-                  {tacetFields.map((field) => (
-                    <Marker
-                      key={field[0] * field[1]}
-                      position={field as [number, number]}
-                      icon={getIcon("tacet_field", [38, 38])}
-                    />
-                  ))}
-                </LayerGroup>
-              </LayersControl.Overlay>
               <LayersControl.Overlay checked name="Tactical Holograms">
                 <LayerGroup>
                   {tacticalHolograms.map((holo) => (
@@ -122,6 +111,17 @@ function InteractiveMap() {
                         <strong>{holo.name}</strong>
                       </Popup>
                     </Marker>
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Tacet Fields">
+                <LayerGroup>
+                  {tacetFields.map((field) => (
+                    <Marker
+                      key={field[0] * field[1]}
+                      position={field as [number, number]}
+                      icon={getIcon("tacet_field", [38, 38])}
+                    />
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
@@ -142,7 +142,6 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
-
               <LayersControl.Overlay checked name="Misc">
                 <LayerGroup>
                   {misc.map((thing) => (
