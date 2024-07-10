@@ -225,7 +225,12 @@
     {
       "region": "Port City of Guixu",
       "pos": [-156, -32],
-      "subregions": [],
+      "subregions": [
+        { "name": "Donglu Research Station", "pos": [-144.39, -5.68] },
+        { "name": "Nostalgia Isle", "pos": [-126.46, -45.35] },
+        { "name": "Sea of Flames", "pos": [-155.95, -38.71] },
+        { "name": "Settle Range", "pos": [-175.97, 10.54] }
+      ],
       "nexuses": [[-151.9, 1]],
       "beacons": [
         [-172.9, 16],
