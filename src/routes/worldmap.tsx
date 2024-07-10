@@ -16,13 +16,12 @@ const ZoomEventHandlers = ({ handleZoomEnd }: { handleZoomEnd: (e: any) => void 
 };
 
 // Get click coordinates
-/*
-function Locate() {
-  const map = useMapEvent("click", (e) => {
-    console.log(`${e.latlng.lat.toFixed(2)}, ${e.latlng.lng.toFixed(2)}`);
-  });
-  return null;
-}*/
+// function Locate() {
+//   const map = useMapEvent("click", (e) => {
+//     console.log(`${e.latlng.lat.toFixed(2)}, ${e.latlng.lng.toFixed(2)}`);
+//   });
+//   return null;
+// }
 
 function InteractiveMap() {
   const initialZoom = 2;
@@ -82,7 +81,7 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            {/*<Locate /> Log location on click, used for dev */}
+            {/* <Locate /> dev only */}
             <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
             {zoomLevel < 4 &&
               regions.map((region) => (

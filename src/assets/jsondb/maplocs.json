@@ -7,7 +7,7 @@
   "data": [
     {
       "region": "Central Plains",
-      "pos": [-32, 32],
+      "pos": [-47.42, 23.2],
       "subregions": [
         { "name": "Gubei Pass", "pos": [-19.24, -6.33] },
         { "name": "Lake Deerslumber", "pos": [-115.95, -19.13] },
@@ -51,7 +51,7 @@
     },
     {
       "region": "Desorock Highland",
-      "pos": [18, 42],
+      "pos": [12.9, 39.76],
       "subregions": [
         { "name": "Camp Overwatch", "pos": [41.75, 29.22] },
         { "name": "Misty Coast", "pos": [15.72, 67.47] },
@@ -83,7 +83,7 @@
     },
     {
       "region": "Dim Forest",
-      "pos": [-206, 32],
+      "pos": [-205.18, 30.77],
       "subregions": [
         { "name": "Forbidden Forest", "pos": [-209.34, -3.2] },
         { "name": "Giant Banyan", "pos": [-230.41, 32.18] },
@@ -160,7 +160,7 @@
     },
     {
       "region": "Mt. Firmament",
-      "pos": [-236, 252],
+      "pos": [-233.95, 250.46],
       "subregions": [
         { "name": "Hongzhen", "pos": [-235.54, 241.02] },
         { "name": "Loong's Crest", "pos": [-234.2, 276.16] },
@@ -202,7 +202,7 @@
     },
     {
       "region": "Norfall Barrens",
-      "pos": [78, 116],
+      "pos": [85, 108],
       "subregions": [
         { "name": "Norfall Pass", "pos": [56.19, 77.42] },
         { "name": "Suspended Ruins", "pos": [76.68, 117.94] }
@@ -224,7 +224,7 @@
     },
     {
       "region": "Port City of Guixu",
-      "pos": [-156, -32],
+      "pos": [-151.01, -37.24],
       "subregions": [
         { "name": "Donglu Research Station", "pos": [-144.39, -5.68] },
         { "name": "Nostalgia Isle", "pos": [-126.46, -45.35] },
@@ -270,7 +270,7 @@
     },
     {
       "region": "Whining Aix's Mire",
-      "pos": [-224, 106],
+      "pos": [-206.15, 98.47],
       "subregions": [
         { "name": "Court of Savantae Ruins", "pos": [-220.89, 117.77] },
         { "name": "Fallen Grave", "pos": [-237.18, 102.25] },
