@@ -6,7 +6,7 @@ export function LocationLabel({ pos, text, wrap }: { pos: [number, number]; text
   const map = useMap();
   useEffect(() => {
     const icon = L.divIcon({
-      className: `location-label ${wrap ? "llwrap" : ""}`,
+      className: `location-label ${wrap ? "llwrap" : "llwrap2"}`,
       html: `<div>${text}</div>`,
     });
 

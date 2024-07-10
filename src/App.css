@@ -289,12 +289,15 @@
   text-align: center;
   font-weight: 700;
   font-size: 2rem;
-  white-space: nowrap;
+  white-space: normal;
   text-shadow: 0 0 3px black;
 }
 .location-label.llwrap > div {
-  white-space: normal;
   width: 12rem;
+}
+.location-label.llwrap2 > div {
+  width: 17rem;
+  font-size: 2rem;
 }
 .leaflet-touch .leaflet-control-layers,
 .leaflet-touch .leaflet-bar {
@@ -340,6 +343,16 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  color: white;
+}
+.leaflet-popup-content {
+  width: auto;
 }
 /**/
 /* GLASS */

@@ -83,7 +83,7 @@ function InteractiveMap() {
             />
             {/*<Locate /> Dev Only*/}
             <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
-            {zoomLevel < 4 &&
+            {zoomLevel < 3.5 &&
               regions.map((region) => (
                 <LocationLabel
                   key={region.region}
@@ -92,7 +92,7 @@ function InteractiveMap() {
                   wrap={true}
                 />
               ))}
-            {zoomLevel >= 4 &&
+            {zoomLevel >= 3.5 &&
               subregions.map((subregion) => (
                 <LocationLabel
                   key={subregion.name}
@@ -146,7 +146,7 @@ function InteractiveMap() {
                       position={holo.pos as [number, number]}
                       icon={getIcon("tactical_hologram", [38, 38])}>
                       <Popup>
-                        <strong>{holo.name}</strong>
+                        <strong>Tactical Hologram: {holo.name}</strong>
                       </Popup>
                     </Marker>
                   ))}
