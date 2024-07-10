@@ -53,10 +53,10 @@
       "region": "Desorock Highland",
       "pos": [18, 42],
       "subregions": [
-        { "name": "Rearguard Base", "pos": [0, 0] },
-        { "name": "Withering Frontline", "pos": [0, 0] },
-        { "name": "Misty Coast", "pos": [0, 0] },
-        { "name": "Camp Overwatch", "pos": [0, 0] }
+        { "name": "Camp Overwatch", "pos": [41.75, 29.22] },
+        { "name": "Misty Coast", "pos": [15.72, 67.47] },
+        { "name": "Rearguard Base", "pos": [6.8, 42.03] },
+        { "name": "Withering Frontline", "pos": [27.93, 43.89] }
       ],
       "nexuses": [[-3.6, 30.24]],
       "beacons": [
