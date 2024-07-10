@@ -81,7 +81,7 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            {/* <Locate /> dev only */}
+            {/*<Locate /> Dev Only*/}
             <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
             {zoomLevel < 4 &&
               regions.map((region) => (

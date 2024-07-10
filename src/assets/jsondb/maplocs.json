@@ -7,7 +7,7 @@
   "data": [
     {
       "region": "Central Plains",
-      "pos": [-47.42, 23.2],
+      "pos": [-42.68, 24.85],
       "subregions": [
         { "name": "Gubei Pass", "pos": [-19.24, -6.33] },
         { "name": "Lake Deerslumber", "pos": [-115.95, -19.13] },
@@ -202,7 +202,7 @@
     },
     {
       "region": "Norfall Barrens",
-      "pos": [85, 108],
+      "pos": [84.97, 109.54],
       "subregions": [
         { "name": "Norfall Pass", "pos": [56.19, 77.42] },
         { "name": "Suspended Ruins", "pos": [76.68, 117.94] }
@@ -224,7 +224,7 @@
     },
     {
       "region": "Port City of Guixu",
-      "pos": [-151.01, -37.24],
+      "pos": [-156.86, -33.75],
       "subregions": [
         { "name": "Donglu Research Station", "pos": [-144.39, -5.68] },
         { "name": "Nostalgia Isle", "pos": [-126.46, -45.35] },
@@ -270,7 +270,7 @@
     },
     {
       "region": "Whining Aix's Mire",
-      "pos": [-206.15, 98.47],
+      "pos": [-227.08, 99.02],
       "subregions": [
         { "name": "Court of Savantae Ruins", "pos": [-220.89, 117.77] },
         { "name": "Fallen Grave", "pos": [-237.18, 102.25] },
