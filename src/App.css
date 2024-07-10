@@ -322,16 +322,17 @@
 .leaflet-control-layers-overlays label {
   padding: 0 1rem;
 }
-.leaflet-control-layers-overlays label,
-.leaflet-control-layers-overlays label * {
-  cursor: pointer;
+.leaflet-control-container * {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                supported by Chrome, Edge, Opera and Firefox */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+.leaflet-control-layers-overlays label,
+.leaflet-control-layers-overlays label * {
+  cursor: pointer;
 }
 .leaflet-control-layers-overlays label:not(:last-child) {
   margin-bottom: 1rem;
@@ -344,15 +345,46 @@
   align-items: center;
   gap: 1rem;
 }
+.leaflet-popup-content-wrapper {
+  padding: 0.6rem;
+}
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.4);
-  border: 3px solid rgba(255, 255, 255, 0.4);
-  color: white;
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.4);
 }
 .leaflet-popup-content {
-  width: auto;
+  width: 35rem !important;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.popup-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: rgba(27, 42, 49, 1);
+  background: linear-gradient(to right, rgba(228, 228, 228, 0.8) 0%, rgba(228, 228, 228, 0.95) 70%);
+}
+.ph-img-container {
+  width: 5rem;
+  flex-shrink: 0;
+}
+.ph-title {
+  margin-right: 5rem;
+}
+.leaflet-container a.leaflet-popup-close-button {
+  right: 2rem;
+  top: 2rem;
+  font-size: 3rem;
+}
+.popup-desc {
+  padding: 1rem 2rem;
+  color: rgba(70, 70, 70, 1);
+  background: linear-gradient(to right, rgba(183, 183, 183, 0.8) 0%, rgba(183, 183, 183, 0.95) 70%);
 }
 /**/
 /* GLASS */

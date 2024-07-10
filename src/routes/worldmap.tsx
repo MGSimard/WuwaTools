@@ -48,6 +48,10 @@ function InteractiveMap() {
     setZoomLevel(e.target.getZoom());
   };
 
+  const flatnamed = (input: string) => {
+    return input.toLowerCase().replace(/[^\wé-]+/g, "_");
+  };
+
   return (
     <>
       <h1>World Map</h1>
@@ -130,9 +134,17 @@ function InteractiveMap() {
                     <Marker
                       key={boss.name}
                       position={boss.pos as [number, number]}
-                      icon={getIcon(boss.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}>
+                      icon={getIcon(flatnamed(boss.name), [38, 38])}>
                       <Popup>
-                        <strong>{boss.name}</strong>
+                        <div className="popup-header">
+                          <div className="ph-img-container">
+                            <img src={`/map/icons/icon_${flatnamed(boss.name)}.png`} />
+                          </div>
+                          <div className="ph-title">{boss.name}</div>
+                        </div>
+                        <div className="popup-desc">
+                          <strong>Reward: ?</strong>
+                        </div>
                       </Popup>
                     </Marker>
                   ))}
@@ -146,7 +158,15 @@ function InteractiveMap() {
                       position={holo.pos as [number, number]}
                       icon={getIcon("tactical_hologram", [38, 38])}>
                       <Popup>
-                        <strong>Tactical Hologram: {holo.name}</strong>
+                        <div className="popup-header">
+                          <div className="ph-img-container">
+                            <img src={`/map/icons/icon_tactical_hologram.png`} />
+                          </div>
+                          <div className="ph-title">Tactical Hologram: {holo.name}</div>
+                        </div>
+                        <div className="popup-desc">
+                          <strong>Reward: ?</strong>
+                        </div>
                       </Popup>
                     </Marker>
                   ))}
@@ -158,8 +178,19 @@ function InteractiveMap() {
                     <Marker
                       key={field[0] * field[1]}
                       position={field as [number, number]}
-                      icon={getIcon("tacet_field", [38, 38])}
-                    />
+                      icon={getIcon("tacet_field", [38, 38])}>
+                      <Popup>
+                        <div className="popup-header">
+                          <div className="ph-img-container">
+                            <img src={`/map/icons/icon_tacet_field.png`} />
+                          </div>
+                          <div className="ph-title">Tacet Field</div>
+                        </div>
+                        <div className="popup-desc">
+                          <strong>Reward: ?</strong>
+                        </div>
+                      </Popup>
+                    </Marker>
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
@@ -171,9 +202,15 @@ function InteractiveMap() {
                       position={chall.pos as [number, number]}
                       icon={getIcon("forgery_challenge", [38, 38])}>
                       <Popup>
-                        <strong>Forgery Challenge: {chall.name}</strong>
-                        <br />
-                        <strong>Reward:</strong> {chall.reward}
+                        <div className="popup-header">
+                          <div className="ph-img-container">
+                            <img src={`/map/icons/icon_forgery_challenge.png`} />
+                          </div>
+                          <div className="ph-title">Forgery Challenge: {chall.name}</div>
+                        </div>
+                        <div className="popup-desc">
+                          <strong>Reward: {chall.reward}</strong>
+                        </div>
                         {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
                       </Popup>
                     </Marker>
@@ -200,7 +237,7 @@ function InteractiveMap() {
                     <Marker
                       key={thing.name}
                       position={thing.pos as [number, number]}
-                      icon={getIcon(thing.name.toLowerCase().replace(/[^\wé-]+/g, "_"), [38, 38])}>
+                      icon={getIcon(flatnamed(thing.name), [38, 38])}>
                       <Popup>
                         <strong>{thing.name}</strong>
                       </Popup>
