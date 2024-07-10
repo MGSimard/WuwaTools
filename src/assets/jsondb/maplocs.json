@@ -115,7 +115,11 @@
     {
       "region": "Gorges of Spirits",
       "pos": [-42, -32],
-      "subregions": [],
+      "subregions": [
+        { "name": "Bell-Borne Ravine", "pos": [-62.36, -50.68] },
+        { "name": "Clouded Cliffs", "pos": [-37.2, -36.65] },
+        { "name": "Memento Square", "pos": [-47.28, -33.47] }
+      ],
       "nexuses": [[-32, -33.7]],
       "beacons": [
         [-53.3, -27.77],
