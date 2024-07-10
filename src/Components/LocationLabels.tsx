@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import L from "leaflet";
 import { useMap } from "react-leaflet";
 
-export function LocationLabel({ pos, text }: { pos: [number, number]; text: string }) {
+export function LocationLabel({ pos, text, wrap }: { pos: [number, number]; text: string; wrap: boolean }) {
   const map = useMap();
   useEffect(() => {
     const icon = L.divIcon({
-      className: "location-label",
+      className: `location-label ${wrap ? "llwrap" : ""}`,
       html: `<div>${text}</div>`,
     });
 

@@ -86,11 +86,21 @@ function InteractiveMap() {
             <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
             {zoomLevel < 4 &&
               regions.map((region) => (
-                <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
+                <LocationLabel
+                  key={region.region}
+                  pos={region.pos as [number, number]}
+                  text={region.region}
+                  wrap={true}
+                />
               ))}
             {zoomLevel >= 4 &&
               subregions.map((subregion) => (
-                <LocationLabel key={subregion.name} pos={subregion.pos as [number, number]} text={subregion.name} />
+                <LocationLabel
+                  key={subregion.name}
+                  pos={subregion.pos as [number, number]}
+                  text={subregion.name}
+                  wrap={false}
+                />
               ))}
             <LayersControl position="topright">
               <LayersControl.Overlay checked name="Nexus">
