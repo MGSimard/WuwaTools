@@ -50,9 +50,14 @@
       "misc": [{ "name": "Tower of Adversity", "pos": [-63.3, 98] }]
     },
     {
-      "region": "Desorock Highlands",
+      "region": "Desorock Highland",
       "pos": [18, 42],
-      "subregions": [],
+      "subregions": [
+        { "name": "Rearguard Base", "pos": [0, 0] },
+        { "name": "Withering Frontline", "pos": [0, 0] },
+        { "name": "Misty Coast", "pos": [0, 0] },
+        { "name": "Camp Overwatch", "pos": [0, 0] }
+      ],
       "nexuses": [[-3.6, 30.24]],
       "beacons": [
         [18.9, 81.6],
