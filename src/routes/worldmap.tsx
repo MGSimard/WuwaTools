@@ -24,6 +24,7 @@ const ZoomEventHandlers = ({ handleZoomEnd }: { handleZoomEnd: (e: any) => void 
   return null;
 };
 
+// Get click coordinates
 function Locate() {
   const map = useMapEvent("click", (e) => {
     console.log(`${e.latlng.lat.toFixed(2)}, ${e.latlng.lng.toFixed(2)}`);

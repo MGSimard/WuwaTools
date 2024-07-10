@@ -250,7 +250,10 @@
     {
       "region": "Tiger's Maw",
       "pos": [-136, 36],
-      "subregions": [],
+      "subregions": [
+        { "name": "Distribution Center", "pos": [-159.57, 34.74] },
+        { "name": "Tiger's Maw Mine", "pos": [-135.7, 36.44] }
+      ],
       "nexuses": [[-128.5, 24.9]],
       "beacons": [
         [-159.45, 40.55],
