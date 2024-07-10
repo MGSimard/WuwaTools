@@ -84,7 +84,13 @@
     {
       "region": "Dim Forest",
       "pos": [-206, 32],
-      "subregions": [],
+      "subregions": [
+        { "name": "Forbidden Forest", "pos": [-209.34, -3.2] },
+        { "name": "Giant Banyan", "pos": [-230.41, 32.18] },
+        { "name": "Thorny Passage", "pos": [-198.64, 34.9] },
+        { "name": "Violet Banyan", "pos": [-199.95, 15.41] },
+        { "name": "Wenye Beach", "pos": [-226.04, 63.0] }
+      ],
       "nexuses": [[-219.38, 4.88]],
       "beacons": [
         [-238.8, 61.5],
@@ -98,10 +104,7 @@
       ],
       "bosses": [{ "name": "Feilian Beringal", "pos": [-225.5, 31.4] }],
       "tacet fields": [[-231.3, 5]],
-      "tactical holograms": [
-        { "name": "Tempest Mephis", "pos": [-183.65, 6.05] },
-        { "name": "Feilian Beringal", "pos": [-235.5, 66.2] }
-      ],
+      "tactical holograms": [{ "name": "Feilian Beringal", "pos": [-235.5, 66.2] }],
       "forgery challenges": [
         { "name": "Misty Forest", "reward": "Helix", "pos": [-199, -19.5] },
         { "name": "Moonlit Groves", "reward": "Cadence Flora", "pos": [-174, 36.9] }
@@ -214,7 +217,7 @@
       ],
       "bosses": [{ "name": "Inferno Rider", "pos": [-156.7, -46.1] }],
       "tacet fields": [[-167.65, 8.05]],
-      "tactical holograms": [],
+      "tactical holograms": [{ "name": "Tempest Mephis", "pos": [-183.65, 6.05] }],
       "forgery challenges": [{ "name": "Flaming Remnants", "reward": "Metallic Drip", "pos": [-151.35, -27.3] }],
       "domains": [],
       "misc": []

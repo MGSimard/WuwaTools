@@ -23,6 +23,7 @@ function Home() {
           <li>- Figure out layout for character profile header</li>
           <li>- Finish markers on interactive map, update boundaries</li>
           <li>- Subregion labels (cities, etc) within regions at a certain zoom level</li>
+          <li>- Style marker popups</li>
           <li>- Markers: Maybe city stores</li>
           <li>- Look for icon size locks at specific zoom levels</li>
           <li>- Style map controls (toggle icons + text with opacity instead of checkboxes)</li>
