@@ -135,7 +135,12 @@
     {
       "region": "Jinzhou",
       "pos": [-81, 31],
-      "subregions": [],
+      "subregions": [
+        { "name": "Jinzhou", "pos": [-79.83, 30.61] },
+        { "name": "Lake Heights", "pos": [-106.25, 28.07] },
+        { "name": "Shade Ridge", "pos": [-99.12, 57.6] },
+        { "name": "Sky Ray", "pos": [-113.21, 31.67] }
+      ],
       "nexuses": [[-75.7, 27.1]],
       "beacons": [
         [-111, 44.75],
