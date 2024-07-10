@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker, Popup } from "react-leaflet";
+//import { useState } from "react";
+import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker, Popup /*useMapEvent*/ } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
@@ -9,7 +10,20 @@ export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
 });
 
+/*const ZoomEventHandlers = ({ handleZoomEnd }: { handleZoomEnd: (e: any) => void }) => {
+  useMapEvent("zoomend", handleZoomEnd);
+  return null;
+};*/
+
 function InteractiveMap() {
+  const initialZoom = 2;
+  // Might not use zoom levels for icon display after all
+  // It takes complete icon visibility control away from the user
+  // If they zoom in and out constantly, so simulating the game's
+  // Map icon visibility on zoom is not the right call.
+  // Although will still use it for subregion labels
+  // const [zoomLevel, setZoomLevel] = useState(initialZoom);
+
   const regions = maplocs.data;
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
@@ -17,15 +31,18 @@ function InteractiveMap() {
   const tacetFields = regions.flatMap((region) => region["tacet fields"]);
   const tacticalHolograms = regions.flatMap((region) => region["tactical holograms"]);
   const forgeryChallenges = regions.flatMap((region) => region["forgery challenges"]);
+  const domains = regions.flatMap((region) => region.domains);
   const misc = regions.flatMap((region) => region.misc);
-
-  console.log(bosses);
 
   const getIcon = (iconType: string, size: [number, number]) =>
     L.icon({
       iconUrl: `/map/icons/icon_${iconType}.png`,
       iconSize: size,
     });
+
+  /*const handleZoomEnd = (e: any) => {
+    setZoomLevel(e.target.getZoom());
+  };*/
 
   return (
     <>
@@ -35,7 +52,7 @@ function InteractiveMap() {
           <MapContainer
             maxBounds={L.latLngBounds([-5024, -5024], [5024, 5024])}
             center={[-76, 32]}
-            zoom={2}
+            zoom={initialZoom}
             zoomSnap={0.5}
             zoomDelta={0.5}
             crs={L.CRS.Simple}
@@ -60,6 +77,7 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
+            {/*<ZoomEventHandlers handleZoomEnd={handleZoomEnd} />*/}
             {regions.map((region) => (
               <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
             ))}
@@ -137,6 +155,20 @@ function InteractiveMap() {
                         <br />
                         <strong>Reward:</strong> {chall.reward}
                         {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
+                      </Popup>
+                    </Marker>
+                  ))}
+                </LayerGroup>
+              </LayersControl.Overlay>
+              <LayersControl.Overlay checked name="Domains">
+                <LayerGroup>
+                  {domains.map((domain) => (
+                    <Marker
+                      key={domain.name}
+                      position={domain.pos as [number, number]}
+                      icon={getIcon("domain", [38, 38])}>
+                      <Popup>
+                        <strong>{domain.name}</strong>
                       </Popup>
                     </Marker>
                   ))}

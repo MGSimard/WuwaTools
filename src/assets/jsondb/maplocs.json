@@ -36,10 +36,8 @@
       "tacet fields": [[-31.08, 18.78]],
       "tactical holograms": [],
       "forgery challenges": [{ "name": "Marigold Woods", "reward": "Phlogiston", "pos": [-96, -1.2] }],
-      "misc": [
-        { "name": "Tower of Adversity", "pos": [-63.3, 98] },
-        { "name": "Parallel Perception", "pos": [-31.1, 39.85] }
-      ]
+      "domains": [{ "name": "Parallel Perception", "pos": [-31.1, 39.85] }],
+      "misc": [{ "name": "Tower of Adversity", "pos": [-63.3, 98] }]
     },
     {
       "region": "Desorock Highlands",
@@ -65,7 +63,8 @@
       ],
       "tactical holograms": [],
       "forgery challenges": [],
-      "misc": [{ "name": "Perspective Bender", "pos": [37.2, 31.5] }]
+      "domains": [{ "name": "Perspective Bender", "pos": [37.2, 31.5] }],
+      "misc": []
     },
     {
       "region": "Dim Forest",
@@ -92,6 +91,7 @@
         { "name": "Misty Forest", "reward": "Helix", "pos": [-199, -19.5] },
         { "name": "Moonlit Groves", "reward": "Cadence Flora", "pos": [-174, 36.9] }
       ],
+      "domains": [],
       "misc": []
     },
     {
@@ -107,6 +107,7 @@
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
+      "domains": [],
       "misc": []
     },
     {
@@ -127,6 +128,7 @@
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
+      "domains": [],
       "misc": [{ "name": "The Grand Library", "pos": [-95, 43.35] }]
     },
     {
@@ -160,6 +162,7 @@
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
+      "domains": [],
       "misc": []
     },
     {
@@ -178,6 +181,7 @@
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
+      "domains": [],
       "misc": []
     },
     {
@@ -197,6 +201,7 @@
       "tacet fields": [[-167.65, 8.05]],
       "tactical holograms": [],
       "forgery challenges": [{ "name": "Flaming Remnants", "reward": "Metallic Drip", "pos": [-151.35, -27.3] }],
+      "domains": [],
       "misc": []
     },
     {
@@ -214,6 +219,7 @@
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
+      "domains": [],
       "misc": []
     },
     {
@@ -244,6 +250,7 @@
       "tacet fields": [[-189.2, 131.15]],
       "tactical holograms": [{ "name": "Mourning Aix", "pos": [-241.55, 135.7] }],
       "forgery challenges": [],
+      "domains": [],
       "misc": [{ "name": "Depths of Illusive Realm", "pos": [-194.3, 120.6] }]
     },
     {
@@ -262,6 +269,7 @@
       "tacet fields": [[-150.7, 54.4]],
       "tactical holograms": [{ "name": "Impermanence Heron", "pos": [-151, 56.4] }],
       "forgery challenges": [{ "name": "Eroded Ruins", "reward": "Waveworn Residue", "pos": [-154.75, 68.7] }],
+      "domains": [],
       "misc": []
     }
   ]
