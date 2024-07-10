@@ -142,9 +142,7 @@ function InteractiveMap() {
                           </div>
                           <div className="ph-title">{boss.name}</div>
                         </div>
-                        <div className="popup-desc">
-                          <strong>Reward: ?</strong>
-                        </div>
+                        <div className="popup-desc">Reward: ?</div>
                       </Popup>
                     </Marker>
                   ))}
@@ -164,9 +162,7 @@ function InteractiveMap() {
                           </div>
                           <div className="ph-title">Tactical Hologram: {holo.name}</div>
                         </div>
-                        <div className="popup-desc">
-                          <strong>Reward: ?</strong>
-                        </div>
+                        <div className="popup-desc">Reward: ?</div>
                       </Popup>
                     </Marker>
                   ))}
@@ -186,9 +182,7 @@ function InteractiveMap() {
                           </div>
                           <div className="ph-title">Tacet Field</div>
                         </div>
-                        <div className="popup-desc">
-                          <strong>Reward: ?</strong>
-                        </div>
+                        <div className="popup-desc">Reward: ?</div>
                       </Popup>
                     </Marker>
                   ))}
@@ -208,9 +202,7 @@ function InteractiveMap() {
                           </div>
                           <div className="ph-title">Forgery Challenge: {chall.name}</div>
                         </div>
-                        <div className="popup-desc">
-                          <strong>Reward: {chall.reward}</strong>
-                        </div>
+                        <div className="popup-desc">Reward: {chall.reward}</div>
                         {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
                       </Popup>
                     </Marker>
@@ -225,7 +217,12 @@ function InteractiveMap() {
                       position={domain.pos as [number, number]}
                       icon={getIcon("domain", [38, 38])}>
                       <Popup>
-                        <strong>{domain.name}</strong>
+                        <div className="popup-header">
+                          <div className="ph-img-container">
+                            <img src={`/map/icons/icon_domain.png`} />
+                          </div>
+                          <div className="ph-title">{domain.name}</div>
+                        </div>
                       </Popup>
                     </Marker>
                   ))}
@@ -239,7 +236,12 @@ function InteractiveMap() {
                       position={thing.pos as [number, number]}
                       icon={getIcon(flatnamed(thing.name), [38, 38])}>
                       <Popup>
-                        <strong>{thing.name}</strong>
+                        <div className="popup-header">
+                          <div className="ph-img-container">
+                            <img src={`/map/icons/icon_${flatnamed(thing.name)}.png`} />
+                          </div>
+                          <div className="ph-title">{thing.name}</div>
+                        </div>
                       </Popup>
                     </Marker>
                   ))}
