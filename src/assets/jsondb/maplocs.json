@@ -203,7 +203,10 @@
     {
       "region": "Norfall Barrens",
       "pos": [78, 116],
-      "subregions": [],
+      "subregions": [
+        { "name": "Norfall Pass", "pos": [56.19, 77.42] },
+        { "name": "Suspended Ruins", "pos": [76.68, 117.94] }
+      ],
       "nexuses": [],
       "beacons": [
         [57.1, 64.9],
