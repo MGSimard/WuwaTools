@@ -1,15 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import {
-  MapContainer,
-  TileLayer,
-  LayersControl,
-  LayerGroup,
-  Marker,
-  Popup,
-  useMapEvent,
-  useMapEvents,
-} from "react-leaflet";
+import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker, Popup, useMapEvent } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
@@ -25,12 +16,13 @@ const ZoomEventHandlers = ({ handleZoomEnd }: { handleZoomEnd: (e: any) => void 
 };
 
 // Get click coordinates
+/*
 function Locate() {
   const map = useMapEvent("click", (e) => {
     console.log(`${e.latlng.lat.toFixed(2)}, ${e.latlng.lng.toFixed(2)}`);
   });
   return null;
-}
+}*/
 
 function InteractiveMap() {
   const initialZoom = 2;
@@ -90,13 +82,13 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            <Locate />
+            {/*<Locate /> Log location on click, used for dev */}
             <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
-            {zoomLevel < 0 /*replace to 4 when done*/ &&
+            {zoomLevel < 4 &&
               regions.map((region) => (
                 <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
               ))}
-            {zoomLevel >= 0 /*replace to 4 when done*/ &&
+            {zoomLevel >= 4 &&
               subregions.map((subregion) => (
                 <LocationLabel key={subregion.name} pos={subregion.pos as [number, number]} text={subregion.name} />
               ))}
