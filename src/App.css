@@ -288,11 +288,9 @@
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 4rem;
   white-space: nowrap;
-  text-shadow:
-    0 0 3px black,
-    0 0 8px black;
+  text-shadow: 0 0 3px black;
 }
 .leaflet-touch .leaflet-control-layers,
 .leaflet-touch .leaflet-bar {

@@ -25,6 +25,7 @@ function Home() {
           <li>- Update map boundaries when finished</li>
           <li>- Style marker popups</li>
           <li>- Look for icon size locks at specific zoom levels</li>
+          <li>- Relative text label size lock at zoom levels</li>
           <li>- Style map controls (toggle icons + text with opacity instead of checkboxes)</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>
           <li>- Active route style similar to wuthering wave's menu</li>
