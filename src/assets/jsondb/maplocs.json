@@ -271,7 +271,15 @@
     {
       "region": "Whining Aix's Mire",
       "pos": [-224, 106],
-      "subregions": [],
+      "subregions": [
+        { "name": "Court of Savantae Ruins", "pos": [-220.89, 117.77] },
+        { "name": "Fallen Grave", "pos": [-237.18, 102.25] },
+        { "name": "Frosting Harbor", "pos": [-220.93, 147.46] },
+        { "name": "Lollo Warehouse", "pos": [-214.24, 73.63] },
+        { "name": "Plateau Ruins", "pos": [-203.67, 102.16] },
+        { "name": "Port Gunchao", "pos": [-185.43, 109.13] },
+        { "name": "Waving Battlefield", "pos": [-200.42, 118.47] }
+      ],
       "nexuses": [
         [-208, 86.15],
         [-185.14, 115.3]
