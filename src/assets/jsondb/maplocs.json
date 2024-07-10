@@ -310,7 +310,11 @@
     {
       "region": "Wuming Bay",
       "pos": [-124, 74],
-      "subregions": [],
+      "subregions": [
+        { "name": "Corroded Ruins", "pos": [-136.85, 60.64] },
+        { "name": "Remnant Residence", "pos": [-168.15, 83.03] },
+        { "name": "Shattered Blocks", "pos": [-132.6, 76.66] }
+      ],
       "nexuses": [[-143.95, 67.16]],
       "beacons": [
         [-194.92, 49.34],
