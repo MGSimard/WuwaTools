@@ -161,7 +161,15 @@
     {
       "region": "Mt. Firmament",
       "pos": [-236, 252],
-      "subregions": [],
+      "subregions": [
+        { "name": "Hongzhen", "pos": [-235.54, 241.02] },
+        { "name": "Loong's Crest", "pos": [-234.2, 276.16] },
+        { "name": "Loong's Rest", "pos": [-223.32, 252.97] },
+        { "name": "Loong's Ridge", "pos": [-269.12, 260.28] },
+        { "name": "Luminous Shore", "pos": [-212.95, 203.58] },
+        { "name": "Tianqu Tree", "pos": [-251.18, 257.24] },
+        { "name": "Xuanji Ridges", "pos": [-246.71, 218.94] }
+      ],
       "nexuses": [
         [-209.06, 195.82],
         [-231.5, 232.65]
