@@ -8,7 +8,17 @@
     {
       "region": "Central Plains",
       "pos": [-32, 32],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [
+        { "name": "Gubei Pass", "pos": [-19.24, -6.33] },
+        { "name": "Lake Deerslumber", "pos": [-115.95, -19.13] },
+        { "name": "Loong's Gaze Suburbs", "pos": [-79.46, -1.31] },
+        { "name": "Qichi Village", "pos": [-29.97, 19.93] },
+        { "name": "Stone Pile Plain", "pos": [-52.16, -19.0] },
+        { "name": "Taoyuan Vale", "pos": [-42.29, -6.51] },
+        { "name": "Tiderise Cliff", "pos": [-32.87, 50.06] },
+        { "name": "Tower of Adversity", "pos": [-66.66, 99.66] },
+        { "name": "Yeming Slide", "pos": [-90.1, -31.09] }
+      ],
       "nexuses": [
         [-22.25, 22.65],
         [-59.3, 84.98]
@@ -69,7 +79,7 @@
     {
       "region": "Dim Forest",
       "pos": [-206, 32],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [[-219.38, 4.88]],
       "beacons": [
         [-238.8, 61.5],
@@ -97,7 +107,7 @@
     {
       "region": "Gorges of Spirits",
       "pos": [-42, -32],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [[-32, -33.7]],
       "beacons": [
         [-53.3, -27.77],
@@ -113,7 +123,7 @@
     {
       "region": "Jinzhou",
       "pos": [-81, 31],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [[-75.7, 27.1]],
       "beacons": [
         [-111, 44.75],
@@ -134,7 +144,7 @@
     {
       "region": "Mt. Firmament",
       "pos": [-236, 252],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [
         [-209.06, 195.82],
         [-231.5, 232.65]
@@ -168,7 +178,7 @@
     {
       "region": "Norfall Barrens",
       "pos": [78, 116],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [],
       "beacons": [
         [57.1, 64.9],
@@ -187,7 +197,7 @@
     {
       "region": "Port City of Guixu",
       "pos": [-156, -32],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [[-151.9, 1]],
       "beacons": [
         [-172.9, 16],
@@ -207,7 +217,7 @@
     {
       "region": "Tiger's Maw",
       "pos": [-136, 36],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [[-128.5, 24.9]],
       "beacons": [
         [-159.45, 40.55],
@@ -225,7 +235,7 @@
     {
       "region": "Whining Aix's Mire",
       "pos": [-224, 106],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [
         [-208, 86.15],
         [-185.14, 115.3]
@@ -256,7 +266,7 @@
     {
       "region": "Wuming Bay",
       "pos": [-124, 74],
-      "subregions": [{ "name": "SUBREGIONNAME1", "pos": [0, 0] }],
+      "subregions": [],
       "nexuses": [[-143.95, 67.16]],
       "beacons": [
         [-194.92, 49.34],

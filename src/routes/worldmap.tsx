@@ -1,6 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
-//import { useState } from "react";
-import { MapContainer, TileLayer, LayersControl, LayerGroup, Marker, Popup /*useMapEvent*/ } from "react-leaflet";
+import { useState } from "react";
+import {
+  MapContainer,
+  TileLayer,
+  LayersControl,
+  LayerGroup,
+  Marker,
+  Popup,
+  useMapEvent,
+  useMapEvents,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
@@ -10,21 +19,24 @@ export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
 });
 
-/*const ZoomEventHandlers = ({ handleZoomEnd }: { handleZoomEnd: (e: any) => void }) => {
+const ZoomEventHandlers = ({ handleZoomEnd }: { handleZoomEnd: (e: any) => void }) => {
   useMapEvent("zoomend", handleZoomEnd);
   return null;
-};*/
+};
+
+function Locate() {
+  const map = useMapEvent("click", (e) => {
+    console.log(`${e.latlng.lat.toFixed(2)}, ${e.latlng.lng.toFixed(2)}`);
+  });
+  return null;
+}
 
 function InteractiveMap() {
   const initialZoom = 2;
-  // Might not use zoom levels for icon display after all
-  // It takes complete icon visibility control away from the user
-  // If they zoom in and out constantly, so simulating the game's
-  // Map icon visibility on zoom is not the right call.
-  // Although will still use it for subregion labels
-  // const [zoomLevel, setZoomLevel] = useState(initialZoom);
+  const [zoomLevel, setZoomLevel] = useState(initialZoom);
 
   const regions = maplocs.data;
+  const subregions = regions.flatMap((region) => region.subregions);
   const beacons = regions.flatMap((region) => region.beacons);
   const nexuses = regions.flatMap((region) => region.nexuses);
   const bosses = regions.flatMap((region) => region.bosses);
@@ -40,9 +52,9 @@ function InteractiveMap() {
       iconSize: size,
     });
 
-  /*const handleZoomEnd = (e: any) => {
+  const handleZoomEnd = (e: any) => {
     setZoomLevel(e.target.getZoom());
-  };*/
+  };
 
   return (
     <>
@@ -77,10 +89,16 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            {/*<ZoomEventHandlers handleZoomEnd={handleZoomEnd} />*/}
-            {regions.map((region) => (
-              <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
-            ))}
+            <Locate />
+            <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
+            {zoomLevel < 0 /*replace to 4 when done*/ &&
+              regions.map((region) => (
+                <LocationLabel key={region.region} pos={region.pos as [number, number]} text={region.region} />
+              ))}
+            {zoomLevel >= 0 /*replace to 4 when done*/ &&
+              subregions.map((subregion) => (
+                <LocationLabel key={subregion.name} pos={subregion.pos as [number, number]} text={subregion.name} />
+              ))}
             <LayersControl position="topright">
               <LayersControl.Overlay checked name="Nexus">
                 <LayerGroup>

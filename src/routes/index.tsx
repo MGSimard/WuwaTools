@@ -24,8 +24,8 @@ function Home() {
           <li>- Finish markers on interactive map, update boundaries</li>
           <li>- Subregion labels (cities, etc) within regions at a certain zoom level</li>
           <li>- Markers: Maybe city stores</li>
-          <li>- Set up max distance render for markers and size locks</li>
-          <li>- Style map controls</li>
+          <li>- Look for icon size locks at specific zoom levels</li>
+          <li>- Style map controls (toggle icons + text with opacity instead of checkboxes)</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>
           <li>- Active route style similar to wuthering wave's menu</li>
           <li>- Look into glob imports (vite feature)</li>
