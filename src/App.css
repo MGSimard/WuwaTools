@@ -384,10 +384,19 @@
   top: 2rem;
   font-size: 3rem;
 }
-.popup-desc {
+.popup-body {
   padding: 1rem 2rem;
   color: rgba(70, 70, 70, 1);
   background: linear-gradient(to right, rgba(204, 204, 204, 0.85) 0%, rgba(204, 204, 204, 0.95) 70%);
+}
+.popup-rewards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+}
+.popup-rewards,
+.popup-rewards * {
+  border: 1px solid red;
 }
 /**/
 /* GLASS */

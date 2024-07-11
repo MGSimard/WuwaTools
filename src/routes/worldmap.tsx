@@ -137,7 +137,23 @@ function InteractiveMap() {
                       position={boss.pos as [number, number]}
                       icon={getIcon(flatnamed(boss.name), [38, 38])}>
                       <Popup>
-                        <MapPopup imgSrc={flatnamed(boss.name)} title={boss.name} rewards={["Jeff"]} />
+                        <MapPopup
+                          imgSrc={flatnamed(boss.name)}
+                          title={boss.name}
+                          rewards={[
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                          ]}
+                        />
                       </Popup>
                     </Marker>
                   ))}
@@ -154,7 +170,20 @@ function InteractiveMap() {
                         <MapPopup
                           imgSrc={"tactical_hologram"}
                           title={`Tactical Hologram: ${holo.name}`}
-                          rewards={["Jeff"]}
+                          rewards={[
+                            "Jeff",
+                            "f",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                          ]}
                         />
                       </Popup>
                     </Marker>
@@ -169,7 +198,11 @@ function InteractiveMap() {
                       position={field as [number, number]}
                       icon={getIcon("tacet_field", [38, 38])}>
                       <Popup>
-                        <MapPopup imgSrc={"tacet_field"} title={"Tacet Field"} rewards={["Jeff"]} />
+                        <MapPopup
+                          imgSrc={"tacet_field"}
+                          title={"Tacet Field"}
+                          rewards={["Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff"]}
+                        />
                       </Popup>
                     </Marker>
                   ))}
@@ -186,7 +219,21 @@ function InteractiveMap() {
                         <MapPopup
                           imgSrc={"forgery_challenge"}
                           title={`Forgery Challenge: ${chall.name}`}
-                          rewards={[chall.reward]}
+                          rewards={[
+                            chall.reward,
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                            "Jeff",
+                          ]}
                         />
                       </Popup>
                     </Marker>
@@ -201,7 +248,11 @@ function InteractiveMap() {
                       position={domain.pos as [number, number]}
                       icon={getIcon("domain", [38, 38])}>
                       <Popup>
-                        <MapPopup imgSrc={"domain"} title={domain.name} rewards={["Jeff"]} />
+                        <MapPopup
+                          imgSrc={"domain"}
+                          title={domain.name}
+                          rewards={["Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff"]}
+                        />
                       </Popup>
                     </Marker>
                   ))}
@@ -215,7 +266,11 @@ function InteractiveMap() {
                       position={thing.pos as [number, number]}
                       icon={getIcon(flatnamed(thing.name), [38, 38])}>
                       <Popup>
-                        <MapPopup imgSrc={flatnamed(thing.name)} title={thing.name} rewards={["Jeff"]} />
+                        <MapPopup
+                          imgSrc={flatnamed(thing.name)}
+                          title={thing.name}
+                          rewards={["Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff"]}
+                        />
                       </Popup>
                     </Marker>
                   ))}
