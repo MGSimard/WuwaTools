@@ -142,7 +142,7 @@
   white-space: pre-wrap;
   line-height: 2.5rem;
 }
-.sc-body > div {
+.sc-body div {
   margin-bottom: 1rem;
 }
 .scb-desc {
@@ -284,7 +284,7 @@
 .leaflet-marker-icon.leaflet-interactive.location-label {
   pointer-events: none;
 }
-.location-label > div {
+.location-label div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -295,10 +295,10 @@
   white-space: normal;
   text-shadow: 0 0 3px black;
 }
-.location-label.llwrap > div {
+.location-label.llwrap div {
   width: 12rem;
 }
-.location-label.llwrap2 > div {
+.location-label.llwrap2 div {
   width: 17rem;
   font-size: 2rem;
 }
@@ -394,11 +394,7 @@
   gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
 }
-.popup-rewards,
-.popup-rewards * {
-  border: 1px solid red;
-}
-.popup-rewards > div {
+.pr-reward {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -406,6 +402,20 @@
   overflow: hidden;
   font-size: 40%;
   text-align: center;
+  background: rgba(65, 65, 65, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.125s;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+}
+.pr-reward:hover {
+  border: 1px solid rgba(255, 255, 255, 1);
+  scale: 1.05;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 1);
+}
+.pr-reward img {
+  border-radius: 15px 0;
+  background: rgba(58, 58, 58, 255);
 }
 /**/
 /* GLASS */
