@@ -39,14 +39,14 @@
         [-16.5, 50.9]
       ],
       "bosses": [
-        { "name": "Chaotic Juncture: Ember", "pos": [-32.25, 23.5] },
-        { "name": "Crownless", "pos": [-55, -18.9] },
-        { "name": "Tempest Mephis", "pos": [-23.4, 12.6] }
+        { "name": "Chaotic Juncture: Ember", "pos": [-32.25, 23.5], "rewards": [] },
+        { "name": "Crownless", "pos": [-55, -18.9], "rewards": [] },
+        { "name": "Tempest Mephis", "pos": [-23.4, 12.6], "rewards": [] }
       ],
       "tacet fields": [[-31.08, 18.78]],
       "tactical holograms": [],
-      "forgery challenges": [{ "name": "Marigold Woods", "reward": "Phlogiston", "pos": [-96, -1.2] }],
-      "domains": [{ "name": "Parallel Perception", "pos": [-31.1, 39.85] }],
+      "forgery challenges": [{ "name": "Marigold Woods", "pos": [-96, -1.2], "rewards": [] }],
+      "domains": [{ "name": "Parallel Perception", "pos": [-31.1, 39.85], "rewards": [] }],
       "misc": [{ "name": "Tower of Adversity", "pos": [-63.3, 98] }]
     },
     {
@@ -69,8 +69,8 @@
         [1.5, 8.5]
       ],
       "bosses": [
-        { "name": "Impermanence Heron", "pos": [44.2, 33.2] },
-        { "name": "Thundering Mephis", "pos": [28, 40.2] }
+        { "name": "Impermanence Heron", "pos": [44.2, 33.2], "rewards": [] },
+        { "name": "Thundering Mephis", "pos": [28, 40.2], "rewards": [] }
       ],
       "tacet fields": [
         [7.08, 16],
@@ -78,7 +78,7 @@
       ],
       "tactical holograms": [],
       "forgery challenges": [],
-      "domains": [{ "name": "Perspective Bender", "pos": [37.2, 31.5] }],
+      "domains": [{ "name": "Perspective Bender", "pos": [37.2, 31.5], "rewards": [] }],
       "misc": []
     },
     {
@@ -106,8 +106,8 @@
       "tacet fields": [[-231.3, 5]],
       "tactical holograms": [{ "name": "Feilian Beringal", "pos": [-235.5, 66.2] }],
       "forgery challenges": [
-        { "name": "Misty Forest", "reward": "Helix", "pos": [-199, -19.5] },
-        { "name": "Moonlit Groves", "reward": "Cadence Flora", "pos": [-174, 36.9] }
+        { "name": "Misty Forest", "pos": [-199, -19.5], "rewards": [] },
+        { "name": "Moonlit Groves", "pos": [-174, 36.9], "rewards": [] }
       ],
       "domains": [],
       "misc": []
@@ -125,7 +125,7 @@
         [-53.3, -27.77],
         [-56.3, -38.1]
       ],
-      "bosses": [{ "name": "Bell-Borne Geochelone", "pos": [-57.2, -50.3] }],
+      "bosses": [{ "name": "Bell-Borne Geochelone", "pos": [-57.2, -50.3], "rewards": [] }],
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
@@ -193,7 +193,7 @@
         [-222.8, 262.7],
         [-218.6, 247.4]
       ],
-      "bosses": [{ "name": "Sentinel Jué", "pos": [-253.7, 283.1] }],
+      "bosses": [{ "name": "Sentinel Jué", "pos": [-253.7, 283.1], "rewards": [] }],
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
@@ -215,7 +215,7 @@
         [86.7, 98.1],
         [57.2, 123.7]
       ],
-      "bosses": [{ "name": "Statue of the Crownless: Heart", "pos": [83.2, 143] }],
+      "bosses": [{ "name": "Statue of the Crownless: Heart", "pos": [83.2, 143], "rewards": [] }],
       "tacet fields": [],
       "tactical holograms": [],
       "forgery challenges": [],
@@ -242,8 +242,8 @@
       ],
       "bosses": [{ "name": "Inferno Rider", "pos": [-156.7, -46.1], "rewards": [] }],
       "tacet fields": [[-167.65, 8.05]],
-      "tactical holograms": [{ "name": "Tempest Mephis", "pos": [-183.65, 6.05] }],
-      "forgery challenges": [{ "name": "Flaming Remnants", "reward": "Metallic Drip", "pos": [-151.35, -27.3] }],
+      "tactical holograms": [{ "name": "Tempest Mephis", "pos": [-183.65, 6.05], "rewards": [] }],
+      "forgery challenges": [{ "name": "Flaming Remnants", "pos": [-151.35, -27.3], "rewards": [] }],
       "domains": [],
       "misc": []
     },
@@ -298,11 +298,11 @@
         [-186.7, 94.93]
       ],
       "bosses": [
-        { "name": "Mech Abomination", "pos": [-222, 123.75] },
-        { "name": "Mourning Aix", "pos": [-248.45, 114.25] }
+        { "name": "Mech Abomination", "pos": [-222, 123.75], "rewards": [] },
+        { "name": "Mourning Aix", "pos": [-248.45, 114.25], "rewards": [] }
       ],
       "tacet fields": [[-189.2, 131.15]],
-      "tactical holograms": [{ "name": "Mourning Aix", "pos": [-241.55, 135.7] }],
+      "tactical holograms": [{ "name": "Mourning Aix", "pos": [-241.55, 135.7], "rewards": [] }],
       "forgery challenges": [],
       "domains": [],
       "misc": [{ "name": "Depths of Illusive Realm", "pos": [-194.3, 120.6] }]
@@ -323,10 +323,10 @@
         [-146.3, 50.6],
         [-127.37, 57.84]
       ],
-      "bosses": [{ "name": "Lampylumen Myriad", "pos": [-146.6, 48.2] }],
+      "bosses": [{ "name": "Lampylumen Myriad", "pos": [-146.6, 48.2], "rewards": [] }],
       "tacet fields": [[-150.7, 54.4]],
-      "tactical holograms": [{ "name": "Impermanence Heron", "pos": [-151, 56.4] }],
-      "forgery challenges": [{ "name": "Eroded Ruins", "reward": "Waveworn Residue", "pos": [-154.75, 68.7] }],
+      "tactical holograms": [{ "name": "Impermanence Heron", "pos": [-151, 56.4], "rewards": [] }],
+      "forgery challenges": [{ "name": "Eroded Ruins", "pos": [-154.75, 68.7], "rewards": [] }],
       "domains": [],
       "misc": []
     }

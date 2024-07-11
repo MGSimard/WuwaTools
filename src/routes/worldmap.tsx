@@ -220,7 +220,6 @@ function InteractiveMap() {
                           imgSrc={"forgery_challenge"}
                           title={`Forgery Challenge: ${chall.name}`}
                           rewards={[
-                            chall.reward,
                             "Jeff",
                             "Jeff",
                             "Jeff",
