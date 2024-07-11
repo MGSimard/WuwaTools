@@ -5,6 +5,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
 import { LocationLabel } from "../Components/LocationLabels.tsx";
+import { MapPopup } from "../Components/MapPopup.tsx";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
@@ -40,7 +41,7 @@ function InteractiveMap() {
 
   const getIcon = (iconType: string, size: [number, number]) =>
     L.icon({
-      iconUrl: `/map/icons/icon_${iconType}.png`,
+      iconUrl: `/images/map/icons/icon_${iconType}.png`,
       iconSize: size,
     });
 
@@ -68,7 +69,7 @@ function InteractiveMap() {
             minZoom={1}
             attributionControl={false}>
             <TileLayer
-              url="/map/{z}/{x}_{y}.png"
+              url="/images/map/{z}/{x}_{y}.png"
               noWrap={true}
               tileSize={256}
               maxNativeZoom={2}
@@ -77,7 +78,7 @@ function InteractiveMap() {
               maxZoom={3}
             />
             <TileLayer
-              url="/map/{z}/{x}_{y}.png"
+              url="/images/map/{z}/{x}_{y}.png"
               noWrap={true}
               tileSize={1024}
               maxNativeZoom={4}
@@ -136,13 +137,7 @@ function InteractiveMap() {
                       position={boss.pos as [number, number]}
                       icon={getIcon(flatnamed(boss.name), [38, 38])}>
                       <Popup>
-                        <div className="popup-header">
-                          <div className="ph-img-container">
-                            <img src={`/map/icons/icon_${flatnamed(boss.name)}.png`} />
-                          </div>
-                          <div className="ph-title">{boss.name}</div>
-                        </div>
-                        <div className="popup-desc">Reward: ?</div>
+                        <MapPopup imgSrc={flatnamed(boss.name)} title={boss.name} rewards={["Jeff"]} />
                       </Popup>
                     </Marker>
                   ))}
@@ -156,13 +151,11 @@ function InteractiveMap() {
                       position={holo.pos as [number, number]}
                       icon={getIcon("tactical_hologram", [38, 38])}>
                       <Popup>
-                        <div className="popup-header">
-                          <div className="ph-img-container">
-                            <img src={`/map/icons/icon_tactical_hologram.png`} />
-                          </div>
-                          <div className="ph-title">Tactical Hologram: {holo.name}</div>
-                        </div>
-                        <div className="popup-desc">Reward: ?</div>
+                        <MapPopup
+                          imgSrc={"tactical_hologram"}
+                          title={`Tactical Hologram: ${holo.name}`}
+                          rewards={["Jeff"]}
+                        />
                       </Popup>
                     </Marker>
                   ))}
@@ -176,13 +169,7 @@ function InteractiveMap() {
                       position={field as [number, number]}
                       icon={getIcon("tacet_field", [38, 38])}>
                       <Popup>
-                        <div className="popup-header">
-                          <div className="ph-img-container">
-                            <img src={`/map/icons/icon_tacet_field.png`} />
-                          </div>
-                          <div className="ph-title">Tacet Field</div>
-                        </div>
-                        <div className="popup-desc">Reward: ?</div>
+                        <MapPopup imgSrc={"tacet_field"} title={"Tacet Field"} rewards={["Jeff"]} />
                       </Popup>
                     </Marker>
                   ))}
@@ -196,14 +183,11 @@ function InteractiveMap() {
                       position={chall.pos as [number, number]}
                       icon={getIcon("forgery_challenge", [38, 38])}>
                       <Popup>
-                        <div className="popup-header">
-                          <div className="ph-img-container">
-                            <img src={`/map/icons/icon_forgery_challenge.png`} />
-                          </div>
-                          <div className="ph-title">Forgery Challenge: {chall.name}</div>
-                        </div>
-                        <div className="popup-desc">Reward: {chall.reward}</div>
-                        {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
+                        <MapPopup
+                          imgSrc={"forgery_challenge"}
+                          title={`Forgery Challenge: ${chall.name}`}
+                          rewards={[chall.reward]}
+                        />
                       </Popup>
                     </Marker>
                   ))}
@@ -217,12 +201,7 @@ function InteractiveMap() {
                       position={domain.pos as [number, number]}
                       icon={getIcon("domain", [38, 38])}>
                       <Popup>
-                        <div className="popup-header">
-                          <div className="ph-img-container">
-                            <img src={`/map/icons/icon_domain.png`} />
-                          </div>
-                          <div className="ph-title">{domain.name}</div>
-                        </div>
+                        <MapPopup imgSrc={"domain"} title={domain.name} rewards={["Jeff"]} />
                       </Popup>
                     </Marker>
                   ))}
@@ -236,12 +215,7 @@ function InteractiveMap() {
                       position={thing.pos as [number, number]}
                       icon={getIcon(flatnamed(thing.name), [38, 38])}>
                       <Popup>
-                        <div className="popup-header">
-                          <div className="ph-img-container">
-                            <img src={`/map/icons/icon_${flatnamed(thing.name)}.png`} />
-                          </div>
-                          <div className="ph-title">{thing.name}</div>
-                        </div>
+                        <MapPopup imgSrc={flatnamed(thing.name)} title={thing.name} rewards={["Jeff"]} />
                       </Popup>
                     </Marker>
                   ))}

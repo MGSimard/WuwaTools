@@ -50,8 +50,8 @@ function Resonator() {
         <SectionDivider title={"Profile Data"} />
         <div className="profile-container glass">
           <div className="profile-portrait">
-            <img src={`/characters/${image.portrait}`} alt={`${name} portrait`} />
-            <img className="pp-attribute" src={`/attributes/${attribute}.png`} alt="" />
+            <img src={`/images/characters/${image.portrait}`} alt={`${name} portrait`} />
+            <img className="pp-attribute" src={`/images/attributes/${attribute}.png`} alt="" />
           </div>
 
           <div className="profile-data">
@@ -102,7 +102,7 @@ function Resonator() {
             <div key={skill} className="skill-container glass">
               <div className="sc-head">
                 <div className="sch-skillIcon-container">
-                  <img src={`/characters/skills/${skillContents.skillIcon}`} alt="Skill Icon" />
+                  <img src={`/images/characters/skills/${skillContents.skillIcon}`} alt="Skill Icon" />
                 </div>
                 <div>
                   <h3>{skill}</h3>
@@ -135,7 +135,7 @@ function Resonator() {
               <div className="sc-head">
                 <div className="sch-skillIcon-container">
                   <img
-                    src={`/characters/resonanceChains/${removeSpaces(name)}_ResonanceChain${index + 1}.webp`}
+                    src={`/images/characters/resonanceChains/${removeSpaces(name)}_ResonanceChain${index + 1}.webp`}
                     alt="Sequence Icon"
                   />
                 </div>
