@@ -12,7 +12,7 @@ export function MapPopup({ imgSrc, title, rewards }: { imgSrc: string; title: st
           Rewards:
           <div className="popup-rewards">
             {rewards.map((reward) => (
-              <div>{reward}</div>
+              <div key={reward}>{reward}</div>
             ))}
           </div>
         </div>

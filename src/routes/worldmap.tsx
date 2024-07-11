@@ -137,7 +137,7 @@ function InteractiveMap() {
                     <Marker
                       key={boss.name}
                       position={boss.pos as [number, number]}
-                      icon={getIcon(flatnamed(boss.name), [38, 38])}>
+                      icon={getIcon(flatnamed(boss.name), [42, 42])}>
                       <Popup>
                         <MapPopup imgSrc={flatnamed(boss.name)} title={boss.name} rewards={boss.rewards} />
                       </Popup>
@@ -171,7 +171,7 @@ function InteractiveMap() {
                     <Marker
                       key={field.pos[0] * field.pos[1]}
                       position={field.pos as [number, number]}
-                      icon={getIcon("tacet_field", [38, 38])}>
+                      icon={getIcon("tacet_field", [32, 32])}>
                       <Popup>
                         <MapPopup imgSrc={"tacet_field"} title={"Tacet Field"} rewards={field.rewards} />
                       </Popup>

@@ -39,7 +39,19 @@
         [-16.5, 50.9]
       ],
       "bosses": [
-        { "name": "Chaotic Juncture: Ember", "pos": [-32.25, 23.5], "rewards": [] },
+        {
+          "name": "Chaotic Juncture: Ember",
+          "pos": [-32.25, 23.5],
+          "rewards": [
+            "Union EXP",
+            "Unending Destruction",
+            "Standard Weapon Mold",
+            "Energy Core",
+            "Sealed Tube",
+            "Intimacy",
+            "Shell Credit"
+          ]
+        },
         { "name": "Crownless", "pos": [-55, -18.9], "rewards": [] },
         { "name": "Tempest Mephis", "pos": [-23.4, 12.6], "rewards": [] }
       ],
