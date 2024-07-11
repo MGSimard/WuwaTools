@@ -23,7 +23,8 @@ function Home() {
           <li>- Figure out layout for character profile header</li>
           <li>- Consider shop markers</li>
           <li>- Update map boundaries when finished</li>
-          <li>- Style marker popups</li>
+          <li>- Marker Popups: Consider reward grid? Generic, non-level relevant</li>
+          <li>- If so, create materials img folder for it</li>
           <li>- Set relative z-indexes for layers (map to text to markers)</li>
           <li>- Look for icon size locks at specific zoom levels</li>
           <li>- Relative text label size lock at zoom levels</li>
