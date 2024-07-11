@@ -7,19 +7,16 @@ export function MapPopup({ imgSrc, title, rewards }: { imgSrc: string; title: st
         </div>
         <div className="ph-title">{title}</div>
       </div>
-      <div className="popup-body">
-        <div>Description:</div>
-        {rewards.length && (
-          <div>
-            Rewards:
-            <div className="popup-rewards">
-              {rewards.map((reward) => (
-                <div>{reward}</div>
-              ))}
-            </div>
+      {rewards.length > 0 && (
+        <div className="popup-body">
+          Rewards:
+          <div className="popup-rewards">
+            {rewards.map((reward) => (
+              <div>{reward}</div>
+            ))}
           </div>
-        )}
-      </div>
+        </div>
+      )}
 
       {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
     </>

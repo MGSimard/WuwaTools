@@ -266,11 +266,7 @@ function InteractiveMap() {
                       position={thing.pos as [number, number]}
                       icon={getIcon(flatnamed(thing.name), [38, 38])}>
                       <Popup>
-                        <MapPopup
-                          imgSrc={flatnamed(thing.name)}
-                          title={thing.name}
-                          rewards={["Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff", "Jeff"]}
-                        />
+                        <MapPopup imgSrc={flatnamed(thing.name)} title={thing.name} rewards={[]} />
                       </Popup>
                     </Marker>
                   ))}

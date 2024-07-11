@@ -398,6 +398,12 @@
 .popup-rewards * {
   border: 1px solid red;
 }
+.popup-rewards > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
 /**/
 /* GLASS */
 .glass {
