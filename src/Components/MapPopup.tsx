@@ -11,8 +11,8 @@ export function MapPopup({ imgSrc, title, rewards }: { imgSrc: string; title: st
       </div>
       {rewards.length > 0 && (
         <div className="popup-body">
-          Rewards:
-          <div className="popup-rewards">
+          <div className="pb-title">Rewards:</div>
+          <div className="pb-rewards">
             {rewards.map((reward) => (
               <div key={reward} className="pr-reward">
                 <img src={`/images/rewards/${flatnamed(reward)}.png`} alt={reward} />
