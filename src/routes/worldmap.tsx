@@ -118,6 +118,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Beacons">
                 <LayerGroup>
                   {beacons.map((beacon) => (
@@ -129,6 +130,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Bosses">
                 <LayerGroup>
                   {bosses.map((boss) => (
@@ -143,6 +145,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Tactical Holograms">
                 <LayerGroup>
                   {tacticalHolograms.map((holo) => (
@@ -161,6 +164,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Tacet Fields">
                 <LayerGroup>
                   {tacetFields.map((field) => (
@@ -175,6 +179,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Forgery Challenges">
                 <LayerGroup>
                   {forgeryChallenges.map((chall) => (
@@ -193,6 +198,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Domains">
                 <LayerGroup>
                   {domains.map((domain) => (
@@ -207,6 +213,7 @@ function InteractiveMap() {
                   ))}
                 </LayerGroup>
               </LayersControl.Overlay>
+
               <LayersControl.Overlay checked name="Misc">
                 <LayerGroup>
                   {misc.map((thing) => (
