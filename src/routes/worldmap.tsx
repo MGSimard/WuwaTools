@@ -6,6 +6,7 @@ import L from "leaflet";
 import maplocs from "../assets/jsondb/maplocs.json";
 import { LocationLabel } from "../Components/LocationLabels.tsx";
 import { MapPopup } from "../Components/MapPopup.tsx";
+import { flatnamed } from "../utils/flatnamed.ts";
 
 export const Route = createFileRoute("/worldmap")({
   component: InteractiveMap,
@@ -47,10 +48,6 @@ function InteractiveMap() {
 
   const handleZoomEnd = (e: any) => {
     setZoomLevel(e.target.getZoom());
-  };
-
-  const flatnamed = (input: string) => {
-    return input.toLowerCase().replace(/[^\wé-]+/g, "_");
   };
 
   return (

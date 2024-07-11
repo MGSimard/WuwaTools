@@ -23,11 +23,10 @@ function Home() {
           <li>- Figure out layout for character profile header</li>
           <li>- Consider shop markers</li>
           <li>- Update map boundaries when finished</li>
-          <li>- Marker Popups: Consider reward grid? Generic, non-level relevant</li>
-          <li>- If so, create materials img folder for it</li>
+          <li>- Add echo images for hologram rewards</li>
+          <li>- Finish popup rewards grid styling</li>
           <li>- Set relative z-indexes for layers (map to text to markers)</li>
           <li>- Look for icon size locks at specific zoom levels</li>
-          <li>- Relative text label size lock at zoom levels</li>
           <li>- Style map controls (toggle icons + text with opacity instead of checkboxes)</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>
           <li>- Active route style similar to wuthering wave's menu</li>

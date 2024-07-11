@@ -1,3 +1,5 @@
+import { flatnamed } from "../utils/flatnamed";
+
 export function MapPopup({ imgSrc, title, rewards }: { imgSrc: string; title: string; rewards: string[] }) {
   return (
     <>
@@ -12,13 +14,13 @@ export function MapPopup({ imgSrc, title, rewards }: { imgSrc: string; title: st
           Rewards:
           <div className="popup-rewards">
             {rewards.map((reward) => (
-              <div key={reward}>{reward}</div>
+              <div key={reward}>
+                <img src={`/images/rewards/${flatnamed(reward)}.png`} alt={reward} />
+              </div>
             ))}
           </div>
         </div>
       )}
-
-      {/*MAYBE -> <img src={`/images/materials/${chall.reward.replace(/[^\w-]+/g, "_")}`}/>*/}
     </>
   );
 }
