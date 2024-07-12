@@ -113,6 +113,7 @@ function InteractiveMap() {
                       key={nexus[0] * nexus[1]}
                       position={nexus as [number, number]}
                       icon={getIcon("nexus", [32, 32])}
+                      interactive={false}
                     />
                   ))}
                 </LayerGroup>
@@ -127,6 +128,7 @@ function InteractiveMap() {
                       key={beacon[0] * beacon[1]}
                       position={beacon as [number, number]}
                       icon={getIcon("beacon", [24, 24])}
+                      interactive={false}
                     />
                   ))}
                 </LayerGroup>

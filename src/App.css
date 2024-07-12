@@ -284,6 +284,15 @@
 .leaflet-marker-icon.leaflet-interactive.location-label {
   pointer-events: none;
 }
+.location-label {
+  z-index: 590 !important;
+}
+.leaflet-marker-icon:not(.location-label).leaflet-interactive {
+  z-index: 599 !important;
+}
+.leaflet-marker-icon:not(.location-label):not(.leaflet-interactive) {
+  z-index: 600 !important;
+}
 .location-label div {
   position: absolute;
   top: 50%;
