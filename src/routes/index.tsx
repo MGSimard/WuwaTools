@@ -22,7 +22,6 @@ function Home() {
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
           <li>- Consider shop markers</li>
-          <li>- Update map boundaries when finished</li>
           <li>- Set relative z-indexes for layers (map to text to markers)</li>
           <li>- Look for icon size locks at specific zoom levels</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>

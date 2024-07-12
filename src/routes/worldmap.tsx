@@ -56,7 +56,7 @@ function InteractiveMap() {
       <section>
         <div id="map">
           <MapContainer
-            maxBounds={L.latLngBounds([-5024, -5024], [5024, 5024])}
+            maxBounds={L.latLngBounds([-652, -900], [512, 1024])}
             center={[-76, 32]}
             zoom={initialZoom}
             zoomSnap={0.5}
@@ -83,7 +83,7 @@ function InteractiveMap() {
               minZoom={3.5}
               maxZoom={6}
             />
-            {/*<Locate /> Dev Only*/}
+            {/* <Locate /> */}
             <ZoomEventHandlers handleZoomEnd={handleZoomEnd} />
             {zoomLevel < 3.5 &&
               regions.map((region) => (
