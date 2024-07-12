@@ -361,7 +361,6 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  overflow: hidden;
   border-radius: 8px;
 }
 .popup-header {
@@ -398,11 +397,11 @@
   grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
 }
 .pr-reward {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   aspect-ratio: 1/1;
-  overflow: hidden;
   font-size: 40%;
   text-align: center;
   background: rgba(65, 65, 65, 1);
@@ -413,25 +412,27 @@
 }
 .pr-reward:hover {
   border: 1px solid rgba(255, 255, 255, 1);
-
   box-shadow: 0 0 3px rgba(255, 255, 255, 1);
 }
 .pr-reward img {
   border-radius: 15px 0;
   background: rgba(58, 58, 58, 255);
+  color: var(--clr-text);
 }
 .pr-tooltip {
+  display: none;
   position: absolute;
-  bottom: -0.5rem;
-  transform: translateY(100%);
-  transform-origin: top center;
-  border: 1px solid red;
+  top: calc(100% + 0.5rem);
+  max-width: 15rem;
+  padding: 1rem;
+  border-radius: 4px;
   background: rgba(0, 15, 26, 0.6);
   font-size: 2rem;
-  padding: 1rem;
-  width: 15rem;
-  border-radius: 4px;
-  color: white;
+  color: var(--clr-text);
+  z-index: 999;
+}
+.pr-reward:hover .pr-tooltip {
+  display: block;
 }
 /**/
 /* GLASS */
