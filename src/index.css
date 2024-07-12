@@ -48,7 +48,7 @@ body {
 }
 nav {
   position: fixed;
-  height: 100dvh;
+  height: 100%;
   width: 24rem;
   padding: 2rem;
   background: rgba(28, 29, 33, 0.6);
