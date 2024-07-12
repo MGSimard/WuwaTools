@@ -361,7 +361,6 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  border-radius: 8px;
 }
 .popup-header {
   display: flex;
@@ -370,6 +369,12 @@
   padding: 1rem;
   color: rgba(27, 42, 49, 1);
   background: linear-gradient(to right, rgba(228, 228, 228, 0.85) 0%, rgba(228, 228, 228, 0.95) 70%);
+}
+.pph-solo {
+  border-radius: 8px;
+}
+.pph-duo {
+  border-radius: 8px 8px 0 0;
 }
 .ph-img-container {
   width: 5rem;
@@ -387,6 +392,7 @@
   padding: 1rem 2rem;
   color: rgba(70, 70, 70, 1);
   background: linear-gradient(to right, rgba(204, 204, 204, 0.85) 0%, rgba(204, 204, 204, 0.95) 70%);
+  border-radius: 0 0 8px 8px;
 }
 .pb-title {
   margin-bottom: 1rem;

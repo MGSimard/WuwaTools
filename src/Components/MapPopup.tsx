@@ -3,7 +3,7 @@ import { flatnamed } from "../utils/flatnamed";
 export function MapPopup({ imgSrc, title, rewards }: { imgSrc: string; title: string; rewards: string[] }) {
   return (
     <>
-      <div className="popup-header">
+      <div className={`popup-header ${rewards.length > 0 ? "pph-duo" : "pph-solo"}`}>
         <div className="ph-img-container">
           <img src={`/images/map/icons/icon_${imgSrc}.png`} />
         </div>
