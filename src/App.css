@@ -348,6 +348,13 @@
   align-items: center;
   gap: 1rem;
 }
+input[type="checkbox"].leaflet-control-layers-selector {
+  display: none;
+}
+.leaflet-control-layers-selector:not(:checked) + span {
+  color: rgba(124, 124, 124, 1);
+  font-weight: 300;
+}
 .leaflet-popup-content-wrapper {
   padding: 0.6rem;
 }
