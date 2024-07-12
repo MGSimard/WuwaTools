@@ -170,12 +170,14 @@ table {
   .nav-content {
     display: flex;
     justify-content: space-between;
+    height: 100%;
   }
   .nav-logo-container {
-    height: auto;
-    max-width: 8rem;
-    padding: 0;
+    height: 100%;
     margin-bottom: 0;
+  }
+  .nav-logo-container img {
+    max-height: 6rem;
   }
   .nav-content ul {
     flex-direction: row;
