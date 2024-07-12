@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTableList } from "@fortawesome/free-solid-svg-icons/faTableList";
 import { faAddressBook, faMap } from "@fortawesome/free-solid-svg-icons";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
-import wuwaToolsLogo from "../assets/wuwatools.png";
+import wuwaToolsLogo from "../assets/wuwatools2.webp";
 
 const activeProps = {
   className: "activeLink",
