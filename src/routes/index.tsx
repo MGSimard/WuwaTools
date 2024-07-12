@@ -25,7 +25,6 @@ function Home() {
           <li>- Update map boundaries when finished</li>
           <li>- Set relative z-indexes for layers (map to text to markers)</li>
           <li>- Look for icon size locks at specific zoom levels</li>
-          <li>- Style map controls (toggle icons + text with opacity instead of checkboxes)</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>
           <li>- Active route style similar to wuthering wave's menu</li>
           <li>- Look into glob imports (vite feature)</li>
