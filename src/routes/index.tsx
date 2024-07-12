@@ -13,7 +13,7 @@ function Home() {
         <ul>
           <li>- Roster (Character Profiles)</li>
           <li>- Tier List Creator</li>
-          <li>- Interactive Map (WIP)</li>
+          <li>- Interactive World Map</li>
         </ul>
       </section>
       <section>
@@ -21,8 +21,6 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
-          <li>- Consider shop markers</li>
-          <li>- Look for icon size locks at specific zoom levels</li>
           <li>- Fix 100vh nav not working in desktop mode on mobile</li>
           <li>- Active route style similar to wuthering wave's menu</li>
           <li>- Look into glob imports (vite feature)</li>
