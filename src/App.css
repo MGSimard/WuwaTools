@@ -413,12 +413,25 @@
 }
 .pr-reward:hover {
   border: 1px solid rgba(255, 255, 255, 1);
-  scale: 1.05;
+
   box-shadow: 0 0 3px rgba(255, 255, 255, 1);
 }
 .pr-reward img {
   border-radius: 15px 0;
   background: rgba(58, 58, 58, 255);
+}
+.pr-tooltip {
+  position: absolute;
+  bottom: -0.5rem;
+  transform: translateY(100%);
+  transform-origin: top center;
+  border: 1px solid red;
+  background: rgba(0, 15, 26, 0.6);
+  font-size: 2rem;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 4px;
+  color: white;
 }
 /**/
 /* GLASS */

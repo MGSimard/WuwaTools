@@ -24,8 +24,8 @@ function Home() {
           <li>- Consider shop markers</li>
           <li>- Update map boundaries when finished</li>
           <li>- Add echo images for hologram rewards</li>
-          <li>- Finish popup rewards grid styling</li>
-          <li>- Reward name tooltip on hover maybe?</li>
+          <li>- Reward tooltip on hover -- need to use portal because of overflow: hidden</li>
+          <li>- Could still do it using position: fixed but css scale on parent breaks it so go portal</li>
           <li>- Set relative z-indexes for layers (map to text to markers)</li>
           <li>- Look for icon size locks at specific zoom levels</li>
           <li>- Style map controls (toggle icons + text with opacity instead of checkboxes)</li>
