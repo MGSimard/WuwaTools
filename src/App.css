@@ -432,6 +432,7 @@
   font-size: 2rem;
   color: var(--clr-text);
   z-index: 999;
+  pointer-events: none;
 }
 .pr-reward:hover .pr-tooltip {
   display: block;
