@@ -316,6 +316,7 @@
   background: rgba(0, 0, 0, 0.4);
   border: 3px solid rgba(255, 255, 255, 0.4);
   color: white;
+  backdrop-filter: blur(4px);
 }
 .leaflet-control-layers.leaflet-control-layers-expanded {
   width: 27rem;
