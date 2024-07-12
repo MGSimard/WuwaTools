@@ -48,7 +48,7 @@ body {
 }
 nav {
   position: fixed;
-  height: 100vh;
+  height: 100dvh;
   width: 24rem;
   padding: 2rem;
   background: rgba(28, 29, 33, 0.6);
@@ -161,7 +161,7 @@ table {
 @media only screen and (max-width: 968px) {
   nav {
     width: 100%;
-    min-height: 7rem;
+    height: 7rem;
     right: 0;
     border-bottom: var(--glassBorder);
     border-right: none;
