@@ -104,7 +104,9 @@ function InteractiveMap() {
                 />
               ))}
             <LayersControl position="topright">
-              <LayersControl.Overlay checked name="Nexus">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_nexus.png" /></div>Nexus`}>
                 <LayerGroup>
                   {nexuses.map((nexus) => (
                     <Marker
@@ -116,7 +118,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Beacons">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_beacon.png" /></div>Beacons`}>
                 <LayerGroup>
                   {beacons.map((beacon) => (
                     <Marker
@@ -128,7 +132,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Bosses">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_boss.png" /></div>Bosses`}>
                 <LayerGroup>
                   {bosses.map((boss) => (
                     <Marker
@@ -143,7 +149,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Tactical Holograms">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_tactical_hologram.png" /></div>Tactical Holograms`}>
                 <LayerGroup>
                   {tacticalHolograms.map((holo) => (
                     <Marker
@@ -162,7 +170,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Tacet Fields">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_tacet_field.png" /></div>Tacet Fields`}>
                 <LayerGroup>
                   {tacetFields.map((field) => (
                     <Marker
@@ -177,7 +187,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Forgery Challenges">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_forgery_challenge.png" /></div>Forgery Challenges`}>
                 <LayerGroup>
                   {forgeryChallenges.map((chall) => (
                     <Marker
@@ -196,7 +208,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Domains">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_domain.png" /></div>Domains`}>
                 <LayerGroup>
                   {domains.map((domain) => (
                     <Marker
@@ -211,7 +225,9 @@ function InteractiveMap() {
                 </LayerGroup>
               </LayersControl.Overlay>
 
-              <LayersControl.Overlay checked name="Misc">
+              <LayersControl.Overlay
+                checked
+                name={`<div class="lc-img"><img src="/images/map/icons/icon_misc.png" /></div>Misc`}>
                 <LayerGroup>
                   {misc.map((thing) => (
                     <Marker
