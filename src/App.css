@@ -412,7 +412,9 @@
 }
 .pr-reward:hover {
   border: 1px solid rgba(255, 255, 255, 1);
+  scale: 1.05;
   box-shadow: 0 0 3px rgba(255, 255, 255, 1);
+  z-index: 999;
 }
 .pr-reward img {
   border-radius: 15px 0;
