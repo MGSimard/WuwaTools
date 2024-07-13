@@ -21,6 +21,7 @@ function Home() {
         <ul>
           <li>- More features potentially</li>
           <li>- Figure out layout for character profile header</li>
+          <li>- Look into character base & growth stats for profiles</li>
           <li>- Look into glob imports (vite feature)</li>
           <li>- Image optimization (later)</li>
         </ul>
