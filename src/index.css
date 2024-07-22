@@ -45,6 +45,8 @@ body {
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 nav {
   position: fixed;
