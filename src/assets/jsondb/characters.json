@@ -274,10 +274,10 @@
       "attribute": "Fusion",
       "weapon": "Sword",
       "profile": {
-        "info": "Not much is known about Changli yet.",
+        "info": "Changli is a counselor serving the Jinzhou Magistrate, and former Secretary-General in the capital. Shrouded in flames, she's fated to burn brightly until her final embers. With her fiery determination and strategic mindset, she rises to power, always thinking ahead to reach her ultimate goal.",
         "gender": "Female",
-        "birthplace": "",
-        "affiliation": ""
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
       },
       "image": {
         "icon": "changli_icon.png",
@@ -285,55 +285,76 @@
       },
       "skills": {
         "Normal Attack": {
-          "skillName": "",
+          "skillName": "Blazing Enlightment",
           "skillDesc": "",
-          "skillIcon": "",
-          "skillVars": {}
+          "skillIcon": "Changli_NormalAttack.webp",
+          "skillVars": {
+            "Basic Attack": "Perform up to 4 consecutive attacks, dealing Fusion DMG. After releasing Basic Attack 4, enter True Sight, lasting for 12s.",
+            "Mid-air Attack": "Consume Stamina to perform up to 4 consecutive attacks in mid-air, dealing Fusion DMG. After releasing Mid-air Attack 4, enter True Sight, lasting for 12s.",
+            "Heavy Attack": "Hold Basic Attack on the ground to perform an upward strike at the cost of Stamina, dealing Fusion DMG. Use Basic Attack within a certain time to release Mid-Air Attack 3.",
+            "Mid-air Heavy Attack": "Shortly after holding Basic Attack in mid-air or using Basic Attack True Sight: Charge, use Basic Attack to perform a plunging attack at the cost of Stamina, dealing Fusion DMG. Use Basic Attack within a certain time to release Basic Attack 3.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG."
+          }
         },
         "Forte Circuit": {
-          "skillName": "",
+          "skillName": "Flaming Sacrifice",
           "skillDesc": "",
-          "skillIcon": "",
-          "skillVars": {}
+          "skillIcon": "Changli_ForteCircuit.webp",
+          "skillVars": {
+            "Heavy Attack: Flaming Sacrifice": "When releasing Heavy Attack, if Changli carries 4 stacks of Enflamement, she consumes all stacks of Enflamement to cast Flaming Sacrifice, dealing Fusion DMG, considered as Resonance Skill damage. While casting Flaming Sacrifice, Changli takes 40% less damage.",
+            "Enflamement": "Changli can hold up to 4 stacks of Enflamement.\n- Changli obtains 1 stack of Enflamement for every Basic Attack: True Sight - Conquest on hit.\n- Changli obtains 1 stack of Enflamement for every Basic Attack: True Sight - Charge on hit.\n- Changli obtains 4 stacks of Enflamement for every Resonance Liberation Radiance of Fealty."
+          }
         },
         "Resonance Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillIcon": "",
-          "skillVars": {}
+          "skillName": "Tripartite Flames",
+          "skillDesc": "True Sight: Capture has 2 initial attempts and can be used up to 2 times. The number of attempts is increased by 1 every 12s. Can be cast in mid-air.",
+          "skillIcon": "Changli_ResonanceSkill.webp",
+          "skillVars": {
+            "Basic Attack: True Sight - Conquest": "When in True Sight, if Changli uses Ground Basic Attack, she releases True Sight: Conquest, dashing towards the enemy and dealing Fusion DMG, considered as Resonance Skill damage. After releasing True Sight: Conquest, True Sight ends.",
+            "Basic Attack: True Sight - Charge": "When in True Sight, if Changli jumps or uses Basic Attack in mid-air, she releases True Sight: Charge, dashing towards the enemy and dealing Fusion DMG, considered as Resonance Skill damage. After releasing True Sight: Charge, True Sight ends."
+          }
         },
         "Resonance Liberation": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillIcon": "",
-          "skillVars": {}
+          "skillName": "Radiance of Fealty",
+          "skillDesc": "Deal Fusion DMG to nearby targets, obtaining 4 stacks of Enflamement, and entering Fiery Feather. Can be cast in mid-air.",
+          "skillIcon": "Changli_ResonanceLiberation.webp",
+          "skillVars": {
+            "Fiery Feather": "When Changli releases Heavy Attack Flaming Sacrifice within 10s, her ATK is increased by 25%, after which Fiery Feather ends."
+          }
         },
         "Intro Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillIcon": "",
+          "skillName": "Obedience of Rules",
+          "skillDesc": "Changli appears in mid-air, attacks the target, and enters True Sight, lasting for 12s.",
+          "skillIcon": "Changli_IntroSkill.webp",
           "skillVars": {}
         },
         "Outro Skill": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillIcon": "",
+          "skillName": "Strategy of Duality",
+          "skillDesc": "The incoming Resonance has their Fusion DMG amplified by 20% and Resonance Liberation damage amplified by 25% for 10s or until the Resonator is switched out.",
+          "skillIcon": "Changli_OutroSkill.webp",
           "skillVars": {}
         },
         "Inherent Skill 1": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillIcon": "",
+          "skillName": "Secret Strategist",
+          "skillDesc": "When Changli releases Basic Attack: True Sight - Conquest or Basic Attack: True Sight - Charge, for each stack of Enflamement, Changli's Fusion DMG bonus is increased by 5%",
+          "skillIcon": "Changli_InherentSkill1.webp",
           "skillVars": {}
         },
         "Inherent Skill 2": {
-          "skillName": "",
-          "skillDesc": "",
-          "skillIcon": "",
+          "skillName": "Sweeping Force",
+          "skillDesc": "When Changli releases Heavy Attack Flaming Sacrifice or Resonance Liberation Radiance of Fealty, Changli's Fusion DMG bonus is increased by 20%, and Changli ignores 15% of the target's DEF when dealing damage.",
+          "skillIcon": "Changli_InherentSkill2.webp",
           "skillVars": {}
         }
       },
-      "resonanceChain": {}
+      "resonanceChain": {
+        "Hidden Thoughts": "Resonance Skill Tripartite Flames and Heavy Attack Flaming Sacrifice increased Changli's damage dealt by 10% and resistance to interruption.",
+        "Pursuit of Desires": "Enflamement increased Changli's Crit. Rate by 25% for 8s.",
+        "Learned Secrets": "Resonance Liberation Radiance of Fealty damage is increased by 80%.",
+        "Polished Words": "After Intro Skill is cast, all team members' ATK is increased by 20% for 30s.",
+        "Sacrificed Gains": "Heavy Attack Flaming Sacrifice's multiplier is increased by 50% and its damage dealt is increased by 50%.",
+        "Realized Plans": "Resonance Skill Tripartite Flames, Heavy Attack Flaming Sacrifice, and Resonance Liberation Radiance of Fealty ignore an additional 40% of the target's DEF when dealing damage."
+      }
     },
     {
       "id": 5,
