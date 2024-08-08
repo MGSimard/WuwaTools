@@ -41,7 +41,6 @@ function TierList() {
   const handleDragOver = (e: any) => {
     const { source, target } = e.operation;
     setItems((items) => move(items, source, target));
-    console.log(e.operation);
   };
   const handleDragEnd = (e: any) => {
     if (e.canceled) setItems(previousItems.current);

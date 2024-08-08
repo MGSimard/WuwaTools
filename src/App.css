@@ -99,6 +99,10 @@
 .pd-table {
   text-align: left;
 }
+.pd-table tr {
+  display: flex;
+  flex-direction: column;
+}
 .pd-table th {
   vertical-align: top;
   padding-right: 1rem;
