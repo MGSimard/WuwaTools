@@ -49,9 +49,10 @@ Not too certain what features I'd like to write next. The major problem being th
 
 ## Contact
 
-MGSimard - g.marcgs@gmail.com
+MGSimard - g.marcgs@gmail.com  
+[@MGSimard on X](https://x.com/MGSimard)
 
-Project Link: [https://github.com/MGSimard/WuwaTools](https://github.com/MGSimard/WuwaTools)
+For more info, view my portfolio at [mgsimard.github.io](https://mgsimard.github.io). Resume attached.
 
 ## Acknowledgments
 
