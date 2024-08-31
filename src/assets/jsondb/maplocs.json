@@ -1,7 +1,7 @@
 {
   "name": "maplocs",
   "description": "Wuthering Waves Map Locations Dataset",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "latestAdd": {},
   "author": "MGSimard - https://github.com/MGSimard/",
   "data": [
@@ -384,7 +384,8 @@
         [-234.3, 264.4],
         [-230.5, 266.4],
         [-222.8, 262.7],
-        [-218.6, 247.4]
+        [-218.6, 247.4],
+        [-241.7, 259.7]
       ],
       "bosses": [
         {
