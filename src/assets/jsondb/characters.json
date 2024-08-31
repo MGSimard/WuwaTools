@@ -1,8 +1,8 @@
 {
   "name": "characters",
   "description": "Wuthering Waves Characters Dataset",
-  "version": "1.1.0",
-  "latestAdd": { "name": "Changli", "id": 20 },
+  "version": "1.2.0",
+  "latestAdd": { "name": "Zhezhi", "id": 21 },
   "author": "MGSimard - https://github.com/MGSimard/",
   "data": [
     {
