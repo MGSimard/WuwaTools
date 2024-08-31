@@ -2,7 +2,7 @@
   "name": "characters",
   "description": "Wuthering Waves Characters Dataset",
   "version": "1.2.0",
-  "latestAdd": { "name": "Zhezhi", "id": 21 },
+  "latestAdd": { "name": "Xiangli Yao", "id": 2 },
   "author": "MGSimard - https://github.com/MGSimard/",
   "data": [
     {
@@ -88,7 +88,7 @@
         "Hazey Transition": "When Aalto's Basic Attack or Mid-air Attack passes through the Mist, 2 more bullets will be generated, dealing 50% of the DMG of Basic Attack or Mid-air Attack.",
         "Blake Bloom for Finale": "The damage of Resonance Skill Mist Bullets is increased by 30%; Aalto receives 30% less damage in his Forte Circuit Mistcloak Dash state.",
         "Applause of the Lost": "In the Forte Circuit Mistcloak Dash state, Aalto's Aero DMG bonus is increased by 25% for 6s.",
-        "Broker's Secrets": "Resonance Liberation Flower in the Mist now additionally increased Crit. Rate by 8%. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by 50%."
+        "Broker's Secrets": "Resonance Liberation Flower in the Mist now additionally increases Crit. Rate by 8%. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by 50%."
       }
     },
     {
@@ -1309,7 +1309,7 @@
       },
       "resonanceChain": {
         "Solitude's Embrace": "Basic Attack 5 increases Sanhua's Crit. Rate by 15% for 10s.",
-        "Snowy Clarity": "Stamina cost of Heavy ATtack Detonate is reduced by 10. When Sanhua casts Resonance Skill Eternal Frost, her Anti-interruption is enhanced for 10s.",
+        "Snowy Clarity": "Stamina cost of Heavy Attack Detonate is reduced by 10. When Sanhua casts Resonance Skill Eternal Frost, her Anti-interruption is enhanced for 10s.",
         "Anomalous Vision": "Sanhua's damage dealt is increased by 35% against targets with HP below 70%.",
         "Blade Mastery": "Resonance Liberation Glacial Gaze restores 10 Resonance Energy. Damage of the next Heavy Attack Detonate within 5s is increased by 120%.",
         "Unraveling Fate": "Crit. DMG of Forte Circuit Ice Burst is increased by 100%. Ice Creations (Ice Thorn, Ice Prism, and Glacier) will explode even if they are not detonated.",
@@ -1488,6 +1488,92 @@
         "Blossoming Embrace": "Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arobreal Flourish and Outro Skill Blossom increases the Spectro DMG bonus of all team members by 15% for 24s.",
         "Miraculous Blooms": "When Verina heals a team member with HP less than 50%, her Healing is increased by 20%.",
         "Joyous Harvest": "Heavy Attack Starflower Blooms and Mid-air Attack Starflower Blooms deal 20% more damage. They will trigger Coordinated Attack 1 time and heal all characters nearby. The damage of this Coordinated Attack and the Healing are equal to those of the Resonance Liberation's Photosynthesis Mark."
+      }
+    },
+    {
+      "id": 22,
+      "name": "Xiangli Yao",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weapon": "Gauntlets",
+      "profile": {
+        "info": "Principal Investigator at Huaxu Academy's Jinzhou Campus, and the Academy's youngest multi-disciplinary scientist. A gentle soul with a sharp mind, whose relentless passion for Automata Mechanics always translates into constructive findings and insights.",
+        "gender": "Male",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
+      },
+      "image": {
+        "icon": "xiangli_yao_icon.png",
+        "portrait": "xiangli_yao_portrait.png"
+      },
+      "skills": {
+        "Normal Attack": {
+          "skillName": "Probe",
+          "skillDesc": "",
+          "skillIcon": "Xiangli_Yao_NormalAttack.webp",
+          "skillVars": {
+            "Basic Attack": "Perform up to 5 consecutive attacks, dealing Electro DMG.",
+            "Heavy Attack": "Perform a charged attack at the cost of STA, dealing Electro DMG.",
+            "Mid-air Attack": "Perform a Plunging Attack from mid-air at the cost of STA, dealing Electro DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
+          }
+        },
+        "Forte Circuit": {
+          "skillName": "Forever Seeking",
+          "skillDesc": "",
+          "skillIcon": "Xiangli_Yao_ForteCircuit.webp",
+          "skillVars": {
+            "Resonance Skill - Decipher": "When Capacity reaches 100, Resonance Skill Deduction is replaced with Resonance Skill Decipher. Consume 100 Capacity to cast Resonance Skill Decipher, dealing Electro DMG, considered as Resonance Liberation damage.",
+            "Resonance Skill - Law of Reigns": "When in Intuition triggered by Resonance Liberation and Performance Capacity reaches 5, Resonance Skill Divergence is replaced with Resonance Skill Law of Reigns. Consume 5 Performance Capacity to cast Resonance Skill Law of Reigns, dealing Electro DMG, considered as Resonance Liberation damage.",
+            "Mid-air Attack - Revamp": "Shortly after casting Resonance Skill Decipher or Resonance Skill Divergence, use Basic Attack to perform Mid-air Attack Revamp at the cost of STA, dealing Electro DMG, considered as Resonance Liberation damage.",
+            "Capacity": "Xiangli Yao can hold up to 100 Capacity.\n- Every Normal Attack Probe on hit grants Capacity.\n- Every Resonance Skill Deduction on hit grants Capacity.",
+            "Performance Capacity": "Xiangli Yao can hold up to 5 Performance Capacity. When in Intuition triggered by Resonance Liberation:\n- Obtain 1 Performance Capacity when Stage 1 of Basic Attack Pivot - Impale hits a target.\n- Obtain 2 Performance Capacity when Stage 2 or 3 of Basic Attack Pivot - Impale hits a target.\n- Obtain 2 Performance Capacity for every Resonance Skill Divergence on hit.\n- Obtain 3 Performance Capacity for every Mid-air Attack Revamp on hit.\n- Obtain 2 Performance Capacity for every Dodge Counter Unfathomed on hit."
+          }
+        },
+        "Resonance Skill": {
+          "skillName": "Deduction",
+          "skillDesc": "Attack the target, dealing Electro DMG.",
+          "skillIcon": "Xiangli_Yao_ResonanceSkill.webp",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "Cogitation Model",
+          "skillDesc": "Attack the target, dealing Electro DMG and enter Intuition. When in Intuition:\n- Obtain 3 Hypercube(s). Each time Resonance Skill Law of Reigns is cast, consume 1 Hypercube(s). Intuition ends once all Hypercubes are consumed.\n- Basic Attack and Heavy Attack are replaced with Basic Attack Pivot - Impale, which performs up to 3 consecutive attacks, dealing Electro DMG.\n- Resonance Skill Deduction is replaced with Resonance Skill DIvergence, which deals Electro DMG.\n- Dodge Counter is replaced with Dodge Counter Unfathomed, considered as Resonance Liberation damage.",
+          "skillIcon": "Xiangli_Yao_ResonanceLiberation.webp",
+          "skillVars": {}
+        },
+        "Intro Skill": {
+          "skillName": "Principle",
+          "skillDesc": "Attack the target, dealing Electro DMG.",
+          "skillIcon": "Xiangli_Yao_IntroSkill.webp",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Chain Rule",
+          "skillDesc": "Xiangli Yao will call down a laser beam upon the first target the incoming Resonator's Basic Attack hits, dealing Electro DMG equal to 237.63% of Xiangli Yao's ATK to an area. This effect lasts for 8s and can be triggered once every 2s, up to 3 times.",
+          "skillIcon": "Xiangli_Yao_OutroSkill.webp",
+          "skillVars": {}
+        },
+        "Inherent Skill 1": {
+          "skillName": "Knowing",
+          "skillDesc": "Gain 5% Electro DMG bonus after casting Resonance Skill for 8s, stackable for up to 4 times.",
+          "skillIcon": "Xiangli_Yao_InherentSkill1.webp",
+          "skillVars": {}
+        },
+        "Inherent Skill 2": {
+          "skillName": "Focus",
+          "skillDesc": "When in Intuition triggered by Resonance Liberation, Xiangli Yao's resistance to interruption is enhanced.",
+          "skillIcon": "Xiangli_Yao_InherentSkill2.webp",
+          "skillVars": {}
+        }
+      },
+      "resonanceChain": {
+        "Prodigy of Protégés": "Resonance Skill Law of Reigns additionally launches 6 Convolution Matrices at enemies, each dealing Resonance Liberation damage equal to 8% of the skill's damage multiplier.",
+        "Traces of Predecessor": "Casting Resonance Skill or Resonance Liberation Cogitation Model increases Crit. DMG by 30% for 8s.",
+        "Ruins of Ancient": "Casting Resonance Liberation Cogitation Model increases the damage of the following Resonance Skill moves by 63% for 24s: Decipher, Deduction, Divergence, and Law of Reigns.\nThis effect can be triggered up to 5 times.",
+        "Vessel of Rebirth": "Casting Resonance Liberation Cogitation Model grants a 25% damage bonus to all team members' Resonance Liberation for 30s.",
+        "End of Stars": "The damage multiplier of Outro Skill Chain Rule is increased by 222%. The damage multiplier of Resonance Liberation Cogitation Model is increased by 100%.",
+        "Solace of the Ordinary": "The Hypercubes obtained from Resonance Liberation Cogitation Model are enhanced, increasing the damage multiplier of Resonance Skill Law of Reigns by 76%."
       }
     },
     {
