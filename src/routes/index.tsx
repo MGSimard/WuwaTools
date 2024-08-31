@@ -41,14 +41,14 @@ function Home() {
         </ul>
       </section>
       <section>
-        <h2>AES Keys for resource extraction (version 1.1.0)</h2>
+        <h2>AES Keys for resource extraction (version 1.2.0)</h2>
         <ul>
-          <li>- Main: 0x43C51CC2369B9DD195EDCF426C78E30E99D7514DC14E8C03A831E128A3941010</li>
-          <li>- PAK5: 0x52B3F2003A28C3145C98866BEECC3F884051140E03CC42946A89DB126AD55E9C</li>
+          <li>- Main: 0x4D65747EDEB74A1DE116B1DD147CF79CD6C082F0DB7908E1BBD37F0428426469</li>
+          <li>- PAK5: 0xB8B2D6B3DE6DA30113D7139BA95BD62E5E91EEAAAA3EBA7F7CD8261EEAA7F992</li>
           <li>
             -{" "}
-            <a className="linkDecorate" href="https://github.com/RealNath/wuwa-aes-archive">
-              https://github.com/RealNath/wuwa-aes-archive
+            <a className="linkDecorate" href="https://github.com/ClostroOffi/wuwa-aes-archive">
+              https://github.com/ClostroOffi/wuwa-aes-archive
             </a>
           </li>
           <li>

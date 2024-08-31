@@ -65,7 +65,7 @@
         },
         "Outro Skill": {
           "skillName": "Dissolving Mist",
-          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Aero DMG Amplified by 23% for 14s or until they are switched off field.",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Aero DMG amplified by 23% for 14s or until they are switched off field.",
           "skillIcon": "Aalto_OutroSkill.webp",
           "skillVars": {}
         },
@@ -151,7 +151,7 @@
         },
         "Outro Skill": {
           "skillName": "Rejuvenating Flow",
-          "skillDesc": "Baizhi heals the incoming character (or a character on a nearby team that activates an Outro Skill) by 1.54% of her Max HP every 3s for 30s. The healed character(s) also have their All-Type DMG Amplified by 15% for 6s.",
+          "skillDesc": "Baizhi heals the incoming character (or a character on a nearby team that activates an Outro Skill) by 1.54% of her Max HP every 3s for 30s. The healed character(s) also have their All-Type DMG amplified by 15% for 6s.",
           "skillIcon": "Baizhi_OutroSkill.webp",
           "skillVars": {}
         },
@@ -502,7 +502,7 @@
         },
         "Outro Skill": {
           "skillName": "Duality",
-          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Havoc DMG Amplified by 23% for 14s or until they are switched off field.",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Havoc DMG amplified by 23% for 14s or until they are switched off field.",
           "skillIcon": "Danjin_OutroSkill.webp",
           "skillVars": {}
         },
@@ -682,7 +682,7 @@
         },
         "Outro Skill": {
           "skillName": "Transcendence",
-          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Resonance Liberation DMG Amplified by 38% for 14s or until they are switched off field.",
+          "skillDesc": "The incoming character (or a character on a nearby team that activates an Outro Skill) has their Resonance Liberation DMG amplified by 38% for 14s or until they are switched off field.",
           "skillIcon": "Jianxin_OutroSkill.webp",
           "skillVars": {}
         },
@@ -1751,6 +1751,94 @@
         "Retributive Knuckles": "When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to 200% of Yuanwu's DEF for 10s.",
         "Neighborhood Protector": "When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation damage bonus is increased by 50%.",
         "Defender of All Realms": "All team members nearby within the range of Resonance Skill Thunder Wedge will gain a 32% DEF increased, lasting 3s."
+      }
+    },
+    {
+      "id": 21,
+      "name": "Zhezhi",
+      "rarity": 5,
+      "attribute": "Glacio",
+      "weapon": "Rectifier",
+      "profile": {
+        "info": "An artist for hire trying to make a living. Reserved and timid, she is not good with words but speaks volumes through her art, where her creations come to life with impossible authenticity.",
+        "gender": "Female",
+        "birthplace": "Huanglong",
+        "affiliation": "Jinzhou"
+      },
+      "image": {
+        "icon": "zhezhi_icon.png",
+        "portrait": "zhezhi_portrait.png"
+      },
+      "skills": {
+        "Normal Attack": {
+          "skillName": "Dimming Brush",
+          "skillDesc": "",
+          "skillIcon": "Zhezhi_NormalAttack.webp",
+          "skillVars": {
+            "Basic Attack": "Perform up to 3 consecutive attacks, dealing Glacio DMG.",
+            "Heavy Attack": "Consume STA to perform an attack, dealing Glacio DMG. Heavy Attack does not reset the Basic Attack cycle.",
+            "Mid-air Attack": "Consume STA to perform up to 2 consecutive attacks while in mid-air, dealing Glacio DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+          }
+        },
+        "Forte Circuit": {
+          "skillName": "Ink and Wash",
+          "skillDesc": "",
+          "skillIcon": "Zhezhi_ForteCircuit.webp",
+          "skillVars": {
+            "Phantasmic Imprint": "Zhezhi may summon Phantasmic Imprints at the cost of Afflatus when casting Resonance Skill Manifestation or Heavy Attack Conjuration. Up to 1 of each Phantasmic Imprint - Left, Phantasmic Imprint - Middle, and Phantasmic Imprint - Right can exist at the same time, each lasting for 15s.",
+            "Heavy Attack - Conjuration": "The 5 moves below consume STA to perform Conjuration to attack the target, dealing Glacio DMG:\n- Hold the Normal Attack button shortly after Basic Attack Stage 3.\n Press the Normal Attack button shortly after casting Resonance Skill Manifestation.\n- Hold the Normal Attack button shortly after casting Resonance Skill Stroke of Genius or Resonance Skill Creation's Zenith.\n- Hold the Normal Attack button while in mid-air.\n- Hold the Normal Attack button after a successful Dodge.\n\nIf Zhezhi has at least 30 Afflatus when performing any of these, consume 30 Afflatus to summon a Phantasmic Imprint - Middle.",
+            "Resonance Skill - Stroke of Genius": "When a Phantasmic Imprint is nearby, the Resonance Skill is replaced with Stroke of Genius, which can be cast while in mid-air. When it is cast, Zhezhi will:\n- Move to the location of the Phantasmic Imprint, remove it, and then summon an Ivory Herald to attack the target, dealing Glacio DMG, considered as Basic Attack damage. Refresh the mid-air Dodge attempts if the target Phantasmic Imprint is in mid-air.\n- Gain 1 stack of Painter's Delight, lasting for 8s and stackin up to 2 times.",
+            "Resonance SKill - Creation's Zenith": "When a Phantasmic Imprint is nearby and there are 2 stacks of Painter's delight, Stroke of Genius is replaced with Creation's Zenith, which can be cast while in mid-air. When it is cast, Zhezhi will:\n- Lose all stacks of Painter's Delight.\n- Move to the location of the Phantasmic Imprint, remove it, and then summon an Ivory Herald to attack the target, dealing greater Glacio DMG, considered as Basic Attack damage, additionally increasing the Basic Attack damage bonus by 18% for 27s. Refresh the mid-air Dodge attempts if the target Phantasmic Imprint is in mid-air.",
+            "Afflatus": "Zhezhi can hold up to 90 Afflatus.\nNormal Attacks grant Afflatus on Hit. Casting Intro Skills grants Afflatus."
+          }
+        },
+        "Resonance Skill": {
+          "skillName": "Manifestation",
+          "skillDesc": "Deal Glacio DMG. If Afflatus is no less than 60, consume 60 Afflatus to summon Phantasmic Imprint - Left and Phantasmic Imprint - Right.\n- Tap the button on the ground to summon the Phantasmic Imprints on the ground.\n- Hold the button on the ground or tap the button in mid-air to summon the Phantasmic Imprints in mid-air.",
+          "skillIcon": "Zhezhi_ResonanceSkill.webp",
+          "skillVars": {}
+        },
+        "Resonance Liberation": {
+          "skillName": "Living Canvas",
+          "skillDesc": "Summon Inklit Spirits for assistance. Can be cast in mid-air.",
+          "skillIcon": "Zhezhi_ResonanceLiberation.webp",
+          "skillVars": {
+            "Inklit Spirit": "When the active Resonator deals damage, an Inklit Spirit will be summoned to perform a Coordinated Attack, dealing Glacio DMG, considered as Basic Attack damage.\n- For 3 seconds after dealing damage, 1 Inklit Spirit is summoned per second. This effect can trigger once per second. Damage dealt by an Inklit Spirit does not trigger this effect.\n- Up to 1 Inklit Spirit can be summoned every second, and up to 21 in total.\n- This effect lasts for 30s, or until max Inklit Spirits are summoned."
+          }
+        },
+        "Intro Skill": {
+          "skillName": "Radiant Ruin",
+          "skillDesc": "Attack the target, dealing Glacio DMG.",
+          "skillIcon": "Zhezhi_IntroSkill.webp",
+          "skillVars": {}
+        },
+        "Outro Skill": {
+          "skillName": "Carve and Draw",
+          "skillDesc": "The incoming Resonator has their Glacio DMG amplified by 20% and Resonance Skill damage amplified by 25% for 14s or until they are switched out.",
+          "skillIcon": "Zhezhi_OutroSkill.webp",
+          "skillVars": {}
+        },
+        "Inherent Skill 1": {
+          "skillName": "Calligrapher's Touch",
+          "skillDesc": "When casting Resonance Skill Stroke of Genius or Resonance Skill Creation's Zenith, ATK is increased by 6% for 27s. This can be stacked up to 3 time(s).",
+          "skillIcon": "Zhezhi_InherentSkill1.webp",
+          "skillVars": {}
+        },
+        "Inherent Skill 2": {
+          "skillName": "Flourish",
+          "skillDesc": "After Outro Skill is cast, restore 15 Resonance Energy to the incoming Resonator.",
+          "skillIcon": "Zhezhi_InherentSkill2.webp",
+          "skillVars": {}
+        }
+      },
+      "resonanceChain": {
+        "Brushwork's Finish": "Casting Resonance Skill Creation's Zenith restores 15 Resonance Energy and increases Crit. Rate by 10% for 27s.",
+        "Vivid Strokes": "Max Inklit Spirits summoned by Resonance Liberation Living Canvas increases by 6.",
+        "Reflection's Grace": "Casting Resonance Skill Manifestation, Resonance Skill Stroke of Genius, or Resonance Skill Creation's Zenith increases ATK by 15% for 27s, stacking up to 3 time(s).",
+        "Hue's Spectrum": "Casting Resonance Liberation Living Canvas increases ATK of Resonators on the team by 20% for 30s.",
+        "Composition's Clue": "For every 3 Inklit Spirits summoned by Resonance Liberation Living Canvas, 1 extra Inklit Spirit is summoned to perform a Coordinated Attack, dealing damage equal to 140% of Inklit Spirit's damage, considered as Basic Attack damage. This damage dealt will not further summon Inklit Spirit.",
+        "Infinite Legacy": "Casting Resonance Skill Stroke of Genius or Resonance Skill Creation's Zenith summons an extra Ivory Herald to deal damage equal to 120% of Resonance Skill Stroke of Genius' damage, considered as Basic Attack damage."
       }
     }
   ]
