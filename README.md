@@ -49,10 +49,10 @@ Not too certain what features I'd like to write next. The major problem being th
 
 ## Contact
 
-MGSimard - g.marcgs@gmail.com  
+MGSimard - mgsimard.dev@gmail.com
 [@MGSimard on X](https://x.com/MGSimard)
 
-For more info, view my portfolio at [mgsimard.github.io](https://mgsimard.github.io). Resume attached.
+For more info, view my portfolio at [mgsimard.dev](https://mgsimard.dev). Resume attached.
 
 ## Acknowledgments
 
