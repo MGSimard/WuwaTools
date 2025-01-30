@@ -47,13 +47,6 @@ Not too certain what features I'd like to write next. The major problem being th
 - Go to https://wuwatools.web.app/
 - Do stuff
 
-## Contact
-
-MGSimard - g.marcgs@gmail.com  
-[@MGSimard on X](https://x.com/MGSimard)
-
-For more info, view my portfolio at [mgsimard.github.io](https://mgsimard.github.io). Resume attached.
-
 ## Acknowledgments
 
 - [Clauderic - (dnd kit)](https://github.com/clauderic)
